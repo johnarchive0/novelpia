@@ -1,0 +1,115 @@
+.viewer-modal-background {
+    /* Layout Properties */
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+/* UI Properties */
+background: #00000099 0% 0% no-repeat padding-box;
+opacity: 1;
+position: fixed;
+z-index: 9999;
+}
+.viewer-modal-wrapper {
+    /* Layout Properties */
+top: 50%;
+left: 18px;
+width: 340px;
+height: 267px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #1E1E1E;
+opacity: 1;
+position: relative;
+z-index: 10;
+}
+.viewer-modal-close-button {
+    /* Layout Properties */
+top: 138px;
+left: 316px;
+width: 32px;
+height: 32px;
+/* UI Properties */
+opacity: 1;
+}
+.viewer-modal-character {
+    /* Layout Properties */
+top: 183px;
+left: 143px;
+width: 90px;
+height: 65px;
+/* UI Properties */
+opacity: 1;
+}
+.viewer-modal-bold-title {
+    /* Layout Properties */
+top: 258px;
+left: 103px;
+width: 170px;
+height: 18px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 16px/20px NanumSquareOTF;
+letter-spacing: -0.16px;
+color: #000000;
+opacity: 1;
+}
+.viewer-modal-small-title {
+    /* Layout Properties */
+top: 284px;
+left: 97px;
+width: 182px;
+height: 16px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 14px/20px NanumSquareOTF;
+letter-spacing: -0.14px;
+color: #666666;
+opacity: 1;
+}
+.viewer-modal-cancel-btn {
+    /* Layout Properties */
+top: 325px;
+left: 38px;
+width: 148px;
+height: 50px;
+/* UI Properties */
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.viewer-modal-cancel-btn-content {
+    /* Layout Properties */
+top: 342px;
+left: 73px;
+width: 78px;
+height: 16px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 14px/20px NanumSquareOTF;
+letter-spacing: -0.35px;
+color: #FFFFFF;
+opacity: 1;
+}
+.viewer-modal-maintain-btn {
+    /* Layout Properties */
+top: 325px;
+left: 190px;
+width: 148px;
+height: 50px;
+/* UI Properties */
+background: #7632FF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.viewer-modal-maintain-btn-content {
+    /* Layout Properties */
+top: 342px;
+left: 225px;
+width: 78px;
+height: 16px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 14px/20px NanumSquareOTF;
+letter-spacing: -0.35px;
+color: #FFFFFF;
+opacity: 1;
+}

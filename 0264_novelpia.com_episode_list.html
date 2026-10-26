@@ -1,0 +1,1658 @@
+<link rel='stylesheet' href='/css/openstore_modal.css?v=1770865764' >
+
+<table id="episode_table" class="s_inv" style="width:100%;">                				<tr class="ep_style5"
+                    style=""
+                    data-episode-no="2637828"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2637828" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2637828"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2637828'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2637828"></i>최애캐가 되고 싶은 생각은 없었는데</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.1</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,879&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2637828">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 81&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,667&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.25						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.25</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2637828'] > 0) {
+                    $('#bookmark_2637828').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2638958"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2638958" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2638958"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2638958'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2638958"></i>용서해라.</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.2</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,044&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2638958">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 68&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,874&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.25						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.25</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2638958'] > 0) {
+                    $('#bookmark_2638958').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2640857"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2640857" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2640857"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2640857'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2640857"></i>완장을 차고 싶은 생각은 없었는데</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.3</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,420&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2640857">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 74&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,754&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.25						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.25</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2640857'] > 0) {
+                    $('#bookmark_2640857').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2642764"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2642764" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2642764"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2642764'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2642764"></i>나기사 선생님, 진도가 너무 빨라요</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.4</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,733&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2642764">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 42&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,620&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.26						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.26</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2642764'] > 0) {
+                    $('#bookmark_2642764').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2645699"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2645699" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2645699"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2645699'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2645699"></i>키리후지 나기사</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.5</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,730&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2645699">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 45&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,623&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.27						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.27</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2645699'] > 0) {
+                    $('#bookmark_2645699').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2649059"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2649059" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2649059"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2649059'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2649059"></i>키리후지 나기사</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.6</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,168&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2649059">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 65&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,678&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.28						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.28</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2649059'] > 0) {
+                    $('#bookmark_2649059').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2650468"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2650468" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2650468"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2650468'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2650468"></i>나기사랑 밤을 샐 생각은 없었는데</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.7</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,906&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2650468">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 57&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,584&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.28						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.28</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2650468'] > 0) {
+                    $('#bookmark_2650468').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2652408"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2652408" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2652408"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2652408'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2652408"></i>Welcome to Trinity</b> <i class="icon ion-image"></i><br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.8</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,070&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2652408">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 47&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,542&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.29						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.29</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2652408'] > 0) {
+                    $('#bookmark_2652408').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2655891"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2655891" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2655891"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="$('.loads').show(); location ='/viewer/2655891'"><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2655891"></i>누구보다 더 행복했어야 할 너희를 위한</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.9</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,110&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2655891">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 73&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,499&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.30						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.30</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2655891'] > 0) {
+                    $('#bookmark_2655891').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2658432"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2658432" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2658432"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjU4NDMy', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2658432"></i>트리니티를 부순다.</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.10</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,590&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2658432">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 65&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,558&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.31						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.31</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2658432'] > 0) {
+                    $('#bookmark_2658432').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2659561"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2659561" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2659561"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjU5NTYx', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2659561"></i>사격장에서 단둘이</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.11</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,631&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2659561">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 95&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,552&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.07.31						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.07.31</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2659561'] > 0) {
+                    $('#bookmark_2659561').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2662452"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2662452" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2662452"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjYyNDUy', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2662452"></i>티파티, 탈퇴하겠습니다☆</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.12</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,232&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2662452">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 73&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,498&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.01						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.01</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2662452'] > 0) {
+                    $('#bookmark_2662452').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2667733"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2667733" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2667733"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjY3NzMz', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2667733"></i>티파티에 대한 공격은 나에 대한 공격으로 간주하겠다.</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.13</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,084&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2667733">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 59&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,483&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.02						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.02</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2667733'] > 0) {
+                    $('#bookmark_2667733').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2670801"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2670801" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2670801"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjcwODAx', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2670801"></i>아지타니 히후미</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.14</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,594&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2670801">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 86&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,491&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.03						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.03</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2670801'] > 0) {
+                    $('#bookmark_2670801').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2676554"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2676554" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2676554"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjc2NTU0', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2676554"></i>정체를 드러낼 생각은 없었는데</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.15</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,530&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2676554">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 79&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,493&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.05						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.05</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2676554'] > 0) {
+                    $('#bookmark_2676554').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2679925"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2679925" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2679925"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjc5OTI1', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2679925"></i>널 내 행운의 여신이라 부를게☆</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.16</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,623&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2679925">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 66&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,461&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.06						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.06</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2679925'] > 0) {
+                    $('#bookmark_2679925').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2681487"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2681487" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2681487"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjgxNDg3', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2681487"></i>부디 모두가 행복해졌으면.</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.17</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,621&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2681487">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 129&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,507&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.06						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.06</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2681487'] > 0) {
+                    $('#bookmark_2681487').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2683429"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2683429" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2683429"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjgzNDI5', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2683429"></i>키리후지 나기사</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.18</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,786&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2683429">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 103&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,523&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.07						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.07</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2683429'] > 0) {
+                    $('#bookmark_2683429').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2686751"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2686751" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2686751"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjg2NzUx', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2686751"></i>궁극의 맛을 찾아서</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.19</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 3,536&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2686751">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 78&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,435&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.08						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.08</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2686751'] > 0) {
+                    $('#bookmark_2686751').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			                				<tr class="ep_style5"
+                    style="border-top:1px solid #EFEFEF;"
+                    data-episode-no="2688471"
+                >
+				<td style="width:15px;" class="">
+					<div class="episode_view_2688471" style="margin-left:5px;width:5px;height:65px;background-color:#eee;"novel_on_2688471"></div>
+				</td>
+				<!--소장 체크박스-->
+					<td style="padding-left:5px; position:relative;" class="font12" onclick="
+                    $.cookie('_redirectrurl', 'L3ZpZXdlci8yNjg4NDcx', { expires: 365, path: '/', domain: 'novelpia.com', secure: false });
+                    member_join_modal_on();
+                    "><b>
+				      <span class="b_free s_inv">무료</span>
+					 &nbsp;
+				<i class="icon ion-bookmark" style="display:none;" id="bookmark_2688471"></i>분명 지금의 삶으론 돌아올 수 없는 몸이 될 거예요.</b> <br>
+                    <div class="ep_style2"><font style="font-weight:300;" class="font11"><span style="background-color: #eee;border: 1px solid #fff;padding: 1px 6px;border-radius: 10px;font-size: 11px; margin-right: 3px;">EP.20</span>					<span style="font-size:12px;color:#000;">
+					&nbsp;<i class="icon ion-document-text"></i> 4,080&nbsp;					<span class="episode_show"> &nbsp;<i class="icon ion-android-people"></i> <span class="episode_count_view novel_count_view_2688471">0</span> </span>
+					&nbsp;<i class="icon ion-chatbox-working"></i> 117&nbsp;					&nbsp;<i class="icon ion-thumbsup"></i> 1,433&nbsp;                  <br>
+													<b style='text-align: left;font: normal normal bold 12px/29px NanumSquareOTF;letter-spacing: -0.12px;color: #333333;'>
+							23.08.08						</b>
+						                        </font>
+                    </div>
+                    					
+				</td>
+
+				<td class="ep_style3">
+                    <!--<b>23.08.08</b>-->
+
+				                </td>
+                </tr>
+    
+            <script>
+
+                if(localStorage['bookmark_2688471'] > 0) {
+                    $('#bookmark_2688471').show();
+                }
+
+			async function episode_download_check(){
+				const url = "/proc/novel_viewer";
+				const data = {
+					cmd : "today_episode_download_check"
+				};
+				const httpResult = await http("post",url,data);
+				const {status, errmsg } = httpResult;
+				if(200 !== status){
+					alert(errmsg || '일일 다운로드 횟수를 초과하였습니다.');
+					return false;
+				}
+
+                return true;
+			}
+
+			async function download_modal_on(idx){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        episode_no: idx,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+
+            async function multi_download_modal_on(novel_no){
+                const is_episode_download = await this.episode_download_check();
+                if(is_episode_download === true) {
+                    const param = {
+                        novel_no: novel_no,
+                        csrf: ''
+                    };
+                    const data = await http('post', '/proc/multi_download_modal', param);
+                    $('#load_alert').html(data);
+                }
+			}
+			</script>
+			</table>
+	<!--회차리스트 페이지 이동 css-->
+	<style>
+	.btn-pagenum-search{
+		width:35px;
+		height: 40px;
+		text-align: center;
+		background-color: #e9ecef;
+		display:flex;
+		justify-content: center;
+		margin-left:15px;
+	}
+	.btn-pagenum-search:hover{
+		background:#dee2e6;
+	}
+	.btn-pagenum-search img{
+		width:22px;
+	}
+		.select_episode_box{
+		display: none;
+		background:#fff;
+		border:1px solid #000;
+		text-align:center;
+		padding:20px;
+		position:relative;
+		width:80%;
+		max-width:320px;
+		margin:auto;
+	}
+
+	.select_episode_box .close-x {
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		background: url(//images.novelpia.com/img/new/plus_v3/layer_close_x.svg) no-repeat center;
+		background-size: 32px;
+		z-index: 1;
+	}
+
+	.select_episode_box-title{
+		font-weight:600;
+		font-size:clamp(14px, 4vw, 18px);
+		margin-bottom:20px;
+	}
+
+	.select_episode_box .inner-box{
+		display: flex;
+		gap: 15px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.select_episode_box input{
+		width:clamp(50px, 20vw, 80px);
+		height:44px;
+		line-height:44px;
+		border-radius:3px;
+		background:#E8ECEF;
+		border:none;
+	}
+
+	.select_episode_box input:focus{
+		background:#E8ECEF;
+	}
+
+	.select_episode_box .strong{
+		font-weight:600;
+		font-size:clamp(14px, 4vw, 18px);
+	}
+
+	.select_episode_box button.btn-page-go{
+		width:60px;
+		height:44px;
+		border-radius:3px;
+		background:#000;
+		color:#fff;
+		font-size:14px;
+		font-weight:600;
+		border:none;
+		outline:none;
+		cursor:pointer;
+	}
+
+	.select_episode_box button.btn-page-go:focus{
+		border:none;
+		outline:none;
+	}
+
+	.episode_show{
+		display:none;
+	}
+
+	</style>
+
+	<div class="s_inv d-flex align-items-center justify-content-center" style="height:80px;">
+		<nav aria-label="Page navigation" style="cursor:pointer;margin: 0 auto">
+		<ul class="pagination pagination-basic pagination-primary mg-b-0">
+		<li class="page-item">
+		<div class="page-link" onclick="localStorage['novel_page_212746'] = '0'; episode_list();">
+		<i class="icon ion-arrow-left-a"></i>
+		</div>
+		</li>
+						<li class="page-item active"><div class="page-link"  onclick="localStorage['novel_page_212746'] = '0'; episode_list();">1</div></li>
+				<li class="page-item "><div class="page-link"  onclick="localStorage['novel_page_212746'] = '1'; episode_list();">2</div></li>
+				<li class="page-item "><div class="page-link"  onclick="localStorage['novel_page_212746'] = '2'; episode_list();">3</div></li>
+				<li class="page-item">
+		<div class="page-link" onclick="localStorage['novel_page_212746'] = '29'; episode_list();">
+		<i class="icon ion-arrow-right-a"></i>
+		</div>
+		</li>
+		<li class="btn-pagenum-search" onclick="toggle_select_episode();" id="select_episode"><img src="//images.novelpia.com/img/new/common/epilist_page_search.svg"></li>
+		</ul>
+		</nav>
+	</div>
+
+	<!--회차리스트 페이지 이동 레이어-->
+	<div class="select_episode_box">
+		<div class="close-x" onclick="$('.select_episode_box').hide();"></div>
+		<p class="select_episode_box-title">페이지 이동</p>
+		<div class="inner-box">
+			<input type="number" id="select_episode_no" class="form-control" value="1">
+			<strong> / 30</strong>
+			<button class="btn-page-go" type="button" onclick="select_episode();">이동</button>
+		</div>
+	</div>
+
+
+<script>
+	function episode_buy(idx) {
+		$.ajax({
+			data: { "episode_no": idx, "csrf": "" },
+			type: "POST",
+			url: "/proc/episode_buy",
+			cache: false,
+			success: function(data) {
+				$('#load_alert').html(data);
+			}
+		});
+	}
+
+    function toggle_select_episode(){
+        console.log("click");
+        $(".select_episode_box").toggle();
+    }
+
+    function select_episode(){
+        const max_page = "30";
+        let select_epi =  $("#select_episode_no").val();
+
+        if(select_epi > Number(max_page)){
+            select_epi = max_page;
+        }
+        if(select_epi <= 1){
+            select_epi = 1;
+        }
+        localStorage['novel_page_212746'] = (select_epi - 1);
+        episode_list();
+    }
+
+</script>

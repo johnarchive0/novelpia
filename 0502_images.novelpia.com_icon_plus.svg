@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_385" data-name="사각형 385" width="14" height="14" transform="translate(23 217)" fill="rgba(255,0,0,0.42)"/>
+    </clipPath>
+  </defs>
+  <g id="구독하기" transform="translate(-23 -217)" clip-path="url(#clip-path)">
+    <g id="플러스샵아이콘" transform="translate(23 217)">
+      <g id="그룹_336" data-name="그룹 336">
+        <path id="패스_664" data-name="패스 664" d="M354.117,330.774v-4.835a2.716,2.716,0,0,0-2.708-2.707h0a2.716,2.716,0,0,0-2.707,2.707v4.835Z" transform="translate(-344.266 -323.232)" fill="#8108e3"/>
+        <path id="패스_665" data-name="패스 665" d="M352.811,334.313h-7.169a2.716,2.716,0,0,1-2.707-2.708h0a2.715,2.715,0,0,1,2.707-2.708h7.169Z" transform="translate(-342.934 -324.515)" fill="#c700bd"/>
+        <path id="패스_666" data-name="패스 666" d="M354,334.313h1.639a2.686,2.686,0,0,0,2.648-2.708h0a2.686,2.686,0,0,0-2.648-2.708H348.7" transform="translate(-344.289 -324.515)" fill="#f20687"/>
+        <path id="패스_667" data-name="패스 667" d="M354.117,334.22v1.634a2.693,2.693,0,0,1-2.708,2.661h0a2.693,2.693,0,0,1-2.707-2.661V328.9" transform="translate(-344.266 -324.515)" fill="#ff7cc6"/>
+      </g>
+    </g>
+  </g>
+</svg>

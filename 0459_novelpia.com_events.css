@@ -1,0 +1,382 @@
+/* ####뷰어내 백원 이벤트 로그인/회원가입#### */
+.one-event-viewer-login{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.one-event-viewer-login > div{
+    margin: 100px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.one-event-viewer-btn{
+    width:100%;
+    padding:30px;
+    text-align: center;
+}
+
+.one-event-viewer-btn a{
+    background-color: blueviolet;
+    color: #FFF;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+}
+
+/* ####뷰어내 백원 이벤트 플러스 가입유도 15~16넘어갈때*/
+.one-event-viewer-plus{
+    max-width: 400px;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+	padding-top:10px;
+    /*border-radius: 15px;  */
+}
+
+.one-event-plus-bn{
+    width: 100%;
+}
+
+.one-event-plus-bn img{
+    display: block !important;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.one-event-plus-btn{
+    background-color: #000;
+    color: #FFF;
+    font-size: 17px;
+    width: 100%;
+    padding: 18px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.one-event-plus-top{
+    padding: 15px 15px 0;
+	margin-bottom:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	font-size:16px;
+}
+
+.one-event-plus-top div{
+    font-size: 16px;
+}
+
+.one-event-plus-top-banner{
+	max-width: 640px;
+    margin: 0 15px;
+}
+
+.one-event-buy-top{
+    max-width: 100%;
+    border: 1px solid #F1E8AE;
+    background: #FEFCF2;
+    padding: 10px 20px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.one-event-buy-top p:first-child{
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.one-event-buy-top p:last-child{
+    font-size: 14px;
+    color: #5232dd;
+    font-weight: bold;
+}
+
+.one-event-buy-top img{
+	max-width:20px;
+}
+
+.one-event-method-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 15px;
+}
+
+.one-event-method{
+    border: 1px solid #ddd;
+    text-align: center;
+    flex: 1;
+    min-width: 20px;
+    cursor: pointer;
+}
+
+.one-event-method div{
+    font-size: 12px;
+    line-height: 43px;
+}
+
+.method0{
+    background: url(//images.novelpia.com/img/new/plus/v2/paylogo_mobile_m.png) no-repeat center 12px;
+    background-size: 100px;
+    padding: 35px 0px 0;
+}
+
+.method1{
+    background: url(//images.novelpia.com/img/new/plus/v2/paylogo_card.png) no-repeat center 12px;
+    background-size: 100px;
+    padding: 35px 0px 0;
+}
+
+.method2{
+    background: url(//images.novelpia.com/img/new/plus/v2/paylogo_naverpay.png) no-repeat center 10px;
+    background-size: 100px;
+    padding: 35px 0px 0;
+}
+
+.method3{
+    background: url(//images.novelpia.com/img/new/plus/v2/paylogo_kakaopay.png) no-repeat center 10px;
+    background-size: 100px;
+    padding: 35px 0px 0;
+}
+
+.one-event-buy-agree{
+	padding-left:15px;
+}
+
+.one-event-buy-agree label{
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 41px;
+}
+
+.one-event-buy-agree input[type="checkbox"]{
+    display: none;
+}
+
+.one-event-buy-agree input[type="checkbox"] + label span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -4px 7px 0 0;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.one-event-buy-agree input[type="checkbox"]:checked + label span{
+    background: url(//images.novelpia.com/img/new/plus/v2/icon_check.png) no-repeat center #000;
+    background-size: 20px;
+    border-color: #000;
+}
+
+.one-event-plus-info{
+	line-height: 20px;
+    font-size: 11px;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 0 0 15px 15px;
+    color: #999;
+}
+
+.one-event-plus-top .ion-ios-arrow-down:before{
+    font-size: 35px;
+}
+
+.one-event-buy-wrapper{
+    display: none;
+}
+
+.one-event-arrow{
+    height: 34px;
+}
+
+.one-event-ios-text{
+    font-size: 13px;
+    text-align: center;
+    padding: 30px 0;
+    color: #666;
+}
+
+/* #####백원 띠배너#### */
+.one-event-wrapper{ /*백원*/
+    max-width: 400px !important;
+    margin:0 auto;
+}
+
+.one-event-wrapper img{
+    display: block !important;
+}
+
+.one-event-bn{
+    max-width: 100%;
+}
+
+.one-event-next-btn{
+    background-color: #eee;
+    color: #000;
+    font-size: 17px;
+    width: 100%;
+    padding: 18px 0;
+    cursor: pointer;
+    border: none;
+}
+
+#plus_modal .basic-modal-wrapper{
+    background-color: transparent !important;
+    width: fit-content !important;
+}
+
+#plus_modal .one-event-viewer-plus{
+    margin: 0px auto;
+    border:none;
+}
+
+#plus_modal .one-event-viewer-plus{
+    background-color: #FFF;
+}
+
+.event_100won_buy .one-event-plus-top-banner {
+    background-color: #999;
+    font-style: italic;
+    color : #5232dd;
+    text-align: center;
+}
+
+event_100won_buy .one-event-plus-top div{
+    font: normal normal bold 16px/22px NanumSquareOTF;
+}
+
+
+.one-event-plus-top-banner .one-event-top-text {
+    font-size: 15px;
+
+}
+
+.one-event-plus-top-banner .one-event-top-small-text {
+    font-size: 13px;
+}
+
+
+.other-pay{
+    text-align: center;
+    font-size: 15px;
+    color: #5232dd;
+    font-weight: 600;
+    background: #f1eeff;
+    border: 1px solid #dae0f1;
+    margin: 0 10px;
+    cursor: pointer;
+    line-height: 42px;
+}
+
+/* 뷰어내 시크릿 모드 안내 */
+.secret-back{
+    background-color: #FAFAFA;
+    border: 1px solid #DDD;
+    padding: 10px;
+}
+
+.secret-info{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.secret-info > img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.secret-info > p{
+    font-size: 16px;
+    color: #000;
+}
+
+.secret-info > div{
+    text-align: right;
+    width: 20%;
+    margin-right: 4%;
+}
+
+.secret-info > div > img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.secret-info > p > br{
+    display: none;
+}
+
+.secret-info > p > span{
+    color: #504892;
+}
+
+@media screen and (max-width: 674px) {
+    .secret-back {
+        padding: 15px;
+    }
+
+    .secret-info > p > br{
+        display: block;
+    }
+
+    .secret-info {
+        justify-content: flex-start;
+    }
+
+    .secret-info > p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .secret-info > div {
+        text-align: right;
+        width: 0;
+        margin-right: 5px;
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 891px) {
+    .one-event-viewer-plus {
+        max-width: 400px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+		padding-top:10px;
+        /*border-radius: 15px;*/
+    }
+}
+
+
+/*모달닫기버튼*/
+.modal_close{
+	display: block;
+    width: 16px;
+    height: 16px;
+    background: url(//images.novelpia.com/img/new/openstore/v2/close_x.png) no-repeat center;
+    background-size: 16px;
+	margin-top:-20px;
+}
+
+/*멤버십텍스트추가*/
+.membership-txt{
+	font-size: clamp(12px,2vw,14px);
+	color: #5536de;
+	line-height: clamp(14px,2vw,18px);
+	word-break: keep-all;
+	margin:10px 15px 0;
+}
+
+/*소설 뷰어 내 수정*/
+#viewer_wrap{
+	width:90%;
+	margin:auto;
+}

@@ -1,0 +1,945 @@
+#total_event_modal.viewer {
+    background: transparent;
+}
+
+
+@media screen and (min-width: 892px) {
+
+	.total-modal-background{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+    }
+
+    .basic-modal-wrapper{
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-width: 500px;
+        padding: 30px;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+    }
+	.total-modal-background .event_plus_ad{
+		 padding:50px 0px 30px 0px; 
+	}
+
+	.hottime_coupon_img{
+		width:100%;
+		position:absolute; 
+		top:-45%
+	}
+
+    .basic-modal-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .basic-modal-close{
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: url(//images.novelpia.com/old/img/new/menu/menu_close.png) no-repeat center;
+        background-size: 32px;
+        cursor: pointer;
+    }
+
+    .basic-modal-name{
+        font-size:22px;
+    }
+
+    .basic-modal-big{
+        max-width: 700px !important;
+    }
+
+    .basic-modal-small{
+        max-width: 350px !important;
+    }
+
+    /* ///3일 무료 모달 ///*/
+    .emoji-wrapper{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .emoji-wrapper img{
+        width:90px
+    }
+
+    .basic-modal-name {
+        font-size: 25px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .emojo-text{
+        background-color: #F0F0F0;
+        margin-bottom: 30px;
+    }
+
+    .emojo-text div{
+        font-size: 29px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .emoji-back{
+        background-color: #6b4ec2;
+        width: 100%;
+        height: 90px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        z-index: -1;
+        border-radius: 50% 50% 0 0;
+    }
+
+    #emoji_tutorial .basic-modal-wrapper{
+        padding: 17px 14px;
+    }
+
+    #emoji_tutorial .basic-modal-top {
+        margin-bottom: 10px;
+    }
+
+    #total_event_modal {
+        font-size: 14px;
+    }
+
+    #total_event_modal .event-plus-modal-wrapper, 
+    #total_event_auth_modal .event-plus-modal-wrapper,
+    #total_event_join_modal .event-plus-modal-wrapper,
+    #total_event_guide_modal .event-plus-modal-wrapper{
+        margin: 0 auto;
+        width: 400px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 100%;
+        line-height: 21px;
+    }
+
+    #total_event_modal .plus-modal-wrapper-v2{
+        width: 100% !important;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+        transform: none;
+        border: 1px solid #929090;
+        max-height: 748px;
+        border-radius: 8px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+
+    #total_event_modal .plus-modal-close-v2{
+        text-align: right;
+        margin: 0;
+        padding: 20px 20px 0 20px;
+    }
+
+    #total_event_modal .plus-modal-close-v2 img{
+        width: 20px;
+        position: relative;
+        z-index: 1;
+        filter: brightness(1) !important;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+
+    #total_event_modal .plus-modal-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 {
+        width: 450px;
+        position:absolute;
+        bottom: -40px;
+        right: 0;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 img{
+        width: 20px;
+        margin: -4px 10px 0;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 input + label{
+        cursor: pointer;
+        display: block;
+        text-align: right;
+        line-height: 18px;
+        letter-spacing: -0.45px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #total_event_modal .plus-modal-top-v2{
+        text-align: center;
+        margin: -25px 15px 0;
+    }
+
+    #total_event_modal .plus-modal-top-v2 img {
+        /*max-width: 378px;*/
+        width: 100%;
+
+    }
+
+    #total_event_modal .plus-modal-top-v2 div{
+        margin-top: 10px;
+        color: #1E1E1E;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: -0.45px;
+    }
+
+    #total_event_modal .plus-top-text-v2{
+        margin: 0 20px 10px;
+    }
+
+    #total_event_modal .plus-top-text-v2 span{
+        font-size: 16px;
+        color: #1E1E1E;
+    }
+
+    #total_event_modal .plus-top-text-v2 span:first-child{
+        color: #7632FF;
+        font-size: 16px;
+        background: linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -webkit-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -o-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -moz-linear-gradient(to top, #FFF898 50%, transparent 50%);
+    }
+
+    #total_event_modal .plus-top-box-v2 {
+        margin: 0 15px;
+        background-color: #F5F9FF;
+        border: 1px solid #C9D7F6;
+        padding: 15px 20px;
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    #total_event_modal .plus-top-box-v2 span {
+        color: #1E1E1E;
+    }
+    #total_event_modal .plus-top-box-v2 > div {
+        display: flex;
+        font-size: 14px;
+        line-height: 14px;
+        justify-content: space-between;
+    }
+
+    #total_event_modal .plus-top-box-v2 span > img{
+        max-width:20px;
+        width: 100%;
+
+    }
+
+    #total_event_modal .plus-top-box-v2 > div:last-child span:last-child{
+        color: #3271FF;
+    }
+
+    #total_event_modal .plus-pay-v2-title {
+        font-size: 16px;
+        color: #1E1E1E;
+        font-weight: 600;
+        margin: 20px 0 10px 20px;
+    }
+
+    #total_event_modal .plus-pay-v2{
+        display: flex;
+        margin: 0 15px;
+        justify-content: space-between;
+    }
+
+    #total_event_modal .plus-pay-v2 div{
+        padding: 12px 0;
+        text-align: center;
+        border: 1px solid #DDDDDD;
+        cursor: pointer;
+        width: 100%;
+        line-height: 14px;
+    }
+
+    #total_event_modal .plus-pay-v2 div span{
+        display: block;
+        color: #1E1E1E;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #total_event_modal .plus-pay-v2 div img{
+        height: 20px;
+    }
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 {
+        margin: 10px 15px;
+        cursor: pointer;
+        color: #000;
+        font-size: 14px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 i {
+        font-size: 16px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 {
+        display: none;
+        background-color: #FBFCFE;
+        border: 1px solid #EAEDF2;
+        margin: 0px 15px 20px;
+        height: 140px;
+        overflow: auto;
+        padding: 10px;
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 p {
+        margin-top: 5px;
+    }
+
+    #total_event_modal .plus-check-wrapper-v2{
+        line-height: 14px;
+        margin: 0 15px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"] {
+        display: none;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 label{
+        font-size: 14px;
+        line-height: 14px;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    #total_event_modal .basic-pay-wrapper-v2 .plus-pay-folding-v2 label{
+        margin-top: 10px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"] + label p {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin: -4px 7px 0 0;
+        vertical-align: middle;
+        background: #fff;
+        border: 1px solid #999999;
+        cursor: pointer;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"]:checked + label p {
+        background: url(//images.novelpia.com/old/img/new/plus/v2/icon_check.png) no-repeat center #000;
+        border-color: #999999;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 span:nth-child(even) {
+        /*text-decoration: underline;*/
+    }
+    #total_event_modal .plus-pay-folding-v2 span:nth-child(odd) {
+        color: #000;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar, .plus-modal-wrapper-v2::-webkit-scrollbar{
+        background-color: transparent;
+        width: 5px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-track, .plus-modal-wrapper-v2::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-thumb, .plus-modal-wrapper-v2::-webkit-scrollbar-thumb{
+        background-color: #E2E7F1;
+    }
+
+    .coupon-txt-body p.txt-main-tit{
+        color: #7533FE;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+    .coupon-txt-body p.txt-tit{
+        font-size: 18px;
+    }
+    .coupon-txt-body p.txt-sub-txt{
+        font-size: 16px;
+    }
+    .coupon-txt-body p.txt-sub-s-txt{
+        font-size: 14px;
+    }
+    .coupon-notice-list,
+    .coupon-notice-list li{
+        font-size: 15px;
+    }
+    .coupon-notice-folder {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .coupon-notice-folder span{
+        margin-left: 4px;
+        color:#7533FE;
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
+    .coupon-notice-folder button{
+        width: 16px;
+        height: 16px;
+        border: 0px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #7533FE;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2px;
+    }
+    .coupon-button-area{
+        display: flex;
+        gap: 10px;
+        margin-top: 35px;
+    }
+
+    .coupon-button-area button.button-use{
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        border: 0;
+        font-size: 16px;
+        cursor:pointer;
+        background:#7533FE;
+        color:#fff;
+    }
+    
+    .coupon-button-area button.button-href{
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        border: 0;
+        font-size: 16px;
+        cursor:pointer;
+        background:#000;
+        color:#fff;
+    }
+}
+@media screen and (max-width: 891px) {
+
+	.total-modal-background{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+    }
+
+    #total_event_modal .event-plus-modal-wrapper, 
+    #total_event_auth_modal .event-plus-modal-wrapper,
+    #total_event_join_modal .event-plus-modal-wrapper,
+    #total_event_guide_modal .event-plus-modal-wrapper{
+        margin: 0 auto;
+		width: 300px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		max-height: 100%;
+		line-height: 21px;
+    }
+
+	.total-modal-background .event_plus_ad{
+		 padding:50px 0px 30px 0px; 
+	}
+
+	.hottime_coupon_img{
+		width:100%;
+		position:absolute; 
+		top:-35%
+	}
+
+    #total_event_modal .plus_payment_all_wrapper{
+        margin: 0 auto;
+        width: 340px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 100%;
+        line-height: 21px;
+    }
+
+    #total_event_modal .plus-modal-wrapper-v2{
+        width: 100% !important;
+        position: relative;
+        top: 0;
+        transform: none;
+        border: 1px solid #929090;
+        overflow-y: auto;
+        min-height: 400px;
+        height:70%;
+        max-height: 520px;
+        border-radius: 8px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+
+    #total_event_modal .plus-modal-close-v2{
+        text-align: right;
+        margin: 0;
+        padding: 20px 20px 0 20px;
+    }
+
+    #total_event_modal .plus-modal-close-v2 img{
+        width: 14px;
+        position: relative;
+        z-index: 1;
+        filter: brightness(1) !important;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 {
+        width: 90%;
+        position:absolute;
+        bottom: -26px;
+        right: 0;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 img{
+        width: 14px;
+        margin: -4px 5px 0;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 input + label{
+        cursor: pointer;
+        display: block;
+        line-height: 14px;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: -0.45px;
+        text-align: right;
+    }
+
+    #total_event_modal .plus-modal-15day-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #total_event_modal .plus-modal-top-v2{
+        text-align: center;
+        margin: -25px 15px 0;
+    }
+
+    #total_event_modal .plus-modal-top-v2 img{
+        /*max-width: 276px;*/
+        width: 100%;
+
+    }
+
+    #total_event_modal .plus-modal-top-v2 div{
+        margin: 10px 0 0 0;
+        color: #1E1E1E;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: -0.45px;
+    }
+
+    #total_event_modal .plus-top-text-v2{
+        margin: 0 20px 10px 20px;
+    }
+
+    #total_event_modal .plus-top-text-v2 span{
+        font-size: 13px;
+        color: #1E1E1E;
+    }
+
+    #total_event_modal .plus-top-text-v2 span:first-child{
+        color: #7632FF;
+        font-size: 13px;
+        background: linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -webkit-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -o-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -moz-linear-gradient(to top, #FFF898 50%, transparent 50%);
+    }
+
+    #total_event_modal .plus-top-box-v2 {
+        margin: 0 15px;
+        background-color: #F5F9FF;
+        border: 1px solid #C9D7F6;
+        padding: 15px 20px;
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #total_event_modal .plus-top-box-v2 span {
+        color: #1E1E1E;
+    }
+
+    #total_event_modal .plus-top-box-v2 > div {
+        display: flex;
+        font-size: 12px;
+        line-height: 14px;
+        justify-content: space-between;
+    }
+
+    #total_event_modal .plus-top-box-v2 span > img{
+        max-width:20px;
+        width: 100%;
+    }
+
+    #total_event_modal .plus-top-box-v2 > div:last-child span:last-child{
+        color: #3271FF;
+    }
+
+    #total_event_modal .plus-pay-v2-title{
+        font-size: 15px;
+        color: #1E1E1E;
+        font-weight: 600;
+        margin: 20px 0 10px 20px;
+    }
+
+    #total_event_modal .plus-pay-v2{
+        display: flex;
+        margin: 0 15px;
+        justify-content: space-between;
+    }
+
+    /*#total_event_modal .basic-pay-wrapper-v2 .plus-pay-v2{
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        display: grid;
+    }*/
+
+    #total_event_modal .plus-pay-v2 div{
+        padding: 12px 0;
+        text-align: center;
+        border: 1px solid #DDDDDD;
+        cursor: pointer;
+        width: 100%;
+        line-height: 14px;
+    }
+
+    #total_event_modal .plus-pay-v2 div span{
+        display: block;
+        color: #1E1E1E;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #total_event_modal .plus-pay-v2 div img{
+        height: 20px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 {
+        margin: 12px 15px;
+        cursor: pointer;
+        color: #000;
+        font-size: 14px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 i {
+        font-size: 16px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 {
+        display: none;
+        background-color: #FBFCFE;
+        border: 1px solid #EAEDF2;
+        margin: 0px 15px 20px;
+        height: 140px;
+        overflow: auto;
+        padding: 10px;
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 p {
+        margin-top: 5px;
+    }
+
+    #total_event_modal .plus-check-wrapper-v2{
+        margin-left: 15px;
+        line-height: 14px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"] {
+        display: none;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 label{
+        font-size: 14px;
+        line-height: 14px;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    #total_event_modal .basic-pay-wrapper-v2 .plus-pay-folding-v2 label{
+        margin-top: 10px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"] + label p {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin: -4px 7px 0 0;
+        vertical-align: middle;
+        background: #fff;
+        border: 1px solid #999999;
+        cursor: pointer;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 input[type="checkbox"]:checked + label p {
+        background: url(//images.novelpia.com/old/img/new/plus/v2/icon_check.png) no-repeat center #000;
+
+        border-color: #999999
+    }
+
+    #total_event_modal .plus-pay-folding-v2 span:nth-child(even) {
+        /*text-decoration: underline;*/
+    }
+    #total_event_modal .plus-pay-folding-v2 span:nth-child(odd) {
+        color: #000;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar, .plus-modal-wrapper-v2::-webkit-scrollbar{
+        background-color: transparent;
+        width: 5px;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-track, .plus-modal-wrapper-v2::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+
+    #total_event_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-thumb, .plus-modal-wrapper-v2::-webkit-scrollbar-thumb{
+        background-color: #E2E7F1;
+    }
+
+    .coupon-txt-body p.txt-main-tit{
+        color: #7533FE;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+    .coupon-txt-body p.txt-tit{
+        font-size: 15px;
+    }
+    .coupon-txt-body p.txt-sub-txt{
+        font-size: 14px;
+    }
+    .coupon-txt-body p.txt-sub-s-txt{
+        font-size: 13px;
+    }
+    .coupon-notice-list,
+    .coupon-notice-list li{
+        font-size: 12px;
+    }
+    .coupon-notice-folder {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .coupon-notice-folder span{
+        margin-left: 4px;
+        color:#7533FE;
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
+    .coupon-notice-folder button{
+        width: 14px;
+        height: 14px;
+        border: 0px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #7533FE;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2px;
+    }
+    .coupon-button-area{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .coupon-button-area button.button-use{
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        border: 0;
+        font-size: 14px;
+        cursor:pointer;
+        background:#7533FE;
+        color:#fff;
+    }
+    
+    .coupon-button-area button.button-href{
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        border: 0;
+        font-size: 14px;
+        cursor:pointer;
+        background:#000;
+        color:#fff;
+    }
+}
+
+
+
+/*10분, 30분 등등 이용권*/
+.layer-min-coupon{
+	width:100%;
+	max-width:400px;
+	border-radius:20px !important;
+	padding: 110px 20px 30px !important;
+	text-align:center;
+	position:relative;
+	margin:0 auto !important;
+}
+
+.layer-min-coupon-guide{
+	width:100%;
+	max-width:400px;
+	border-radius:20px !important;
+	padding: 60px 20px 30px !important;
+	text-align:center;
+	position:relative;
+	margin:0 auto !important;
+}
+
+.layer-min-coupon.next{
+	padding-top:40px !important;
+}
+
+.layer-min-coupon-image{
+	position:absolute;
+    top: 0;
+    left: 0;
+    margin-top: -25%;
+}
+
+.layer-min-coupon-image img{
+	width:100%;
+	max-width:400px;
+}
+
+.event-plus-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 32px;
+    height: 32px;
+    background: url(//images.novelpia.com/img/new/menu/menu_close.png) no-repeat center;
+    background-size: 32px;
+    cursor: pointer;
+}
+
+.coupon-txt-body{
+	word-break:keep-all;
+}
+
+.coupon-txt-body p.txt-tit{
+	font-weight:600;
+	margin-bottom:10px;
+	line-height:1.6em;
+	letter-spacing:-1px;
+}
+
+.coupon-txt-body p.txt-sub-txt{
+    margin-bottom:10px;
+}
+
+.coupon-notice-wrapper{
+	background: #F8F8FE;
+    border: 1px solid #DCDCED;
+    padding: 15px;
+    text-align: center;
+    margin: 20px auto 25px;
+    border-radius: 5px;
+}
+
+.coupon-notice-list,
+.coupon-notice-list li{
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:1.4em;
+	margin-top:5px;
+}
+
+.coupon-notice-list li{
+	text-align:left;
+}
+
+.txt-color-red{
+	color:#EC1F17;
+}
+
+.txt-color-gray{
+	color:#999;
+}
+
+.txt-color-purple{
+	color:#7632FF;
+}
+
+
+.button-use.red{
+	background: #F15757 !important;
+}
+
+.coupon-button-area button:focus{
+	outline:none;
+}
+
+.later-close{
+	color:#fff;
+	text-decoration:underline;
+	font-size:16px;
+	cursor:pointer;
+}
+
+/* 모바일 */
+@media screen and (max-width: 891px) {
+
+	.layer-min-coupon {
+		padding-top: 80px !important;
+	}
+
+    .layer-min-coupon-guide {
+		padding-top: 40px !important;
+	}
+
+}

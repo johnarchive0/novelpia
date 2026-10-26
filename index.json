@@ -1,0 +1,4232 @@
+[
+  {
+    "file": "0027_novelpia.com_212746.html",
+    "url": "https://novelpia.com/novel/212746",
+    "method": "GET",
+    "status": 200,
+    "type": "main_frame",
+    "mime": "text/html",
+    "size": 445372
+  },
+  {
+    "file": "0034_novelpia.com_ionicons.css",
+    "url": "https://novelpia.com/lib/Ionicons/css/ionicons.css?temp=3",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 51263
+  },
+  {
+    "file": "0035_novelpia.com_font-awesome.css",
+    "url": "https://novelpia.com/lib/font-awesome/css/font-awesome.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 30591
+  },
+  {
+    "file": "0036_novelpia.com_toggles-full.css",
+    "url": "https://novelpia.com/lib/jquery-toggles/toggles-full.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 5667
+  },
+  {
+    "file": "0037_novelpia.com_basic_modal.css",
+    "url": "https://novelpia.com/css/basic_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 4263
+  },
+  {
+    "file": "0038_novelpia.com_user_login.css",
+    "url": "https://novelpia.com/css/user_login.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 32507
+  },
+  {
+    "file": "0039_novelpia.com_amanda.min2.css",
+    "url": "https://novelpia.com/css/amanda.min2.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 227616
+  },
+  {
+    "file": "0040_novelpia.com_jquery_toastr.min.css",
+    "url": "https://novelpia.com/css/jquery_toastr.min.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 6745
+  },
+  {
+    "file": "0041_novelpia.com_novelpia.css",
+    "url": "https://novelpia.com/css/novelpia.css?v=1784514475",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 31091
+  },
+  {
+    "file": "0042_novelpia.com_novelpia.js",
+    "url": "https://novelpia.com/js/novelpia.js?v=1787206696",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 41982
+  },
+  {
+    "file": "0043_novelpia.com_jquery.min.js",
+    "url": "https://novelpia.com/lib/jquery/jquery.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 84347
+  },
+  {
+    "file": "0044_novelpia.com_jquery_cookie.js",
+    "url": "https://novelpia.com/lib/jquery/jquery_cookie.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3252
+  },
+  {
+    "file": "0045_novelpia.com_ramda.min.js",
+    "url": "https://novelpia.com/js/ramda.min.js?v=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93740
+  },
+  {
+    "file": "0046_novelpia.com_lang.ko.js",
+    "url": "https://novelpia.com/js/lang.ko.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5364
+  },
+  {
+    "file": "0047_cdnjs.cloudflare.com_core.min.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 4000
+  },
+  {
+    "file": "0048_cdnjs.cloudflare.com_sha256.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5538
+  },
+  {
+    "file": "0049_novelpia.com_toggles.min.js",
+    "url": "https://novelpia.com/lib/jquery-toggles/toggles.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2408
+  },
+  {
+    "file": "0050_novelpia.com_http-vue-loader.js",
+    "url": "https://novelpia.com/js/http-vue-loader.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 10945
+  },
+  {
+    "file": "0051_novelpia.com_jquery_toastr.min.js",
+    "url": "https://novelpia.com/js/jquery_toastr.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5542
+  },
+  {
+    "file": "0052_novelpia.com_amanda2.js",
+    "url": "https://novelpia.com/js/amanda2.js?tmp=2",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2286
+  },
+  {
+    "file": "0053_novelpia.com_lazyload.js",
+    "url": "https://novelpia.com/js/lazyload.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2211
+  },
+  {
+    "file": "0054_novelpia.com_jquery.switcher.min.js",
+    "url": "https://novelpia.com/js/jquery.switcher.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 646
+  },
+  {
+    "file": "0055_novelpia.com_jdetects.min.js",
+    "url": "https://novelpia.com/js/jdetects.min.js?tmp=5",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1425
+  },
+  {
+    "file": "0056_novelpia.com_popper.js",
+    "url": "https://novelpia.com/lib/popper.js/popper.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 81216
+  },
+  {
+    "file": "0057_novelpia.com_bootstrap.js",
+    "url": "https://novelpia.com/lib/bootstrap/bootstrap.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 111390
+  },
+  {
+    "file": "0058_novelpia.com_moment.min.js",
+    "url": "https://novelpia.com/js/moment.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 369177
+  },
+  {
+    "file": "0059_novelpia.com_axios.min.js",
+    "url": "https://novelpia.com/js/axios.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 14357
+  },
+  {
+    "file": "0060_novelpia.com_vue.production.js",
+    "url": "https://novelpia.com/js/vue.production.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93670
+  },
+  {
+    "file": "0066_assets.cueknow.co.kr_setconv.min.30.js",
+    "url": "https://assets.cueknow.co.kr/script/setconv.min.30.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3943
+  },
+  {
+    "file": "0070_novelpia.com_header2025.css",
+    "url": "https://novelpia.com/css/header2025.css?v=1790043763",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 6817
+  },
+  {
+    "file": "0071_novelpia.com__top.css",
+    "url": "https://novelpia.com/css/_top.css?v=1789627484&ver=2",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 34363
+  },
+  {
+    "file": "0072_novelpia.com__navi.css",
+    "url": "https://novelpia.com/css/_navi.css?v=1789614759",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 5096
+  },
+  {
+    "file": "0073_novelpia.com_dotlottie-player.js",
+    "url": "https://novelpia.com/lib/dotlottie/dotlottie-player.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 37888
+  },
+  {
+    "file": "0074_images.novelpia.com_logo_novelpia_contest_2026.png",
+    "url": "https://images.novelpia.com/img/new/header/logo_novelpia_contest_2026.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 41497
+  },
+  {
+    "file": "0075_images.novelpia.com_logo_novelpia_pc.svg",
+    "url": "https://images.novelpia.com/img/new/header/logo_novelpia_pc.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4587
+  },
+  {
+    "file": "0076_images.novelpia.com_logo_novelchat_pc.svg",
+    "url": "https://images.novelpia.com/img/new/header/logo_novelchat_pc.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 16985
+  },
+  {
+    "file": "0077_images.novelpia.com_icon_in_search.svg",
+    "url": "https://images.novelpia.com/img/new/header/icon_in_search.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1236
+  },
+  {
+    "file": "0078_images.novelpia.com_icon_alert.svg",
+    "url": "https://images.novelpia.com/img/new/header/icon_alert.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4118
+  },
+  {
+    "file": "0079_images.novelpia.com_icon_gift.svg",
+    "url": "https://images.novelpia.com/img/new/header/icon_gift.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2571
+  },
+  {
+    "file": "0080_images.novelpia.com_none_user.png",
+    "url": "https://images.novelpia.com/img/layout/none_user.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4147
+  },
+  {
+    "file": "0081_images.novelpia.com_coin-shop.svg",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/coin-shop.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2711
+  },
+  {
+    "file": "0082_images.novelpia.com_side_icon_memcoin.svg",
+    "url": "https://images.novelpia.com/img/new/common/side_icon_memcoin.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2875
+  },
+  {
+    "file": "0083_images.novelpia.com_side_icon_wtcoin.svg",
+    "url": "https://images.novelpia.com/img/new/common/side_icon_wtcoin.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1379
+  },
+  {
+    "file": "0084_images.novelpia.com_side_icon_bookcash.svg",
+    "url": "https://images.novelpia.com/img/new/common/side_icon_bookcash.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2027
+  },
+  {
+    "file": "0085_novelpia.com_icon_mileage_m2.png",
+    "url": "https://novelpia.com/img/new/plus/v2/icon_mileage_m2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2467
+  },
+  {
+    "file": "0086_images.novelpia.com_switch_korean_off.svg",
+    "url": "https://images.novelpia.com/img/new/menu/switch_korean_off.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1880
+  },
+  {
+    "file": "0087_images.novelpia.com_sidemenu_plus_logo.svg",
+    "url": "https://images.novelpia.com/img/new/common/sidemenu_plus_logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1482
+  },
+  {
+    "file": "0088_images.novelpia.com_sidemenu_link_arrow.svg",
+    "url": "https://images.novelpia.com/img/new/common/sidemenu_link_arrow.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 944
+  },
+  {
+    "file": "0089_images.novelpia.com_side_icon_info.svg",
+    "url": "https://images.novelpia.com/img/new/common/side_icon_info.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 607
+  },
+  {
+    "file": "0090_images.novelpia.com_icon_novelchat.png",
+    "url": "https://images.novelpia.com/img/new/common/icon_novelchat.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4228
+  },
+  {
+    "file": "0091_images.novelpia.com_icon_hearheart_coin.png",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/icon_hearheart_coin.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2826
+  },
+  {
+    "file": "0092_images.novelpia.com_icon_tontop_coin.png",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/icon_tontop_coin.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3446
+  },
+  {
+    "file": "0093_images.novelpia.com_bnr_chatplus_m.png",
+    "url": "https://images.novelpia.com/img/new/banner/bnr_chatplus_m.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 137225
+  },
+  {
+    "file": "0094_images.novelpia.com_sub_icon_plus2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_icon_plus2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3668
+  },
+  {
+    "file": "0095_images.novelpia.com_sub_icon_coin2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_icon_coin2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 5592
+  },
+  {
+    "file": "0096_images.novelpia.com_sub_icon_goods2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_icon_goods2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4032
+  },
+  {
+    "file": "0097_images.novelpia.com_sub_icon_event2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_icon_event2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 5001
+  },
+  {
+    "file": "0098_images.novelpia.com_sub_emoticon_shop2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_emoticon_shop2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 9664
+  },
+  {
+    "file": "0099_novelpia.com_episode_list.css",
+    "url": "https://novelpia.com/css/episode_list.css?v=1783481829",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 20988
+  },
+  {
+    "file": "0100_images.novelpia.com_sub_icon_fanart2.png",
+    "url": "https://images.novelpia.com/img/new/main/sub_icon_fanart2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 11527
+  },
+  {
+    "file": "0101_novelpia.com_venobox.css",
+    "url": "https://novelpia.com/lib/venobox/venobox.css?ver=0",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 20336
+  },
+  {
+    "file": "0102_novelpia.com_venobox.min.js",
+    "url": "https://novelpia.com/lib/venobox/venobox.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 15060
+  },
+  {
+    "file": "0103_novelpia.com_kakao.min.js",
+    "url": "https://novelpia.com/js/kakao.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 124283
+  },
+  {
+    "file": "0104_images.novelpia.com_sbm_icon_back.svg",
+    "url": "https://images.novelpia.com/img/new/navi/sbm_icon_back.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 579
+  },
+  {
+    "file": "0105_images.novelpia.com_sbm_icon_heart2.svg",
+    "url": "https://images.novelpia.com/img/new/navi/sbm_icon_heart2.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2541
+  },
+  {
+    "file": "0106_images.novelpia.com_sbm_icon_alert3.svg",
+    "url": "https://images.novelpia.com/img/new/navi/sbm_icon_alert3.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4265
+  },
+  {
+    "file": "0107_images.novelpia.com_sbm_icon_gift.svg",
+    "url": "https://images.novelpia.com/img/new/navi/sbm_icon_gift.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2483
+  },
+  {
+    "file": "0108_images.novelpia.com_modal_img_plus03.png",
+    "url": "https://images.novelpia.com/img/new/plus/modal_img_plus03.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 125782
+  },
+  {
+    "file": "0109_novelpia.com_jquery.swiper.css",
+    "url": "https://novelpia.com/css/jquery.swiper.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 13696
+  },
+  {
+    "file": "0110_novelpia.com_jquery.swiper.js",
+    "url": "https://novelpia.com/js/jquery.swiper.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 139839
+  },
+  {
+    "file": "0111_images.novelpia.com_b3dfe1781f7455fc4ad4a44f5083664e_530211_ori.file",
+    "url": "https://images.novelpia.com/imagebox/cover/b3dfe1781f7455fc4ad4a44f5083664e_530211_ori.file",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 530211
+  },
+  {
+    "file": "0112_images.novelpia.com_ep_b_icon_share.svg",
+    "url": "https://images.novelpia.com/img/new/common/ep_b_icon_share.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1668
+  },
+  {
+    "file": "0113_images.novelpia.com_like_btn4.png",
+    "url": "https://images.novelpia.com/img/new/comic/episode/like_btn4.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1792
+  },
+  {
+    "file": "0114_images.novelpia.com_alarm_btn3.png",
+    "url": "https://images.novelpia.com/img/new/comic/episode/alarm_btn3.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1987
+  },
+  {
+    "file": "0115_images.novelpia.com_ep_s_icon_like.svg",
+    "url": "https://images.novelpia.com/img/new/common/ep_s_icon_like.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1174
+  },
+  {
+    "file": "0116_images.novelpia.com_ep_s_icon_alarm.svg",
+    "url": "https://images.novelpia.com/img/new/common/ep_s_icon_alarm.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1443
+  },
+  {
+    "file": "0117_images.novelpia.com_ep_s_icon_episode.svg",
+    "url": "https://images.novelpia.com/img/new/common/ep_s_icon_episode.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2752
+  },
+  {
+    "file": "0118_images.novelpia.com_share_naver.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_naver.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 753
+  },
+  {
+    "file": "0119_images.novelpia.com_share_kakaotalk.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_kakaotalk.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 6391
+  },
+  {
+    "file": "0120_images.novelpia.com_share_tw.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_tw.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 699
+  },
+  {
+    "file": "0121_images.novelpia.com_share_facebook.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_facebook.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 808
+  },
+  {
+    "file": "0122_images.novelpia.com_share_url.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_url.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1089
+  },
+  {
+    "file": "0123_images.novelpia.com_share_more2.svg",
+    "url": "https://images.novelpia.com/img/icon/svg/share_more2.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1486
+  },
+  {
+    "file": "0124_images.novelpia.com_review_arrow_left.svg",
+    "url": "https://images.novelpia.com/img/new/common/review_arrow_left.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 846
+  },
+  {
+    "file": "0125_images.novelpia.com_review_arrow_right.svg",
+    "url": "https://images.novelpia.com/img/new/common/review_arrow_right.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 737
+  },
+  {
+    "file": "0126_novelpia.com_list_title.png",
+    "url": "https://novelpia.com/img/new/list/list_title.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3456
+  },
+  {
+    "file": "0127_novelpia.com_viewer_novelpia.js",
+    "url": "https://novelpia.com/js/viewer_novelpia.js?tmp=20261026",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 80424
+  },
+  {
+    "file": "0128_novelpia.com_footer.css",
+    "url": "https://novelpia.com/css/footer.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 9531
+  },
+  {
+    "file": "0129_images.novelpia.com_diamond.gif",
+    "url": "https://images.novelpia.com/img/new/icon/diamond.gif",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/gif",
+    "size": 21417
+  },
+  {
+    "file": "0130_images.novelpia.com_necromancer.gif",
+    "url": "https://images.novelpia.com/img/new/icon/necromancer.gif",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/gif",
+    "size": 37993
+  },
+  {
+    "file": "0131_images.novelpia.com_0d60a0a40f248d9398405eb95c8df114",
+    "url": "https://images.novelpia.com/img/new/icon/0d60a0a40f248d9398405eb95c8df114",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 138338
+  },
+  {
+    "file": "0132_images.novelpia.com_episode5.svg",
+    "url": "https://images.novelpia.com/img/new/icon/episode5.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 6344
+  },
+  {
+    "file": "0133_images.novelpia.com_emt_pia2.png",
+    "url": "https://images.novelpia.com/img/new/icon/emt_pia2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1240
+  },
+  {
+    "file": "0134_images.novelpia.com_stamp_meta_silver.png",
+    "url": "https://images.novelpia.com/img/new/icon/stamp_meta_silver.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 1298
+  },
+  {
+    "file": "0135_images.novelpia.com_emt_novel1.png",
+    "url": "https://images.novelpia.com/img/new/icon/emt_novel1.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1240
+  },
+  {
+    "file": "0136_images.novelpia.com_episode3.svg",
+    "url": "https://images.novelpia.com/img/new/icon/episode3.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 5550
+  },
+  {
+    "file": "0137_images.novelpia.com_platinum.gif",
+    "url": "https://images.novelpia.com/img/new/icon/platinum.gif",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/gif",
+    "size": 52965
+  },
+  {
+    "file": "0138_images.novelpia.com_sponsor1.png",
+    "url": "https://images.novelpia.com/img/new/icon/sponsor1.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2760
+  },
+  {
+    "file": "0139_images.novelpia.com_9fc300f9682782d56d7bc1a53548a96d",
+    "url": "https://images.novelpia.com/img/new/icon/9fc300f9682782d56d7bc1a53548a96d",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 639820
+  },
+  {
+    "file": "0140_images.novelpia.com_4ce8b843ea50d50c707c70776e79d9cd",
+    "url": "https://images.novelpia.com/img/new/icon/4ce8b843ea50d50c707c70776e79d9cd",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 2470
+  },
+  {
+    "file": "0141_images.novelpia.com_bc90a9dc0f18c293ea09908178d44eab",
+    "url": "https://images.novelpia.com/img/new/icon/bc90a9dc0f18c293ea09908178d44eab",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 5080
+  },
+  {
+    "file": "0142_images.novelpia.com_first_plus.png",
+    "url": "https://images.novelpia.com/img/new/icon/first_plus.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4185
+  },
+  {
+    "file": "0143_images.novelpia.com_bde5083908a3e238012ec2224d994541",
+    "url": "https://images.novelpia.com/img/new/icon/bde5083908a3e238012ec2224d994541",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 6263
+  },
+  {
+    "file": "0144_images.novelpia.com_132ce2a7b9139c25eaf213169adcd6c0",
+    "url": "https://images.novelpia.com/img/new/icon/132ce2a7b9139c25eaf213169adcd6c0",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 6065
+  },
+  {
+    "file": "0145_images.novelpia.com_stamp_meta_normal.png",
+    "url": "https://images.novelpia.com/img/new/icon/stamp_meta_normal.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 1392
+  },
+  {
+    "file": "0146_novelpia.com_footer_logo_new.png",
+    "url": "https://novelpia.com/img/new/footer_logo_new.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1280
+  },
+  {
+    "file": "0147_images.novelpia.com_so_btn5.png",
+    "url": "https://images.novelpia.com/img/new/so_btn5.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1623
+  },
+  {
+    "file": "0148_images.novelpia.com_so_btn6.png",
+    "url": "https://images.novelpia.com/img/new/so_btn6.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1977
+  },
+  {
+    "file": "0149_images.novelpia.com_so_btn7.png",
+    "url": "https://images.novelpia.com/img/new/so_btn7.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1758
+  },
+  {
+    "file": "0150_images.novelpia.com_so_btn3_5.png",
+    "url": "https://images.novelpia.com/img/new/so_btn3_5.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1623
+  },
+  {
+    "file": "0151_images.novelpia.com_so_btn4.png",
+    "url": "https://images.novelpia.com/img/new/so_btn4.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 807
+  },
+  {
+    "file": "0152_images.novelpia.com_so_btn2.png",
+    "url": "https://images.novelpia.com/img/new/so_btn2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 571
+  },
+  {
+    "file": "0153_images.novelpia.com_gplay_btn.png",
+    "url": "https://images.novelpia.com/img/new/gplay_btn.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3804
+  },
+  {
+    "file": "0154_translate.google.com_element.js",
+    "url": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "text/javascript",
+    "size": 2991
+  },
+  {
+    "file": "0155_novelpia.com_target_modal.css",
+    "url": "https://novelpia.com/css/target_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 3377
+  },
+  {
+    "file": "0156_novelpia.com_openstore_episode_emoticon_modal.css",
+    "url": "https://novelpia.com/css/openstore_episode_emoticon_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 12481
+  },
+  {
+    "file": "0157_novelpia.com_novel_donation_modal.css",
+    "url": "https://novelpia.com/css/novel_donation_modal.css?v=5",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 10973
+  },
+  {
+    "file": "0158_novelpia.com_confetti_v2.js",
+    "url": "https://novelpia.com/js/confetti_v2.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 6739
+  },
+  {
+    "file": "0159_novelpia.com_novel_donation_modal.css",
+    "url": "https://novelpia.com/css/novel_donation_modal.css?v=1787294231",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 10973
+  },
+  {
+    "file": "0160_images.novelpia.com_innobiz_logo.svg",
+    "url": "https://images.novelpia.com/img/new/common/innobiz_logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 21001
+  },
+  {
+    "file": "0161_images.novelpia.com_copyright_ok_logo.svg",
+    "url": "https://images.novelpia.com/img/new/common/copyright_ok_logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 5902
+  },
+  {
+    "file": "0162_images.novelpia.com_emoticon_heart.png",
+    "url": "https://images.novelpia.com/img/new/common/emoticon_heart.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 119455
+  },
+  {
+    "file": "0163_novelpia.com_icon_coin.png",
+    "url": "https://novelpia.com/img/new/openstore/v2/icon_coin.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2449
+  },
+  {
+    "file": "0164_images.novelpia.com_main_layer_app.jpg",
+    "url": "https://images.novelpia.com/img/new/banner/main_layer_app.jpg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/jpeg",
+    "size": 248237
+  },
+  {
+    "file": "0165_images.novelpia.com_arrow_goback_2.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/arrow_goback_2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1027
+  },
+  {
+    "file": "0166_novelpia.com_plus_payment_modal.css",
+    "url": "https://novelpia.com/css/plus_payment_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 29055
+  },
+  {
+    "file": "0167_images.novelpia.com_icon_paymentcoin_m.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/icon_paymentcoin_m.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 6670
+  },
+  {
+    "file": "0168_pub-cdn.chatple.live_pling.svg",
+    "url": "https://pub-cdn.chatple.live/nc/icon/pling.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 360831
+  },
+  {
+    "file": "0169_images.novelpia.com_paylogo_card.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_card.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1566
+  },
+  {
+    "file": "0170_images.novelpia.com_paylogo_mobile.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_mobile.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1297
+  },
+  {
+    "file": "0171_images.novelpia.com_paylogo_kakaopay.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_kakaopay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1686
+  },
+  {
+    "file": "0172_novelpia.com_free_ticket_modal.css",
+    "url": "https://novelpia.com/css/free_ticket_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 3766
+  },
+  {
+    "file": "0173_images.novelpia.com_paylogo_naverpay.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_naverpay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1615
+  },
+  {
+    "file": "0174_npg.settlebank.co.kr_SettlePG.js",
+    "url": "https://npg.settlebank.co.kr/resources/js/v1/SettlePG.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "text/javascript",
+    "size": 13650
+  },
+  {
+    "file": "0175_images.novelpia.com_paylogo_cultureland.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_cultureland.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2038
+  },
+  {
+    "file": "0176_images.novelpia.com_paylogo_booknlife.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_booknlife.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2751
+  },
+  {
+    "file": "0177_images.novelpia.com_paylogo_pop.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_pop.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2436
+  },
+  {
+    "file": "0178_images.novelpia.com_paylogo_send.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_send.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2134
+  },
+  {
+    "file": "0179_images.novelpia.com_paylogo_input.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_input.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2118
+  },
+  {
+    "file": "0180_images.novelpia.com_logo-toss-pay.svg",
+    "url": "https://images.novelpia.com/old/img/new/plus/logo-toss-pay.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 451834
+  },
+  {
+    "file": "0181_images.novelpia.com_ico_moonhwa.jpg",
+    "url": "https://images.novelpia.com/img/new/icon/ico_moonhwa.jpg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/jpeg",
+    "size": 46735
+  },
+  {
+    "file": "0182_images.novelpia.com_694a54610cc753834b2dac7d2d6dc464_126717_1704610593.icon",
+    "url": "https://images.novelpia.com/imagebox/69/694a54610cc753834b2dac7d2d6dc464_126717_1704610593.icon",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 25932
+  },
+  {
+    "file": "0183_novelpia.com_ico_plus_02.png",
+    "url": "https://novelpia.com/img/new/plus/ico_plus_02.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1432
+  },
+  {
+    "file": "0184_images.novelpia.com_help.png",
+    "url": "https://images.novelpia.com/img/sponsor/help.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 311
+  },
+  {
+    "file": "0185_images.novelpia.com_1_wood.png",
+    "url": "https://images.novelpia.com/img/sponsor/1_wood.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 328
+  },
+  {
+    "file": "0186_images.novelpia.com_2_steal.png",
+    "url": "https://images.novelpia.com/img/sponsor/2_steal.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 469
+  },
+  {
+    "file": "0187_images.novelpia.com_3_knight.png",
+    "url": "https://images.novelpia.com/img/sponsor/3_knight.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 409
+  },
+  {
+    "file": "0188_images.novelpia.com_4_silver.gif",
+    "url": "https://images.novelpia.com/img/sponsor/4_silver.gif",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/gif",
+    "size": 15268
+  },
+  {
+    "file": "0189_images.novelpia.com_5_gold.gif",
+    "url": "https://images.novelpia.com/img/sponsor/5_gold.gif",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/gif",
+    "size": 15513
+  },
+  {
+    "file": "0190_images.novelpia.com_gauge_check_icon.svg",
+    "url": "https://images.novelpia.com/img/sponsor/gauge_check_icon.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 686
+  },
+  {
+    "file": "0191_images.novelpia.com_benefit_complete_img.png",
+    "url": "https://images.novelpia.com/img/sponsor/benefit_complete_img.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 5472
+  },
+  {
+    "file": "0192_images.novelpia.com_plus_payment_modal_top_03-4.png",
+    "url": "https://images.novelpia.com/img/new/plus/plus_payment_modal_top_03-4.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 43312
+  },
+  {
+    "file": "0193_novelpia.com_plus_pay_phone.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_phone.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 801
+  },
+  {
+    "file": "0194_novelpia.com_plus_pay_card.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_card.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1299
+  },
+  {
+    "file": "0195_novelpia.com_plus_pay_naver.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_naver.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1393
+  },
+  {
+    "file": "0196_novelpia.com_plus_pay_kakao.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_kakao.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1899
+  },
+  {
+    "file": "0197_image.novelpia.com_logo_tosspay.png",
+    "url": "https://image.novelpia.com/img/new/plus/logo_tosspay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 6850
+  },
+  {
+    "file": "0198_images.novelpia.com_bronze.png",
+    "url": "https://images.novelpia.com/img/new/icon/bronze.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4587
+  },
+  {
+    "file": "0199_images.novelpia.com_free_ticket_ico.svg",
+    "url": "https://images.novelpia.com/img/new/icon/free_ticket_ico.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4371
+  },
+  {
+    "file": "0200_appleid.cdn-apple.com_appleid.auth.js",
+    "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/ko_KR/appleid.auth.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 43830
+  },
+  {
+    "file": "0201_novelpia.com_total_event_modal.css",
+    "url": "https://novelpia.com/css/total_event_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 22896
+  },
+  {
+    "file": "0202_dnh523js9661q.cloudfront.net_apTracker.v3.js",
+    "url": "https://dnh523js9661q.cloudfront.net/apis/apTracker.v3.js?v=0413",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3109
+  },
+  {
+    "file": "0203_images.novelpia.com_modal_img_plus05.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus05.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 16181
+  },
+  {
+    "file": "0204_images.novelpia.com_modal_img_plus06.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus06.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 19471
+  },
+  {
+    "file": "0205_images.novelpia.com_cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "url": "https://images.novelpia.com/imagebox/cover/cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 459543
+  },
+  {
+    "file": "0206_images.novelpia.com_banner_main_3day2.png",
+    "url": "https://images.novelpia.com/img/new/event/auth_3day/banner_main_3day2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 218242
+  },
+  {
+    "file": "0207_novelpia.com_logo_naver.png",
+    "url": "https://novelpia.com/img/new/menu/logo_naver.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 596
+  },
+  {
+    "file": "0208_novelpia.com_logo_kakao.png",
+    "url": "https://novelpia.com/img/new/menu/logo_kakao.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1906
+  },
+  {
+    "file": "0209_novelpia.com_logo_google.png",
+    "url": "https://novelpia.com/img/new/menu/logo_google.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1778
+  },
+  {
+    "file": "0210_novelpia.com_logo_apple.png",
+    "url": "https://novelpia.com/img/new/menu/logo_apple.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1017
+  },
+  {
+    "file": "0211_images.novelpia.com_logo_facebook_wt.png",
+    "url": "https://images.novelpia.com/img/new/menu/logo_facebook_wt.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1272
+  },
+  {
+    "file": "0212_images.novelpia.com_hide.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/hide.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1310
+  },
+  {
+    "file": "0213_images.novelpia.com_icon-logo.svg",
+    "url": "https://images.novelpia.com/img/new/menu/icon-logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3636
+  },
+  {
+    "file": "0214_images.novelpia.com_coupon_img.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 50617
+  },
+  {
+    "file": "0215_images.novelpia.com_coupon_img_join.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img_join.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 48316
+  },
+  {
+    "file": "0216_images.novelpia.com_coupon_img_none.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img_none.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 45755
+  },
+  {
+    "file": "0217_images.novelpia.com_10min_coupon_img2.png",
+    "url": "https://images.novelpia.com/img/new/modal/10min_coupon_img2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 60310
+  },
+  {
+    "file": "0218_images.novelpia.com_new_top_ico_gift.png",
+    "url": "https://images.novelpia.com/img/new/main/new_top_ico_gift.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 454
+  },
+  {
+    "file": "0219_images.novelpia.com_nv_icon_chat.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_chat.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1348
+  },
+  {
+    "file": "0220_fonts.googleapis.com_css2.css",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 283215
+  },
+  {
+    "file": "0222_novelpia.com_chunk-ODPU3M3Z.js",
+    "url": "https://novelpia.com/lib/dotlottie/chunk-ODPU3M3Z.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 25420
+  },
+  {
+    "file": "0223_novelpia.com_chunk-TRZ6EGBZ.js",
+    "url": "https://novelpia.com/lib/dotlottie/chunk-TRZ6EGBZ.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 60054
+  },
+  {
+    "file": "0224_novelpia.com_chunk-HDDX7F4A.js",
+    "url": "https://novelpia.com/lib/dotlottie/chunk-HDDX7F4A.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 597
+  },
+  {
+    "file": "0225_novelpia.com_chunk-ZWH2ESXT.js",
+    "url": "https://novelpia.com/lib/dotlottie/chunk-ZWH2ESXT.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 296
+  },
+  {
+    "file": "0231_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0232_novelpia.com_lottie.vue",
+    "url": "https://novelpia.com/vue/component/lottie.vue?version=1793018645",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "",
+    "size": 580
+  },
+  {
+    "file": "0233_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0234_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0235_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14296
+  },
+  {
+    "file": "0236_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0237_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0238_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14296
+  },
+  {
+    "file": "0239_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0240_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16096
+  },
+  {
+    "file": "0241_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16116
+  },
+  {
+    "file": "0242_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16360
+  },
+  {
+    "file": "0243_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17464
+  },
+  {
+    "file": "0244_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16204
+  },
+  {
+    "file": "0245_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16380
+  },
+  {
+    "file": "0246_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0247_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14296
+  },
+  {
+    "file": "0248_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16380
+  },
+  {
+    "file": "0249_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0250_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0251_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16096
+  },
+  {
+    "file": "0252_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16116
+  },
+  {
+    "file": "0253_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17464
+  },
+  {
+    "file": "0254_images.novelpia.com_setting.svg",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/setting.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4005
+  },
+  {
+    "file": "0255_images.novelpia.com_close.svg",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/close.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1909
+  },
+  {
+    "file": "0256_images.novelpia.com_writer-room.svg",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/writer-room.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 5507
+  },
+  {
+    "file": "0257_images.novelpia.com_chevron-right.svg",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/chevron-right.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 963
+  },
+  {
+    "file": "0259_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16116
+  },
+  {
+    "file": "0260_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16204
+  },
+  {
+    "file": "0261_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16096
+  },
+  {
+    "file": "0262_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 18392
+  },
+  {
+    "file": "0263_novelpia.com_ionicons.ttf",
+    "url": "https://novelpia.com/lib/Ionicons/fonts/ionicons.ttf?v=2.0.1",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "application/font-sfnt",
+    "size": 188508
+  },
+  {
+    "file": "0264_novelpia.com_episode_list.html",
+    "url": "https://novelpia.com/proc/episode_list",
+    "method": "POST",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "text/html",
+    "size": 72476
+  },
+  {
+    "file": "0265_novelpia.com_novel_curation.json",
+    "url": "https://novelpia.com/proc/novel_curation?mem_no=480304&novel_no=212746&page=1&cmd=writer_other_novel",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 1292
+  },
+  {
+    "file": "0266_novelpia.com_novel_curation.json",
+    "url": "https://novelpia.com/proc/novel_curation?cmd=epi_list_curation&main_genre=11&novel_no=212746",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 45
+  },
+  {
+    "file": "0267_novelpia.com_emoticon_openstore.json",
+    "url": "https://novelpia.com/proc/emoticon_openstore?mode=getWriterEmoticon&novel_no=212746&_=1793018644876",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 36
+  },
+  {
+    "file": "0268_novelpia.com_emoticon_openstore.json",
+    "url": "https://novelpia.com/proc/emoticon_openstore?mode=getWriterEmoticon&novel_no=212746&_=1793018644877",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 36
+  },
+  {
+    "file": "0269_images.novelpia.com_writer_emoticon_icon.svg",
+    "url": "https://images.novelpia.com/img/new/writer_emoticon_icon.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1062
+  },
+  {
+    "file": "0270_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17912
+  },
+  {
+    "file": "0271_www.gstatic.com_m_el_main_css.css",
+    "url": "https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.B7Dih9Jyjnw.L.F4.O/am=AADA/d=0/rs=AN8SPfoRS9pS1XGFs31lUinoz1IfhvRdiQ/m=el_main_css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 20284
+  },
+  {
+    "file": "0272_translate.googleapis.com_m_el_main.js",
+    "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.en_GB.q0xFFAMHFNw.O/am=AADA/d=1/ed=1/rs=AN8SPfp0D-OXNtXRgaPtM2zaBf67sDu9VA/m=el_main",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "text/javascript",
+    "size": 312340
+  },
+  {
+    "file": "0273_novelpia.com_plus_payment_up.json",
+    "url": "https://novelpia.com/proc/plus_payment_up?cmd=is_payment_up_check",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 103
+  },
+  {
+    "file": "0274_images.novelpia.com_OmniGothic40.woff2",
+    "url": "https://images.novelpia.com/img/new/fonts/OmniGothic40.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "application/font-woff2",
+    "size": 853972
+  },
+  {
+    "file": "0275_novelpia.com_banner.json",
+    "url": "https://novelpia.com/proc/banner?cmd=banner&flag_type=127&rows=2&sort=1&_=1793018644878",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 1323
+  },
+  {
+    "file": "0276_images.novelpia.com_nv_icon_home.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_home.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1731
+  },
+  {
+    "file": "0277_images.novelpia.com_nv_icon_alert.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_alert.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4195
+  },
+  {
+    "file": "0278_images.novelpia.com_nv_icon_recent.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_recent.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3896
+  },
+  {
+    "file": "0279_novelpia.com_novel.json",
+    "url": "https://novelpia.com/proc/novel?cmd=get_novel_review_list&target_novel_no=212746&_=1793018644879",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 46
+  },
+  {
+    "file": "0280_novelpia.com_login_captcha.json",
+    "url": "https://novelpia.com/proc/login_captcha?mode=get_captcha",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 51
+  },
+  {
+    "file": "0281_images.novelpia.com_gift-card.json",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/gift-card.json",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 22536
+  },
+  {
+    "file": "0282_images.novelpia.com_gift-card.json",
+    "url": "https://images.novelpia.com/img/new/main/sidemenu/gift-card.json",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 22536
+  },
+  {
+    "file": "0283_images.novelpia.com_df36ad2d20389b0af9b801b0ec6f3252_497481_ori.wimg",
+    "url": "https://images.novelpia.com/imagebox/cover/df36ad2d20389b0af9b801b0ec6f3252_497481_ori.wimg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 28738
+  },
+  {
+    "file": "0284_images.novelpia.com_46e23731cf897757637e75e5e6df1685_69793_ori.wimg",
+    "url": "https://images.novelpia.com/imagebox/cover/46e23731cf897757637e75e5e6df1685_69793_ori.wimg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 13900
+  },
+  {
+    "file": "0285_images.novelpia.com_d69e7b16341f108fc1c452769e62f22f_433078_ori.wimg",
+    "url": "https://images.novelpia.com/imagebox/cover/d69e7b16341f108fc1c452769e62f22f_433078_ori.wimg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 15718
+  },
+  {
+    "file": "0286_images.novelpia.com_adc6dddaab06dc92d61ddb4cc114d05917907494991463329120",
+    "url": "https://images.novelpia.com/upload/banner/202609/adc6dddaab06dc92d61ddb4cc114d05917907494991463329120",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 146332
+  },
+  {
+    "file": "0287_novelpia.com_openstore_modal.css",
+    "url": "https://novelpia.com/css/openstore_modal.css?v=1770865764",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 51752
+  },
+  {
+    "file": "0288_novelpia.com_novel.json",
+    "url": "https://novelpia.com/proc/novel",
+    "method": "POST",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 945
+  },
+  {
+    "file": "0289_novelpia.com_novel.json",
+    "url": "https://novelpia.com/proc/novel",
+    "method": "POST",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 92
+  },
+  {
+    "file": "0290_images.novelpia.com_epilist_page_search.svg",
+    "url": "https://images.novelpia.com/img/new/common/epilist_page_search.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 725
+  },
+  {
+    "file": "0291_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16380
+  },
+  {
+    "file": "0292_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 18392
+  },
+  {
+    "file": "0293_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17912
+  },
+  {
+    "file": "0294_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17464
+  },
+  {
+    "file": "0295_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.111.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.111.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17392
+  },
+  {
+    "file": "0296_novelpia.com_lottie_svg-MJGYILXD-NRTSROOT.js",
+    "url": "https://novelpia.com/lib/dotlottie/lottie_svg-MJGYILXD-NRTSROOT.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 244605
+  },
+  {
+    "file": "0297_images.novelpia.com_2025-android-icon-192x192.png",
+    "url": "https://images.novelpia.com/img/favicon/2025-android-icon-192x192.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 25213
+  },
+  {
+    "file": "0298_images.novelpia.com_2025-favicon-32x32.png",
+    "url": "https://images.novelpia.com/img/favicon/2025-favicon-32x32.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1505
+  },
+  {
+    "file": "0305_novelpia.com_2645699.html",
+    "url": "https://novelpia.com/viewer/2645699",
+    "method": "GET",
+    "status": 200,
+    "type": "main_frame",
+    "mime": "text/html",
+    "size": 355493
+  },
+  {
+    "file": "0431_novelpia.com_ionicons.css",
+    "url": "https://novelpia.com/lib/Ionicons/css/ionicons.css?temp=3",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 51263
+  },
+  {
+    "file": "0432_novelpia.com_font-awesome.css",
+    "url": "https://novelpia.com/lib/font-awesome/css/font-awesome.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 30591
+  },
+  {
+    "file": "0433_novelpia.com_toggles-full.css",
+    "url": "https://novelpia.com/lib/jquery-toggles/toggles-full.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 5667
+  },
+  {
+    "file": "0434_novelpia.com_basic_modal.css",
+    "url": "https://novelpia.com/css/basic_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 4263
+  },
+  {
+    "file": "0435_novelpia.com_user_login.css",
+    "url": "https://novelpia.com/css/user_login.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 32507
+  },
+  {
+    "file": "0436_novelpia.com_amanda.min2.css",
+    "url": "https://novelpia.com/css/amanda.min2.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 227616
+  },
+  {
+    "file": "0437_novelpia.com_jquery_toastr.min.css",
+    "url": "https://novelpia.com/css/jquery_toastr.min.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 6745
+  },
+  {
+    "file": "0438_novelpia.com_novelpia.css",
+    "url": "https://novelpia.com/css/novelpia.css?v=1784514475",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 31091
+  },
+  {
+    "file": "0439_novelpia.com_novelpia.js",
+    "url": "https://novelpia.com/js/novelpia.js?v=1787206696",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 41982
+  },
+  {
+    "file": "0440_novelpia.com_jquery.min.js",
+    "url": "https://novelpia.com/lib/jquery/jquery.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 84347
+  },
+  {
+    "file": "0441_novelpia.com_jquery_cookie.js",
+    "url": "https://novelpia.com/lib/jquery/jquery_cookie.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3252
+  },
+  {
+    "file": "0442_novelpia.com_ramda.min.js",
+    "url": "https://novelpia.com/js/ramda.min.js?v=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93740
+  },
+  {
+    "file": "0443_novelpia.com_lang.ko.js",
+    "url": "https://novelpia.com/js/lang.ko.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5364
+  },
+  {
+    "file": "0444_cdnjs.cloudflare.com_core.min.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 4000
+  },
+  {
+    "file": "0445_cdnjs.cloudflare.com_sha256.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5538
+  },
+  {
+    "file": "0446_novelpia.com_toggles.min.js",
+    "url": "https://novelpia.com/lib/jquery-toggles/toggles.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2408
+  },
+  {
+    "file": "0447_novelpia.com_http-vue-loader.js",
+    "url": "https://novelpia.com/js/http-vue-loader.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 10945
+  },
+  {
+    "file": "0448_novelpia.com_jquery_toastr.min.js",
+    "url": "https://novelpia.com/js/jquery_toastr.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5542
+  },
+  {
+    "file": "0449_novelpia.com_amanda2.js",
+    "url": "https://novelpia.com/js/amanda2.js?tmp=2",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2286
+  },
+  {
+    "file": "0450_novelpia.com_lazyload.js",
+    "url": "https://novelpia.com/js/lazyload.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2211
+  },
+  {
+    "file": "0451_novelpia.com_jquery.switcher.min.js",
+    "url": "https://novelpia.com/js/jquery.switcher.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 646
+  },
+  {
+    "file": "0452_novelpia.com_jdetects.min.js",
+    "url": "https://novelpia.com/js/jdetects.min.js?tmp=5",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1425
+  },
+  {
+    "file": "0453_novelpia.com_popper.js",
+    "url": "https://novelpia.com/lib/popper.js/popper.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 81216
+  },
+  {
+    "file": "0454_novelpia.com_bootstrap.js",
+    "url": "https://novelpia.com/lib/bootstrap/bootstrap.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 111390
+  },
+  {
+    "file": "0455_novelpia.com_moment.min.js",
+    "url": "https://novelpia.com/js/moment.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 369177
+  },
+  {
+    "file": "0456_novelpia.com_axios.min.js",
+    "url": "https://novelpia.com/js/axios.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 14357
+  },
+  {
+    "file": "0457_novelpia.com_vue.production.js",
+    "url": "https://novelpia.com/js/vue.production.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93670
+  },
+  {
+    "file": "0458_assets.cueknow.co.kr_setconv.min.30.js",
+    "url": "https://assets.cueknow.co.kr/script/setconv.min.30.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3943
+  },
+  {
+    "file": "0459_novelpia.com_events.css",
+    "url": "https://novelpia.com/css/events.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 7318
+  },
+  {
+    "file": "0460_novelpia.com_viewer_novelpia.css",
+    "url": "https://novelpia.com/css/viewer_novelpia.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 1389
+  },
+  {
+    "file": "0461_novelpia.com_viewer_comment.css",
+    "url": "https://novelpia.com/css/viewer_comment.css?v=1772605827",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 32677
+  },
+  {
+    "file": "0462_novelpia.com_viewer_menu.css",
+    "url": "https://novelpia.com/css/viewer_menu.css?v=1791773921",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 6395
+  },
+  {
+    "file": "0463_novelpia.com_openstore_modal.css",
+    "url": "https://novelpia.com/css/openstore_modal.css?v=1770865764",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 51752
+  },
+  {
+    "file": "0464_novelpia.com_viewer_recommend_cancel_modal.css",
+    "url": "https://novelpia.com/css/viewer_recommend_cancel_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 2286
+  },
+  {
+    "file": "0465_novelpia.com_viewer_recommend_toast_component.css",
+    "url": "https://novelpia.com/css/viewer_recommend_toast_component.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 1145
+  },
+  {
+    "file": "0466_novelpia.com_viewer_novelpia_ver2.js",
+    "url": "https://novelpia.com/js/viewer_novelpia_ver2.js?v=1760926096",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 100570
+  },
+  {
+    "file": "0467_novelpia.com_jquery.swiper.css",
+    "url": "https://novelpia.com/css/jquery.swiper.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 13696
+  },
+  {
+    "file": "0468_novelpia.com_nano.min.css",
+    "url": "https://novelpia.com/lib/pickr/themes/nano.min.css",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 8838
+  },
+  {
+    "file": "0469_novelpia.com_sortable.min.js",
+    "url": "https://novelpia.com/js/sortable.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 43991
+  },
+  {
+    "file": "0470_novelpia.com_jquery.swiper.js",
+    "url": "https://novelpia.com/js/jquery.swiper.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 139839
+  },
+  {
+    "file": "0471_novelpia.com_viewer_check.js",
+    "url": "https://novelpia.com/js/viewer_check.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1136
+  },
+  {
+    "file": "0472_novelpia.com_plus_payment_modal.css",
+    "url": "https://novelpia.com/css/plus_payment_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 29055
+  },
+  {
+    "file": "0473_novelpia.com_free_ticket_modal.css",
+    "url": "https://novelpia.com/css/free_ticket_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 3766
+  },
+  {
+    "file": "0474_novelpia.com_pickr.min.js",
+    "url": "https://novelpia.com/lib/pickr/pickr.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 24175
+  },
+  {
+    "file": "0475_novelpia.com_pickr.es5.min.js",
+    "url": "https://novelpia.com/lib/pickr/pickr.es5.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 72990
+  },
+  {
+    "file": "0476_novelpia.com_cryptojs-aes.min.js",
+    "url": "https://novelpia.com/js/cryptojs-aes.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 13360
+  },
+  {
+    "file": "0477_novelpia.com_cryptojs-aes-format.js",
+    "url": "https://novelpia.com/js/cryptojs-aes-format.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1494
+  },
+  {
+    "file": "0478_novelpia.com_novel_donation_modal.css",
+    "url": "https://novelpia.com/css/novel_donation_modal.css?v=1787294231",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 10973
+  },
+  {
+    "file": "0479_npg.settlebank.co.kr_SettlePG.js",
+    "url": "https://npg.settlebank.co.kr/resources/js/v1/SettlePG.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "text/javascript",
+    "size": 13650
+  },
+  {
+    "file": "0480_novelpia.com_metacraft_modal.css",
+    "url": "https://novelpia.com/css/metacraft_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 19815
+  },
+  {
+    "file": "0481_novelpia.com_viewer_animation_ver2.css",
+    "url": "https://novelpia.com/css/viewer_animation_ver2.css?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 9263
+  },
+  {
+    "file": "0482_novelpia.com_emoticon_purchase_modal.css",
+    "url": "https://novelpia.com/css/emoticon_purchase_modal.css?v=1789624793",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 10438
+  },
+  {
+    "file": "0483_novelpia.com_nvsc.min.js",
+    "url": "https://novelpia.com/js/nvsc.min.js?v=1760926096",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 713
+  },
+  {
+    "file": "0484_appleid.cdn-apple.com_appleid.auth.js",
+    "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/ko_KR/appleid.auth.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 43830
+  },
+  {
+    "file": "0485_dnh523js9661q.cloudfront.net_apTracker.v3.js",
+    "url": "https://dnh523js9661q.cloudfront.net/apis/apTracker.v3.js?v=0413",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3109
+  },
+  {
+    "file": "0488_images.novelpia.com_plus_payment_modal_top_03-4.png",
+    "url": "https://images.novelpia.com/img/new/plus/plus_payment_modal_top_03-4.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 43312
+  },
+  {
+    "file": "0489_novelpia.com_plus_pay_phone.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_phone.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 801
+  },
+  {
+    "file": "0490_novelpia.com_plus_pay_card.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_card.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1299
+  },
+  {
+    "file": "0491_novelpia.com_plus_pay_naver.png",
+    "url": "https://novelpia.com/img/new/plus/plus_pay_naver.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1393
+  },
+  {
+    "file": "0493_image.novelpia.com_logo_tosspay.png",
+    "url": "https://image.novelpia.com/img/new/plus/logo_tosspay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 6850
+  },
+  {
+    "file": "0494_images.novelpia.com_ico_moonhwa.jpg",
+    "url": "https://images.novelpia.com/img/new/icon/ico_moonhwa.jpg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/jpeg",
+    "size": 46735
+  },
+  {
+    "file": "0495_images.novelpia.com_bronze.png",
+    "url": "https://images.novelpia.com/img/new/icon/bronze.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4587
+  },
+  {
+    "file": "0496_images.novelpia.com_free_ticket_ico.svg",
+    "url": "https://images.novelpia.com/img/new/icon/free_ticket_ico.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4371
+  },
+  {
+    "file": "0497_images.novelpia.com_list_title.png",
+    "url": "https://images.novelpia.com/img/new/list/list_title.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3456
+  },
+  {
+    "file": "0500_images.novelpia.com_coin_gold.png",
+    "url": "https://images.novelpia.com/img/new/plus/stamp/coin_gold.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3328
+  },
+  {
+    "file": "0501_images.novelpia.com_icon_bb_plus2.png",
+    "url": "https://images.novelpia.com/img/new/common/icon_bb_plus2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 6109
+  },
+  {
+    "file": "0502_images.novelpia.com_icon_plus.svg",
+    "url": "https://images.novelpia.com/img/new/icon/icon_plus.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1385
+  },
+  {
+    "file": "0503_images.novelpia.com_layer_img_buying2.png",
+    "url": "https://images.novelpia.com/img/new/plus/stamp/layer_img_buying2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 78455
+  },
+  {
+    "file": "0504_images.novelpia.com_layer_img_coin2.png",
+    "url": "https://images.novelpia.com/img/new/plus/stamp/layer_img_coin2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 87512
+  },
+  {
+    "file": "0505_images.novelpia.com_layer_img_login2.png",
+    "url": "https://images.novelpia.com/img/new/plus/stamp/layer_img_login2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 89200
+  },
+  {
+    "file": "0506_images.novelpia.com_modal_img_plus03.png",
+    "url": "https://images.novelpia.com/img/new/plus/modal_img_plus03.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 125782
+  },
+  {
+    "file": "0507_images.novelpia.com_arrow_goback_2.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/arrow_goback_2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1027
+  },
+  {
+    "file": "0508_images.novelpia.com_icon_paymentcoin_m.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/icon_paymentcoin_m.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 6670
+  },
+  {
+    "file": "0509_pub-cdn.chatple.live_pling.svg",
+    "url": "https://pub-cdn.chatple.live/nc/icon/pling.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 360831
+  },
+  {
+    "file": "0510_images.novelpia.com_paylogo_card.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_card.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1566
+  },
+  {
+    "file": "0511_images.novelpia.com_paylogo_mobile.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_mobile.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1297
+  },
+  {
+    "file": "0512_images.novelpia.com_paylogo_kakaopay.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_kakaopay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1686
+  },
+  {
+    "file": "0513_images.novelpia.com_paylogo_naverpay.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_naverpay.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1615
+  },
+  {
+    "file": "0514_images.novelpia.com_paylogo_cultureland.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_cultureland.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2038
+  },
+  {
+    "file": "0515_images.novelpia.com_paylogo_booknlife.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_booknlife.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2751
+  },
+  {
+    "file": "0516_images.novelpia.com_paylogo_pop.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_pop.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2436
+  },
+  {
+    "file": "0517_images.novelpia.com_paylogo_send.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_send.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2134
+  },
+  {
+    "file": "0518_images.novelpia.com_paylogo_input.png",
+    "url": "https://images.novelpia.com/old/img/new/plus/v2/paylogo_input.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2118
+  },
+  {
+    "file": "0519_images.novelpia.com_logo-toss-pay.svg",
+    "url": "https://images.novelpia.com/old/img/new/plus/logo-toss-pay.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 451834
+  },
+  {
+    "file": "0520_images.novelpia.com_home.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/home.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1367
+  },
+  {
+    "file": "0522_images.novelpia.com_like.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/like.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1177
+  },
+  {
+    "file": "0523_images.novelpia.com_setting.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/setting.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 5967
+  },
+  {
+    "file": "0524_images.novelpia.com_prev.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/prev.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1020
+  },
+  {
+    "file": "0525_images.novelpia.com_recent.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/recent.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3330
+  },
+  {
+    "file": "0526_images.novelpia.com_recommend_on.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/recommend_on.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 2066
+  },
+  {
+    "file": "0528_images.novelpia.com_next.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/navbar/v2/next.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1133
+  },
+  {
+    "file": "0529_novelpia.com_ico_plus_01.png",
+    "url": "https://novelpia.com/img/new/plus/ico_plus_01.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3030
+  },
+  {
+    "file": "0530_novelpia.com_mobile2.png",
+    "url": "https://novelpia.com/img/new/icon/payment/mobile2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 584
+  },
+  {
+    "file": "0531_novelpia.com_card2.png",
+    "url": "https://novelpia.com/img/new/icon/payment/card2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 561
+  },
+  {
+    "file": "0533_novelpia.com_kakao2.png",
+    "url": "https://novelpia.com/img/new/icon/payment/kakao2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1640
+  },
+  {
+    "file": "0535_novelpia.com_cancel.png",
+    "url": "https://novelpia.com/img/new/openstore/cancel.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 423
+  },
+  {
+    "file": "0537_images.novelpia.com_icon_mileage_m2.png",
+    "url": "https://images.novelpia.com/img/new/plus/v2/icon_mileage_m2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 2467
+  },
+  {
+    "file": "0538_images.novelpia.com_modal_img_plus05.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus05.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 16181
+  },
+  {
+    "file": "0539_images.novelpia.com_modal_img_plus06.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus06.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 19471
+  },
+  {
+    "file": "0540_images.novelpia.com_cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "url": "https://images.novelpia.com/imagebox/cover/cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 459543
+  },
+  {
+    "file": "0541_images.novelpia.com_banner_main_3day2.png",
+    "url": "https://images.novelpia.com/img/new/event/auth_3day/banner_main_3day2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 218242
+  },
+  {
+    "file": "0543_novelpia.com_logo_kakao.png",
+    "url": "https://novelpia.com/img/new/menu/logo_kakao.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1906
+  },
+  {
+    "file": "0544_novelpia.com_logo_google.png",
+    "url": "https://novelpia.com/img/new/menu/logo_google.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1778
+  },
+  {
+    "file": "0545_novelpia.com_logo_apple.png",
+    "url": "https://novelpia.com/img/new/menu/logo_apple.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1017
+  },
+  {
+    "file": "0546_images.novelpia.com_logo_facebook_wt.png",
+    "url": "https://images.novelpia.com/img/new/menu/logo_facebook_wt.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1272
+  },
+  {
+    "file": "0547_images.novelpia.com_hide.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/hide.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1310
+  },
+  {
+    "file": "0548_images.novelpia.com_icon-logo.svg",
+    "url": "https://images.novelpia.com/img/new/menu/icon-logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3636
+  },
+  {
+    "file": "0552_fonts.googleapis.com_css2.css",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 283215
+  },
+  {
+    "file": "0554_fonts.googleapis.com_css2.css",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&Gamja+Flower&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+JP&family=Jua&family=Noto+Serif+JP&family=Yeon+Sung&display=swap",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 1571660
+  },
+  {
+    "file": "0564_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0566_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0569_novelpia.com_new.png",
+    "url": "https://novelpia.com/img/new/list/new.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 3496
+  },
+  {
+    "file": "0577_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0578_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14296
+  },
+  {
+    "file": "0579_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16116
+  },
+  {
+    "file": "0580_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0581_novelpia.com_ionicons.ttf",
+    "url": "https://novelpia.com/lib/Ionicons/fonts/ionicons.ttf?v=2.0.1",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "application/font-sfnt",
+    "size": 59347
+  },
+  {
+    "file": "0582_novelpia.com_2645699.html",
+    "url": "https://novelpia.com/proc/viewer_data/2645699",
+    "method": "POST",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "text/html",
+    "size": 28167
+  },
+  {
+    "file": "0585_image.novelpia.com_comment.svg",
+    "url": "https://image.novelpia.com/img/new/viewer/navbar/v2/comment.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1118
+  },
+  {
+    "file": "0586_image.novelpia.com_list.svg",
+    "url": "https://image.novelpia.com/img/new/viewer/navbar/v2/list.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1281
+  },
+  {
+    "file": "0590_novelpia.com_recommend_cancel_component.js",
+    "url": "https://novelpia.com/js/component/viewer/recommend_cancel_component.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1509
+  },
+  {
+    "file": "0591_novelpia.com_recommend_toast_component.js",
+    "url": "https://novelpia.com/js/component/viewer/recommend_toast_component.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 495
+  },
+  {
+    "file": "0592_novelpia.com_banner_modal.vue",
+    "url": "https://novelpia.com/vue/component/common/banner_modal.vue?version=1793018658",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "",
+    "size": 14653
+  },
+  {
+    "file": "0594_novelpia.com_stamp_proc.json",
+    "url": "https://novelpia.com/proc/stamp_proc?mode=get_member_grade_discount&_=1793018657358",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 105
+  },
+  {
+    "file": "0619_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16380
+  },
+  {
+    "file": "0620_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16096
+  },
+  {
+    "file": "0621_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16204
+  },
+  {
+    "file": "0622_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.109.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17912
+  },
+  {
+    "file": "0623_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16360
+  },
+  {
+    "file": "0625_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17464
+  },
+  {
+    "file": "0626_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.111.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.111.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17392
+  },
+  {
+    "file": "0627_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.100.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.100.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 26300
+  },
+  {
+    "file": "0628_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.107.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 18392
+  },
+  {
+    "file": "0642_novelpia.com_banner.json",
+    "url": "https://novelpia.com/proc/banner?cmd=banner&flag_type=3&rows=1&_=1793018657359",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 843
+  },
+  {
+    "file": "0643_novelpia.com_novel.json",
+    "url": "https://novelpia.com/proc/novel",
+    "method": "POST",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 53
+  },
+  {
+    "file": "0644_novelpia.com_login_captcha.json",
+    "url": "https://novelpia.com/proc/login_captcha?mode=get_captcha",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 51
+  },
+  {
+    "file": "0669_novelpia.com_block.html",
+    "url": "https://novelpia.com/page/block",
+    "method": "GET",
+    "status": 200,
+    "type": "main_frame",
+    "mime": "text/html",
+    "size": 91254
+  },
+  {
+    "file": "0670_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.9.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.9.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 22196
+  },
+  {
+    "file": "0671_novelpia.com_ionicons.woff",
+    "url": "https://novelpia.com/lib/Ionicons/fonts/ionicons.woff?v=2.0.1",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "application/font-woff",
+    "size": 67904
+  },
+  {
+    "file": "0672_fonts.gstatic.com_bykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.28.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.28.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 21788
+  },
+  {
+    "file": "0673_fonts.gstatic.com_bykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.55.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.55.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 20504
+  },
+  {
+    "file": "0674_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.103.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.103.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 24540
+  },
+  {
+    "file": "0675_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.104.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.104.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 29096
+  },
+  {
+    "file": "0676_image.novelpia.com_like_on.svg",
+    "url": "https://image.novelpia.com/img/new/viewer/navbar/v2/like_on.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1179
+  },
+  {
+    "file": "0677_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.106.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.106.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 24736
+  },
+  {
+    "file": "0678_fonts.gstatic.com_bykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.42.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.42.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 20020
+  },
+  {
+    "file": "0679_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.108.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.108.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 19700
+  },
+  {
+    "file": "0680_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.105.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.105.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25312
+  },
+  {
+    "file": "0681_fonts.gstatic.com_bykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.63.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.63.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 20896
+  },
+  {
+    "file": "0750_novelpia.com_novelpia.js",
+    "url": "https://novelpia.com/js/novelpia.js?v=1787206696",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 41982
+  },
+  {
+    "file": "0751_novelpia.com_jquery.min.js",
+    "url": "https://novelpia.com/lib/jquery/jquery.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 84347
+  },
+  {
+    "file": "0752_novelpia.com_jquery_cookie.js",
+    "url": "https://novelpia.com/lib/jquery/jquery_cookie.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3252
+  },
+  {
+    "file": "0753_novelpia.com_ramda.min.js",
+    "url": "https://novelpia.com/js/ramda.min.js?v=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93740
+  },
+  {
+    "file": "0754_novelpia.com_lang.ko.js",
+    "url": "https://novelpia.com/js/lang.ko.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5364
+  },
+  {
+    "file": "0755_cdnjs.cloudflare.com_core.min.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 4000
+  },
+  {
+    "file": "0756_cdnjs.cloudflare.com_sha256.js",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5538
+  },
+  {
+    "file": "0757_novelpia.com_toggles.min.js",
+    "url": "https://novelpia.com/lib/jquery-toggles/toggles.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2408
+  },
+  {
+    "file": "0758_novelpia.com_http-vue-loader.js",
+    "url": "https://novelpia.com/js/http-vue-loader.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 10945
+  },
+  {
+    "file": "0759_novelpia.com_jquery_toastr.min.js",
+    "url": "https://novelpia.com/js/jquery_toastr.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 5542
+  },
+  {
+    "file": "0760_novelpia.com_amanda2.js",
+    "url": "https://novelpia.com/js/amanda2.js?tmp=2",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2286
+  },
+  {
+    "file": "0761_novelpia.com_lazyload.js",
+    "url": "https://novelpia.com/js/lazyload.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 2211
+  },
+  {
+    "file": "0762_novelpia.com_jquery.switcher.min.js",
+    "url": "https://novelpia.com/js/jquery.switcher.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 646
+  },
+  {
+    "file": "0763_novelpia.com_jdetects.min.js",
+    "url": "https://novelpia.com/js/jdetects.min.js?tmp=5",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1425
+  },
+  {
+    "file": "0764_novelpia.com_popper.js",
+    "url": "https://novelpia.com/lib/popper.js/popper.js?tmp=1",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 81216
+  },
+  {
+    "file": "0765_novelpia.com_bootstrap.js",
+    "url": "https://novelpia.com/lib/bootstrap/bootstrap.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 111390
+  },
+  {
+    "file": "0766_novelpia.com_moment.min.js",
+    "url": "https://novelpia.com/js/moment.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 369177
+  },
+  {
+    "file": "0767_novelpia.com_axios.min.js",
+    "url": "https://novelpia.com/js/axios.min.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 14357
+  },
+  {
+    "file": "0768_novelpia.com_vue.production.js",
+    "url": "https://novelpia.com/js/vue.production.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 93670
+  },
+  {
+    "file": "0769_assets.cueknow.co.kr_setconv.min.30.js",
+    "url": "https://assets.cueknow.co.kr/script/setconv.min.30.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3943
+  },
+  {
+    "file": "0770_novelpia.com_jquery.js",
+    "url": "https://novelpia.com/lib/jquery/jquery.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 247597
+  },
+  {
+    "file": "0771_novelpia.com_jdetects.min.js",
+    "url": "https://novelpia.com/js/jdetects.min.js?tmp=3",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 1425
+  },
+  {
+    "file": "0772_appleid.cdn-apple.com_appleid.auth.js",
+    "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/ko_KR/appleid.auth.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 43830
+  },
+  {
+    "file": "0773_novelpia.com_total_event_modal.css",
+    "url": "https://novelpia.com/css/total_event_modal.css?v=1760926093",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 22896
+  },
+  {
+    "file": "0774_dnh523js9661q.cloudfront.net_apTracker.v3.js",
+    "url": "https://dnh523js9661q.cloudfront.net/apis/apTracker.v3.js?v=0413",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3109
+  },
+  {
+    "file": "0775_novelpia.com__navi.css",
+    "url": "https://novelpia.com/css/_navi.css?v=1789614759",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 5096
+  },
+  {
+    "file": "0777_novelpia.com_logo_footer2.png",
+    "url": "https://novelpia.com/img/new/logo_footer2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 4052
+  },
+  {
+    "file": "0778_images.novelpia.com_modal_img_plus05.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus05.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 16181
+  },
+  {
+    "file": "0779_images.novelpia.com_modal_img_plus06.png",
+    "url": "https://images.novelpia.com/img/modal_img_plus06.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 19471
+  },
+  {
+    "file": "0780_images.novelpia.com_cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "url": "https://images.novelpia.com/imagebox/cover/cf84e3d9b39354780b733ccbb5ae3bdd_459543_ori.file",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 459543
+  },
+  {
+    "file": "0781_images.novelpia.com_banner_main_3day2.png",
+    "url": "https://images.novelpia.com/img/new/event/auth_3day/banner_main_3day2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 218242
+  },
+  {
+    "file": "0782_novelpia.com_logo_naver.png",
+    "url": "https://novelpia.com/img/new/menu/logo_naver.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 596
+  },
+  {
+    "file": "0783_novelpia.com_logo_kakao.png",
+    "url": "https://novelpia.com/img/new/menu/logo_kakao.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1906
+  },
+  {
+    "file": "0784_novelpia.com_logo_google.png",
+    "url": "https://novelpia.com/img/new/menu/logo_google.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1778
+  },
+  {
+    "file": "0785_novelpia.com_logo_apple.png",
+    "url": "https://novelpia.com/img/new/menu/logo_apple.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1017
+  },
+  {
+    "file": "0786_images.novelpia.com_logo_facebook_wt.png",
+    "url": "https://images.novelpia.com/img/new/menu/logo_facebook_wt.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1272
+  },
+  {
+    "file": "0787_images.novelpia.com_hide.svg",
+    "url": "https://images.novelpia.com/img/new/viewer/hide.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1310
+  },
+  {
+    "file": "0788_images.novelpia.com_icon-logo.svg",
+    "url": "https://images.novelpia.com/img/new/menu/icon-logo.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3636
+  },
+  {
+    "file": "0789_images.novelpia.com_coupon_img.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 50617
+  },
+  {
+    "file": "0790_images.novelpia.com_coupon_img_join.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img_join.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 48316
+  },
+  {
+    "file": "0791_images.novelpia.com_coupon_img_none.png",
+    "url": "https://images.novelpia.com/img/new/main/coupon_img_none.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 45755
+  },
+  {
+    "file": "0792_images.novelpia.com_10min_coupon_img2.png",
+    "url": "https://images.novelpia.com/img/new/modal/10min_coupon_img2.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 60310
+  },
+  {
+    "file": "0793_images.novelpia.com_new_top_ico_gift.png",
+    "url": "https://images.novelpia.com/img/new/main/new_top_ico_gift.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 454
+  },
+  {
+    "file": "0794_images.novelpia.com_nv_icon_chat.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_chat.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1348
+  },
+  {
+    "file": "0797_fonts.googleapis.com_css2.css",
+    "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap",
+    "method": "GET",
+    "status": 200,
+    "type": "stylesheet",
+    "mime": "text/css",
+    "size": 283215
+  },
+  {
+    "file": "0806_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0807_novelpia.com_jquery_cookie.js",
+    "url": "https://novelpia.com/lib/jquery/jquery_cookie.js",
+    "method": "GET",
+    "status": 200,
+    "type": "script",
+    "mime": "application/javascript",
+    "size": 3252
+  },
+  {
+    "file": "0823_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0824_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.114.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16096
+  },
+  {
+    "file": "0825_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0826_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.117.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14296
+  },
+  {
+    "file": "0827_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.115.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16204
+  },
+  {
+    "file": "0828_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.113.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16380
+  },
+  {
+    "file": "0829_fonts.gstatic.com_PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5CgmG0X7t.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 25880
+  },
+  {
+    "file": "0830_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.118.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 14564
+  },
+  {
+    "file": "0831_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.119.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16568
+  },
+  {
+    "file": "0832_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.110.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 17464
+  },
+  {
+    "file": "0833_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.108.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.108.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 19700
+  },
+  {
+    "file": "0834_images.novelpia.com_2.jpg",
+    "url": "https://images.novelpia.com/img/background/2.jpg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/jpeg",
+    "size": 4536198
+  },
+  {
+    "file": "0835_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.112.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16360
+  },
+  {
+    "file": "0836_fonts.gstatic.com_ykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "url": "https://fonts.gstatic.com/s/notosanskr/v40/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.116.woff2",
+    "method": "GET",
+    "status": 200,
+    "type": "font",
+    "mime": "font/woff2",
+    "size": 16116
+  },
+  {
+    "file": "0842_novelpia.com_banner.json",
+    "url": "https://novelpia.com/proc/banner?cmd=banner&flag_type=127&rows=2&sort=1&_=1793018662115",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 1309
+  },
+  {
+    "file": "0843_novelpia.com_login_captcha.json",
+    "url": "https://novelpia.com/proc/login_captcha?mode=get_captcha",
+    "method": "GET",
+    "status": 200,
+    "type": "xmlhttprequest",
+    "mime": "application/json",
+    "size": 51
+  },
+  {
+    "file": "0844_images.novelpia.com_nv_icon_home.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_home.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 1731
+  },
+  {
+    "file": "0845_images.novelpia.com_nv_icon_alert.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_alert.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 4195
+  },
+  {
+    "file": "0846_images.novelpia.com_nv_icon_recent.svg",
+    "url": "https://images.novelpia.com/img/new/navi/nv_icon_recent.svg",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/svg+xml",
+    "size": 3896
+  },
+  {
+    "file": "0848_images.novelpia.com_a8df785586e6dea57ccd3cd1e3c8206e17900440444828968847",
+    "url": "https://images.novelpia.com/upload/banner/202609/a8df785586e6dea57ccd3cd1e3c8206e17900440444828968847",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "application/octet-stream",
+    "size": 482896
+  },
+  {
+    "file": "0852_images.novelpia.com_2025-android-icon-192x192.png",
+    "url": "https://images.novelpia.com/img/favicon/2025-android-icon-192x192.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 25213
+  },
+  {
+    "file": "0853_images.novelpia.com_2025-favicon-32x32.png",
+    "url": "https://images.novelpia.com/img/favicon/2025-favicon-32x32.png",
+    "method": "GET",
+    "status": 200,
+    "type": "image",
+    "mime": "image/png",
+    "size": 1505
+  }
+]

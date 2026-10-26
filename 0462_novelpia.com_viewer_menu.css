@@ -1,0 +1,333 @@
+/* pc 탑 */
+@media screen and (min-width: 700px) {
+    .menu-top-wrapper{
+        width: 100%;
+        height: 60px;
+        max-width: 940px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .menu-top-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .menu-top-right{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .menu-title-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .menu-top-home img{
+        width: 26px;
+        height: 26px;
+        position: relative;
+        top: 2px;
+        cursor: pointer;
+    }
+
+    .menu-top-adult{
+        width: 26px;
+    }
+
+    .menu-top-tag{
+        font-size: 15px;
+        line-height: 17px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    .menu-top-title{
+        font-size: 15px;
+        /*line-height: 17px;*/
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .menu-top-right img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .menu-top-like img{
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* 모바일 - 탑 */
+@media screen and (max-width: 699px) {
+    .menu-top-wrapper{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .menu-top-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .menu-top-right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu-title-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .menu-top-home img{
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+    }
+
+    .menu-top-adult{
+        width: 24px;
+    }
+
+    .menu-top-tag{
+        font-size: 13px;
+        line-height: 15px;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+
+    .menu-top-title{
+        font-size: 13px;
+        /*line-height: 15px;*/
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .menu-top-title-text{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .menu-top-title.is-rolling{
+        text-overflow: clip;
+    }
+
+    .menu-top-title.is-rolling .menu-top-title-text{
+        animation: viewer-title-rolling var(--title-rolling-duration) linear infinite;
+    }
+
+    @keyframes viewer-title-rolling {
+        0%, 12% {
+            transform: translateX(0);
+        }
+        68%, 100% {
+            transform: translateX(var(--title-rolling-distance));
+        }
+    }
+
+    .menu-top-right img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu-top-like img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* pc 바탐 */
+@media screen and (min-width: 700px) {
+    .menu-bottom-wrapper{
+        width:100%;
+        height:60px;
+        max-width:900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+
+    .menu-bottom-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .menu-bottom-item img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .menu-bottom-item span{
+        font-size: 14px;
+        line-height: 16px;
+        color: #000;
+    }
+    #recommend_tap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .menu-bottom-item span.epi-comment-cnt{
+        color: #999;
+    }
+}
+
+/* 모바일 - 바탐 */
+@media screen and (max-width: 699px) {
+    .epi-comment-cnt{
+        display: none;
+    }
+
+    .menu-bottom-wrapper{
+        width:100%;
+        height:60px;
+        max-width:900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu-bottom-item{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu-bottom-item img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .menu-bottom-item span{
+        font-size: 11px;
+        line-height: 13px;
+        color: #000;
+    }
+
+    .menu-bottom-item span.epi-comment-cnt{
+        color: #999;
+    }
+
+    .menu-next-item{
+        flex-direction: column-reverse !important;
+    }
+
+    #recommend_tap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+    }
+}
+
+.comment-on{
+    color: #7632FF !important;
+}
+.menu-top-list, .menu-top-setting, .menu-bottom-item{
+    cursor: pointer;
+}
+.epi-menu-none{
+    color: #888 !important;
+}
+
+
+
+
+
+/*프롤로그웹만화 버튼*/
+.btn-prologue-next{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	gap:5px;
+	border:2px solid #662AE0;
+	background:linear-gradient(to right, #7632ff 50%, #5b47ff 100%);
+	width:100%;
+	max-width:750px;
+	margin:auto;
+	height:80px;
+	box-shadow: 0px 8px 0px 0px #6128D3;
+	border-radius:10px;
+	cursor:pointer;
+	padding:0 20px;
+	margin-bottom:100px;
+}
+
+.pr-txt-area{
+	margin:auto;
+}
+
+.btn-prologue-next img{
+	width:100%;
+	
+}
+
+.btn-prologue-next img.btn-pr-txt{
+	max-width:335px;
+}
+
+.btn-prologue-next img.btn-pr-icon,
+.btn-prologue-next img.btn-pr-arrow{
+	max-width:40px;
+}
+
+@media screen and (max-width: 891px) {
+	.btn-prologue-next{
+		height:60px;
+		box-shadow: 0px 6px 0px 0px #6128D3;
+		border-radius:10px;
+		padding:0 10px;
+	}
+
+	.btn-prologue-next img.btn-pr-txt{
+		max-width:260px;
+		margin-top:-5px;
+	}
+
+	.btn-prologue-next img.btn-pr-icon{
+		display:none;
+	}
+
+	.btn-prologue-next img.btn-pr-arrow{
+		max-width:30px;
+	}
+}

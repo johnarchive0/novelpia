@@ -1,0 +1,1527 @@
+/* 추천인코드&약관동의수정 */
+/* ////pc//// */
+@media screen and (min-width: 891px) {
+    .email-form-wrapper {
+        margin-top: 35px;
+    }
+
+    .friend-code-input {
+        width: 100%;
+        background: #F8F8FE;
+        border: 1px solid #DCDCED;
+        margin: 10px auto 10px;
+        display: flex;
+        height: 45px;
+        line-height: 45px;
+        padding-left: 15px;
+        overflow: hidden;
+        max-width: 390px;
+    }
+
+    .friend-code-input p {
+        word-break: keep-all;
+        margin-right: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .friend-code-input input {
+        width: 100%;
+        background: #F8F8FE;
+        border: none;
+        font-size: 14px;
+        color: #7632FF;
+        outline: none;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .friend-code-input input::placeholder {
+        color: #7632FF;
+    }
+
+    .basic-modal-close {
+        margin: 5px 0 0 0;
+    }
+}
+
+/* ////mobile//// */
+@media screen and (max-width: 891px) {
+    .email-form-wrapper {
+        margin-top: 20px;
+    }
+    .join-form-wrap {
+        display: none;
+    }
+
+    .friend-code-input {
+        width: 100%;
+        background: #F8F8FE;
+        border: 1px solid #DCDCED;
+        margin: 10px auto 10px;
+        display: flex;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 15px;
+        overflow: hidden;
+        max-width: 390px;
+    }
+
+    .friend-code-input p {
+        word-break: keep-all;
+        margin-right: 5px;
+        font-weight: 500;
+        font-size: 12px;
+        color: #000;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .friend-code-input input {
+        width: 100%;
+        background: #F8F8FE;
+        border: none;
+        font-size: 12px;
+        color: #7632FF;
+        outline: none;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .friend-code-input input::placeholder {
+        color: #7632FF;
+    }
+}
+
+
+/* ////pc//// */
+@media screen and (min-width: 891px) {
+    .basic-modal-wrapper {
+        padding: 16px;
+        padding-bottom: 35px;
+        max-width: 500px;
+        border: 1px solid #000;
+    }
+    .basic-modal-top {
+        margin: 15px 15px 0 0;
+    }
+
+    /*#member_join_modal .basic-modal-top,*/
+    #member_login_modal .basic-modal-top {
+        margin: 60px 15px 0 0;
+    }
+    #member_join_modal .basic-modal-top {
+        margin-top: 0;
+    }
+    #member_join_modal .basic-modal-top .basic-modal-name,
+    #member_login_modal .basic-modal-top .basic-modal-name {
+        padding-left: 16px;
+        flex: 1;
+        text-align: center;
+    }
+
+    #member_join_modal .basic-modal-top .basic-modal-close,
+    #member_login_modal .basic-modal-top .basic-modal-close {
+        margin: -110px -30px 0 0;
+    }
+
+
+    /* 회원가입 부분 */
+    .join-contents, .login-contents {
+        text-align: center;
+    }
+
+    .join-contents > img, .login-contents > img {
+        width: 100px;
+        margin: 0 0 0 20px;
+    }
+
+    .join-banner {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .join-banner img {
+        width: 390px;
+    }
+
+    .join-box, .join-display-box {
+        width: 390px;
+        margin: 0px auto 15px;
+    }
+
+    .join-form-wrap {
+        display: none;
+    }
+
+    .form-tit {
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .form-tit.email-top {
+        margin-top: 25px;
+    }
+
+    .form-tit .tit-line {
+        height: 1px;
+        background-color: #ededed;
+    }
+
+    .form-tit .tit-line.txt-sns {
+        width: clamp(30px, 10vw, 60px);
+    }
+
+    .form-tit .tit-line.txt-sns.login {
+        width: clamp(30px, 14vw, 100px);
+    }
+
+    .form-tit .tit-line.txt-email2 {
+        width: 120px;
+    }
+
+    .form-tit .tit-line.txt-email {
+        width: 80px;
+    }
+
+    .join-box input {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 14px;
+        border: 1px solid #DDD;
+        margin-bottom: 4px;
+    }
+
+    .join-box button, .login-box button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 14px;
+        border: none;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+
+    .join-display-box button {
+        background: #fff;
+        width: 100%;
+        font-size: 14px;
+        border: 1px solid #000;
+        font-weight: 500;
+        height: 55px;
+        cursor: pointer;
+    }
+
+    .join-display-box i.icon-email {
+        width: 22px;
+        height: 18px;
+        display: inline-block;
+        background: url('//images.novelpia.com/img/new/menu/email_join_icon.svg') no-repeat center center;
+        background-size: 22px 18px;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    .join-check a {
+        color: #FD5D5D;
+        text-decoration: underline;
+    }
+
+    .join-sns {
+        max-width: 390px;
+        margin: 20px auto 0;
+
+    }
+
+    .sns-btns a {
+        position: relative;
+    }
+
+    .sns-btns img {
+        width: 45px;
+        height: 45px;
+        background-color: #eee;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .sns-btns a:nth-child(1) img {
+        background-color: #2DBA2D;
+        border: 1px solid #00A800;
+    }
+
+    .sns-btns a:nth-child(2) img {
+        background-color: #FFE600;
+        border: 1px solid #FCD200;
+    }
+
+    .sns-btns a:nth-child(3) img, .sns-btns a:nth-child(4) img {
+        background-color: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+
+    .sns-btns a:nth-child(5) img {
+        background-color: #3B5998;
+    }
+
+    /* 회원가입 - placeholder 커스텀 */
+    .join-box > div {
+        position: relative;
+    }
+
+    .join-box label {
+        position: absolute;
+        height: 29px;
+        left: 14px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        pointer-events: none;
+        color: #999;
+        font-size: 14px;
+        font-family: system-ui;
+    }
+
+    .join-box label:before {
+        content: "* ";
+        color: red;
+    }
+
+    .join-box input:placeholder-shown + label {
+        display: block;
+    }
+
+    /* 체크박스 커스텀 */
+    .join-check {
+        text-align: left;
+        font-size: 14px;
+        width: 390px;
+        margin: 0 auto;
+    }
+
+    .join-check input[type="checkbox"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    .join-check input[type="checkbox"] + label {
+        display: block;
+        position: relative;
+        padding-left: 26px;
+        cursor: pointer;
+        color: #000;
+        margin-bottom: 5px;
+    }
+
+    .join-check input[type="checkbox"] + label:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_nocheck.png);
+        box-sizing: border-box;
+    }
+
+    .join-check input[type="checkbox"]:checked + label:after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_check.png);
+        box-sizing: border-box;
+    }
+
+    /* 로그인 부분 */
+    .login-box {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .login-contents {
+        text-align: center;
+        margin: 0 30px;
+    }
+
+    .login-box input[type="email"], .login-box input[type="password"] {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 14px;
+        border: 1px solid #DDD;
+        margin-bottom: 5px;
+    }
+
+    .login-box input::placeholder {
+        color: #999;
+    }
+
+    .find-idpw {
+        margin: 15px auto 30px;
+        color: #ddd;
+    }
+
+    .find-idpw a {
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .find-idpw + .sns-btns {
+        margin: 35px 0;
+    }
+
+    .sns-login {
+        margin-top: 20px;
+    }
+
+    /* 로그인 체크박스 커스텀 */
+    .login-check {
+        text-align: left;
+        font-size: 14px;
+        width: 398px;
+        margin: 12px 0 20px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .login-check input[type="checkbox"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    .login-check input[type="checkbox"] + label {
+        display: inline-block;
+        position: relative;
+        padding-left: 26px;
+        cursor: pointer;
+        color: #000;
+        margin-bottom: 5px;
+    }
+
+    .login-check input[type="checkbox"] + label:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_nocheck.png);
+        box-sizing: border-box;
+    }
+
+    .login-check input[type="checkbox"]:checked + label:after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_check.png);
+        box-sizing: border-box;
+    }
+
+    #autologin {
+        margin-left: 20px;
+    }
+
+    /* 성인 인증 */
+    .adult-contents {
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .adult-contents > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .adult-contents p {
+        font-size: 14px;
+        color: #000;
+        margin: 20px auto 30px auto;
+    }
+
+    .adult-btn-box div button:first-child {
+        background-color: #FD6767;
+        color: #FFF;
+        margin-bottom: 5px;
+        font-size: 16px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .adult-btn-box div button:last-child {
+        background-color: #FFE600;
+        color: #381E1E;
+        font-size: 16px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .adult-btn-box > button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 16px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        margin: 30px 0 20px 0;
+    }
+
+    /* 핸드폰 인증 */
+    .auth-wrapper {
+        padding: 16px 30px;
+    }
+
+    .auth-modal-name {
+        text-align: left;
+    }
+
+    .auth-contents {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .auth-contents p {
+        font-size: 14px;
+        color: #000;
+        margin: 32px 0;
+    }
+
+    .auth-contents p span {
+        color: #FD5D5D;
+    }
+
+    .auth-wrapper .basic-modal-top {
+        border-bottom: 1px solid #DDD;
+        padding-bottom: 10px;
+    }
+
+    .auth-modal-name {
+        font-size: 16px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .auth-contents button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 16px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        margin: 0 0 20px 0;
+    }
+
+    .all-agree-item {
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+
+    .all-agree-item label {
+        font-size: 14px;
+    }
+}
+
+/* ////mobile//// */
+@media screen and (max-width: 891px) {
+    .basic-modal-wrapper {
+        padding: 25px;
+        padding-bottom: 35px;
+        max-width: 350px;
+        border: 1px solid #000;
+        /* margin: 20px auto;*/
+        overflow-y: auto;
+        /* top: 0;
+        transform: translateY(0);
+        max-height: 100%;*/
+    }
+
+    .basic-modal-top {
+        margin: 15px 15px 0 0;
+    }
+
+    /*#member_join_modal .basic-modal-top,*/
+    #member_login_modal .basic-modal-top {
+        margin: 60px 15px 0 0;
+    }
+    #member_join_modal .basic-modal-top {
+        margin-top: 0;
+    }
+    #member_join_modal .basic-modal-top .basic-modal-name,
+    #member_login_modal .basic-modal-top .basic-modal-name {
+        padding-left: 16px;
+        flex: 1;
+        text-align: center;
+    }
+
+    #member_join_modal .basic-modal-top .basic-modal-close,
+    #member_login_modal .basic-modal-top .basic-modal-close {
+        margin: -100px -20px 0 0;
+    }
+
+
+    /* 회원가입 부분 */
+    .join-contents, .login-contents {
+        text-align: center;
+    }
+
+    .join-contents > img, .login-contents > img {
+        width: 90px;
+        margin: -15px 0 0 15px;
+    }
+
+    .join-banner {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .join-banner img {
+        width: 100%;
+    }
+
+    .join-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .join-box input {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 12px;
+        border: 1px solid #DDD;
+        margin-bottom: 4px;
+    }
+
+    .join-box button, .login-box button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 13px;
+        border: none;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .join-display-box button {
+        background: #fff;
+        width: 100%;
+        font-size: 13px;
+        border: 1px solid #000;
+        font-weight: 500;
+        height: 55px;
+        cursor: pointer;
+    }
+
+    .join-display-box i.icon-email {
+        width: 22px;
+        height: 18px;
+        display: inline-block;
+        background: url('//images.novelpia.com/img/new/menu/email_join_icon.svg') no-repeat center center;
+        background-size: 22px 18px;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    .join-box button {
+        margin-bottom: 10px;
+    }
+
+    .join-check a {
+        color: #FD5D5D;
+        text-decoration: underline;
+    }
+
+    .join-sns {
+        margin: 20px 0 35px;
+
+    }
+
+    .form-tit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .form-tit .tit-line {
+        height: 1px;
+        background-color: #ededed;
+    }
+
+    .form-tit .tit-line.txt-sns {
+        width: clamp(10px, 4.5vw, 50px);
+    }
+
+    .form-tit .tit-line.txt-sns.login {
+        width: clamp(10px, 14vw, 50px);
+    }
+
+    .form-tit .tit-line.txt-email2 {
+        width: clamp(80px, 14vw, 100px);
+    }
+
+    .form-tit .tit-line.txt-email {
+        width: 80px;
+    }
+
+    .join-sns div:first-child {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .sns-btns {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+    }
+
+    .sns-btns a {
+        position: relative;
+    }
+
+    .sns-btns img {
+        width: 45px;
+        height: 45px;
+        background-color: #eee;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .sns-btns a:nth-child(1) img {
+        background-color: #2DBA2D;
+        border: 1px solid #00A800;
+    }
+
+    .sns-btns a:nth-child(2) img {
+        background-color: #FFE600;
+        border: 1px solid #FCD200;
+    }
+
+    .sns-btns a:nth-child(3) img, .sns-btns a:nth-child(4) img {
+        background-color: #FFFFFF;
+        border: 1px solid #DDDDDD;
+    }
+
+    .sns-btns a:nth-child(5) img {
+        background-color: #3B5998;
+    }
+
+    /* 회원가입 - placeholder 커스텀 */
+    .join-box > div {
+        position: relative;
+    }
+
+    .join-box label {
+        position: absolute;
+        height: 29px;
+        left: 14px;
+        top: 7px;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        pointer-events: none;
+        color: #999;
+        font-size: 12px;
+        font-family: system-ui;
+    }
+
+    .join-box label:before {
+        content: "* ";
+        color: red;
+    }
+
+    .join-box input:placeholder-shown + label {
+        display: block;
+    }
+
+    /* 체크박스 커스텀 */
+    .join-check {
+        text-align: left;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .join-check input[type="checkbox"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    .join-check input[type="checkbox"] + label {
+        display: block;
+        position: relative;
+        padding-left: 26px;
+        cursor: pointer;
+        color: #000;
+        margin-bottom: 5px;
+        font-size: 11px;
+        word-break: keep-all;
+        white-space: nowrap;
+    }
+
+    .join-check input[type="checkbox"] + label:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_nocheck.png);
+        box-sizing: border-box;
+    }
+
+    .join-check input[type="checkbox"]:checked + label:after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_check.png);
+        box-sizing: border-box;
+    }
+
+    /* 로그인 부분 */
+    .login-box {
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .login-contents {
+        text-align: center;
+    }
+
+    .login-box input[type="email"], .login-box input[type="password"] {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 12px;
+        border: 1px solid #DDD;
+        margin-bottom: 5px;
+    }
+
+    .login-box input::placeholder {
+        color: #999;
+    }
+
+    .find-idpw {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: #ddd;
+        font-size: 10px;
+    }
+
+    .find-idpw a {
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .find-idpw + .sns-btns {
+        margin: 35px 0;
+    }
+
+    .sns-login {
+        margin-top: 15px;
+    }
+
+    /* 로그인 체크박스 커스텀 */
+    .login-check {
+        text-align: left;
+        font-size: 14px;
+        margin: 0px 0 15px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .login-check input[type="checkbox"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    .login-check input[type="checkbox"] + label {
+        display: inline-block;
+        position: relative;
+        padding-left: 26px;
+        cursor: pointer;
+        color: #000;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .login-check input[type="checkbox"] + label:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_nocheck.png);
+        box-sizing: border-box;
+    }
+
+    .login-check input[type="checkbox"]:checked + label:after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_check.png);
+        box-sizing: border-box;
+    }
+
+    #autologin {
+        margin-left: 20px;
+    }
+
+    /* 성인 인증 */
+    .adult-contents {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .adult-contents > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .adult-contents p {
+        font-size: 14px;
+        color: #000;
+        margin: 15px auto 25px auto;
+    }
+
+    .adult-btn-box div button:first-child {
+        background-color: #FD6767;
+        color: #FFF;
+        margin-bottom: 5px;
+        font-size: 14px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .adult-btn-box div button:last-child {
+        background-color: #FFE600;
+        color: #381E1E;
+        font-size: 14px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .adult-btn-box > button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 14px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        margin: 25px 0 20px 0;
+    }
+
+    /* 핸드폰 인증 */
+    .auth-wrapper {
+        padding: 16px 20px;
+    }
+
+    .auth-modal-name {
+        text-align: left;
+    }
+
+    .auth-contents {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .auth-contents p {
+        font-size: 12px;
+        color: #000;
+        margin: 32px 0;
+    }
+
+    .auth-contents p span {
+        color: #FD5D5D;
+    }
+
+    .auth-wrapper .basic-modal-top {
+        border-bottom: 1px solid #DDD;
+        padding-bottom: 10px;
+    }
+
+    .auth-modal-name {
+        font-size: 16px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .auth-contents button {
+        background-color: #1E1E1E;
+        width: 100%;
+        color: #FFF;
+        font-size: 12px;
+        border: none;
+        padding: 16px 0;
+        cursor: pointer;
+        margin: 0 0 20px 0;
+    }
+
+    .all-agree-item {
+        display: grid;
+        grid-template-columns: 115px auto;
+        gap: 3px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .all-agree-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-check input[type="checkbox"] + label {
+        font-size: 11px;
+    }
+
+}
+
+
+/*로그인 회원가입 전환 탭*/
+.tap-join-login {
+    height: 44px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 4px;
+    max-width: 390px;
+    margin: 30px auto 0;
+}
+
+.tab-join,
+.tab-login {
+    color: #888;
+    border-radius: 30px;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.tab-join.active,
+.tab-login.active {
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .07);
+}
+
+a.find-idpw-txt,
+a.find-idpw-txt:hover {
+    color: #000;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 891px) {
+    .tap-join-login {
+        margin-top: 20px;
+
+    }
+
+    a.find-idpw-txt {
+        color: #000;
+        font-size: 12px;
+    }
+}
+
+
+/*로그인/가입 모달에 배너 추가하면서*/
+#member_login_modal,
+#member_join_modal {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#member_login_modal .basic-modal-wrapper,
+#member_join_modal .basic-modal-wrapper {
+    top: 48% !important;
+}
+
+#member_login_modal .basic-modal-wp-inner,
+#member_join_modal .basic-modal-wp-inner {
+    padding: 0 20px 25px;
+    background: #fff;
+    border: 1px solid #000;
+    position: relative;
+}
+
+#member_join_modal .basic-modal-wp-inner {
+    border-top: none;
+}
+
+.all-agree-check-toggle-add {
+    display: flex;
+}
+
+.all-agree-toggle {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+
+.last-login-ballon {
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    top: -30px;
+    left: 0px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 2px 6px;
+    font-size: 10px;
+    text-align: center;
+    z-index: 11;
+}
+
+
+.last-login-ballon:after {
+    border-top: 6px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 0px solid transparent;
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: 26px;
+}
+
+.last-login-ballon.in-form {
+    top: 15px;
+    left: 10px;
+}
+
+@media screen and (max-width: 891px) {
+    .last-login-ballon {
+        width: 64px;
+        height: 20px;
+        top: -14px;
+        left: -8px;
+    }
+
+
+    .all-agree-toggle {
+        margin-top: -4px;
+    }
+
+    .last-login-ballon.in-form {
+        top: 15px;
+        left: 15px;
+    }
+}
+
+
+/*이메일로가입하기 버튼 추가 : 공통*/
+.btn-email-join {
+    background-color: #1E1E1E;
+    width: 100%;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    max-width: 390px;
+    margin: 30px auto 15px;
+}
+
+.btn-email-join:focus {
+    outline: none;
+}
+
+.btn-email-join img {
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px 0 0;
+}
+
+/*이메일로가입하기 버튼 추가 : 모바일*/
+@media screen and (max-width: 891px) {
+    .btn-email-join img {
+        width: 16px;
+        height: 16px;
+        margin: 2px 5px 0 0;
+    }
+}
+
+
+/*좁은화면 텍스트 조절*/
+
+@media screen and (max-width: 320px) {
+    .join-sns div:first-child {
+        font-size: 12px;
+    }
+
+    .sns-login {
+        font-size: 12px;
+    }
+
+}
+
+/*공통 추가 항목*/
+.form-tit-t-bold {
+    font-weight: 800;
+}
+
+.form-tit.txt-login2 {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 891px) {
+    .form-tit.txt-login2 {
+        margin-top: 20px;
+    }
+}
+
+
+/*231106 혜택수신동의모달*/
+.ad-agree-pop {
+    border: 1px solid #000;
+    max-width: 500px;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    font-size: 12px;
+    word-break: keep-all;
+    top: 12%;
+    left: 2%;
+    position: absolute;
+    background: #fff;
+}
+
+.ad-agree-pop .ad-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(//images.novelpia.com/old/img/new/menu/menu_close.png) no-repeat center;
+    background-size: 32px;
+    cursor: pointer;
+
+    margin: 5px 0 0 0;
+    background-size: 20px !important;
+}
+
+.ad-agree-pop .title {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.ad-agree-pop .title span {
+    font-weight: 600;
+}
+
+.ad-agree-pop .title-info {
+    margin-bottom: 10px;
+}
+
+.ad-agree-pop table {
+    margin-bottom: 10px;
+    border: 1px solid #1E1E1E;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.ad-agree-pop table th {
+    background: #1E1E1E;
+    border: 1px solid #5B5B5B;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.ad-agree-pop table th:first-child {
+    border-left: none;
+}
+
+.ad-agree-pop table td {
+    border: 1px solid #1E1E1E;
+    padding: 5px;
+}
+
+.ad-agree-pop table td:first-child {
+    border-left: none;
+}
+
+.ad-agree-pop .s-txt {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+/* 체크박스 커스텀 */
+.ad-agree-check {
+    text-align: left;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.ad-agree-check input[type="checkbox"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.ad-agree-check input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.ad-agree-check input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_nocheck.png);
+    box-sizing: border-box;
+}
+
+.ad-agree-check input[type="checkbox"]:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: no-repeat center/cover url(//images.novelpia.com/old/img/new/menu/login_check.png);
+    box-sizing: border-box;
+}
+
+
+
+#member_join_modal .join-top-section{
+    position:relative;
+    max-width:500px;
+    z-index: -1;
+    background: #fff;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+#member_join_modal .basic-modal-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#member_join_modal .join-top-section-bg{
+    /* background-position: top;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    filter: blur(40px);
+    opacity: 0.4; */
+    background-color:#eff9f5;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+    width:100%;
+    height:100%;
+}
+
+#member_join_modal .join-top-section-deco{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+#member_join_modal .join-top-section-deco img{
+    width:100%;
+}
+
+#member_join_modal .join-top-layler-tit{
+    text-align:center;
+    font-size:16px;
+    font-family:'OmniGothic', 'Noto Sans KR', sans-serif;
+    margin-bottom:15px;
+    padding-top:20px;
+    text-shadow: 1px 1px 4px #808080;
+}
+
+#member_join_modal .join-top-layler-img {
+    margin: -100px 0 0 0;
+    width: 100%;
+}
+
+#member_join_modal .join-top-nv-section-wrp{
+    padding: 0 25px 25px;
+}
+
+#member_join_modal .join-top-nv-section{
+    display:flex;
+    gap:15px;
+    background:rgba(255,255,255,0.7);
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor:pointer;
+}
+
+#member_join_modal .join-top-cover img{
+    max-width:65px;
+    border-radius:5px;
+}
+
+#member_join_modal .txt-recent{
+    color:#fff;
+    font-size:10px;
+    border-radius:20px;
+    background:#143167;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:3px 10px;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+
+#member_join_modal .txt-nv-title{
+    font-size:15px;
+    color:#000;
+    font-weight:600;
+    margin-bottom:3px;
+}
+
+#member_join_modal .txt-nv-writer{
+    font-size:12px;
+    color:#666;
+}
+
+
+
+
+/*광고 유입 회원가입 모달*/
+@media screen and (max-width: 891px) {
+    #member_join_modal .join-top-section{
+    }
+
+    #member_join_modal .join-top-nv-section{
+        padding:10px;        
+    }
+
+    #member_join_modal .join-top-cover img{
+        max-width:50px;
+        border-radius:3px;
+    }
+
+    #member_join_modal .txt-recent{
+        margin-top:0;
+    }
+    
+    #member_join_modal .txt-nv-title{
+        margin-bottom:0;
+    }
+
+    #member_join_modal .join-top-layler-tit{
+        font-size:15px;
+        padding-top:0;
+        margin-bottom:8px;
+    }
+}
+
+
+#member_join_modal{
+    overflow-y:auto;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&Gamja+Flower&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+JP&family=Jua&family=Noto+Serif+JP&family=Yeon+Sung&display=swap');
+
+/* @font-face {
+    font-family: "obfuscated NotoSansKR Regular";
+    src: url('//images.novelpia.com/img/new/fonts/obfuscatedNotoSansKRRegular.woff') format('woff');
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "obfuscated NotoSansKR";
+    src: url('//images.novelpia.com/img/new/fonts/obfuscatedNotoSansKR2.ttf') format('truetype');
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "obfuscated NotoSerifKR";
+    src: url('//images.novelpia.com/img/new/fonts/obfuscatedNotoSerifKR2.ttf') format('truetype');
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "obfuscated YeonSung";
+    src: url('//images.novelpia.com/img/new/fonts/obfuscatedYeonSung2.ttf') format('truetype');
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "obfuscated Jua";
+    src: url('//images.novelpia.com/img/new/fonts/obfuscatedJua2.ttf') format('truetype');
+    font-weight: 100 900;
+} */
+
+/* #novel_box {
+    font-family: 'obfuscated NotoSansKR', 'obfuscated NotoSansKR Regular';
+} */
+
+.line.tts_line {
+    /* font-weight : bold ; */
+    background-color : #FFD343;
+    color : #000; 
+}

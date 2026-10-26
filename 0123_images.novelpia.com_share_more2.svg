@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1874" data-name="사각형 1874" width="50" height="50" transform="translate(213 363)" fill="rgba(255,0,0,0.31)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_1875" data-name="사각형 1875" width="25.06" height="5.221" fill="#666"/>
+    </clipPath>
+  </defs>
+  <g id="더보기" transform="translate(-233 -313)">
+    <circle id="타원_134" data-name="타원 134" cx="25" cy="25" r="25" transform="translate(233 313)" fill="#f5f6f8"/>
+    <g id="더보기-2" data-name="더보기" transform="translate(20 -50)" clip-path="url(#clip-path)">
+      <g id="그룹_1019" data-name="그룹 1019" transform="translate(225 385)">
+        <g id="그룹_1018" data-name="그룹 1018" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <path id="패스_2038" data-name="패스 2038" d="M41.45,0a2.61,2.61,0,1,1-2.61,2.61A2.61,2.61,0,0,1,41.45,0" transform="translate(-19 0)" fill="#666"/>
+          <path id="패스_2039" data-name="패스 2039" d="M22.03,0a2.61,2.61,0,1,1-2.61,2.61A2.61,2.61,0,0,1,22.03,0" transform="translate(-9.5 0)" fill="#666"/>
+          <path id="패스_2040" data-name="패스 2040" d="M2.61,0A2.61,2.61,0,1,1,0,2.61,2.61,2.61,0,0,1,2.61,0" transform="translate(0 0)" fill="#666"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,389 @@
+/* 뷰어 댓글 모달의 기존 스타일을 메인에서도 재사용합니다. */
+
+#emoticon_purchase_modal {
+    display: none;
+    top: 0;
+}
+
+/* 메인의 다른 모달과 겹치는 공용 클래스 스타일만 초기화합니다. */
+
+#emoticon_purchase_modal :where(div, p, h3, h4, img) {
+    all: revert;
+    box-sizing: border-box;
+}
+
+#emoticon_purchase_modal :where(p, h3, h4) {
+    margin: 0 0 10px;
+}
+
+#emoticon_purchase_modal img {
+    vertical-align: middle;
+}
+
+#emoticon_purchase_modal .detail-modal-wrapper {
+    max-height: 100%;
+    overflow: auto;
+}
+
+@media screen and (min-width: 892px) {
+    #emoticon_purchase_modal .mobile_show {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 891px) {
+    #emoticon_purchase_modal .mobile_hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 891px) {
+    #emoticon_purchase_modal {
+        z-index: 999999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:first-child {
+        height: 40px;
+        width: 90px;
+    }
+    #emoticon_purchase_modal .detail-modal-wrapper {
+        border-radius: 15px;
+        background-color: #fff;
+        margin: 0 auto;
+        width: 550px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 1px solid #000;
+    }
+    #emoticon_purchase_modal .modal-deco-line {
+        border-bottom: 1px solid #DEE2E6;
+    }
+    #emoticon_purchase_modal .detail-modal-top {
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:last-child {
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-content-wrapper {
+        display: flex;
+        padding: 20px 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #emoticon_purchase_modal .modal-button-wrapper {
+        padding: 0 30px 20px 30px;
+    }
+    #emoticon_purchase_modal .detail-modal-button {
+        color: #FFF;
+        background-color: #4A32B6;
+        width: 100%;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-thumb-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+    #emoticon_purchase_modal .modal-thumb-wrapper img {
+        width: 100%;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper {
+        width: 310px;
+    }
+    #emoticon_purchase_modal .modal-price-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        gap: 8px;
+    }
+    #emoticon_purchase_modal .modal-price-box .modal-price {
+        flex-shrink: 0;
+        text-align: right;
+    }
+    #emoticon_purchase_modal .modal-price-box .modal-mileage {
+        flex-shrink: 0;
+        text-align: right;
+        margin-top: 4px;
+    }
+    #emoticon_purchase_modal .modal-price-box > h3 {
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        color: #161616;
+        text-align: left;
+        margin-right: auto;
+    }
+    #emoticon_purchase_modal .modal-price img {
+        width: 22px !important;
+        height: 22px;
+        margin-right: 3px;
+        position: relative;
+        bottom: 4px;
+    }
+    #emoticon_purchase_modal .modal-mileage img {
+        width: 22px !important;
+        height: 22px;
+        margin-right: 3px;
+        position: relative;
+        bottom: 4px;
+    }
+    #emoticon_purchase_modal .modal-price span {
+        font-weight: bold;
+        font-size: 24px;
+        color: #161616;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-mileage img {
+        width: 22px;
+        height: 22px;
+        margin-right: 3px;
+        position: relative;
+        bottom: 4px;
+    }
+    #emoticon_purchase_modal .modal-mileage span {
+        font-weight: bold;
+        font-size: 24px;
+        color: #161616;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper > h3 {
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: #333333;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper > h4 {
+        font-size: 19px;
+        letter-spacing: 0.01em;
+        color: #333333;
+        font-weight: 300;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #emoticon_purchase_modal .modal-desc {
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 19px;
+        color: #333333;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:first-child > img {
+        width: 100%;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper {
+        grid-template-columns: repeat(auto-fill, 105px);
+        justify-content: space-between;
+        background: #F8F9FA;
+        padding: 20px 15px;
+        display: grid;
+        flex-wrap: wrap;
+        gap: 1em;
+        align-items: center;
+        border-bottom: 1px solid #DEE2E6;
+        margin-bottom: 15px;
+        overflow: auto;
+        height: 300px;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper > div {
+        width: 105px;
+        height: 105px;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper > div > img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 891px) {
+    #emoticon_purchase_modal {
+        z-index: 999999;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:first-child {
+        height: 40px;
+        width: 90px;
+    }
+    #emoticon_purchase_modal .detail-modal-wrapper {
+        bottom: 0;
+        background-color: #fff;
+        margin: 0 auto;
+        width: 100%;
+        position: fixed;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+    #emoticon_purchase_modal .modal-deco-line {
+        border-bottom: 1px solid #DEE2E6;
+    }
+    #emoticon_purchase_modal .detail-modal-top {
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:first-child {
+        height: 27px;
+        width: 59px;
+    }
+    #emoticon_purchase_modal #detail-modal-close {
+        cursor: pointer;
+        width: 15px;
+        height: 20px;
+    }
+    #emoticon_purchase_modal #detail-modal-close img {
+        width: 100%;
+    }
+    #emoticon_purchase_modal .modal-content-wrapper {
+        display: flex;
+        padding: 15px 30px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    #emoticon_purchase_modal .modal-button-wrapper {
+        padding: 20px 30px 20px 30px;
+    }
+    #emoticon_purchase_modal .detail-modal-button {
+        color: #FFF;
+        background-color: #4A32B6;
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-thumb-wrapper {
+        max-width: 57px;
+        max-height: 57px;
+    }
+    #emoticon_purchase_modal .modal-thumb-wrapper img {
+        width: 100%;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper {
+        min-width: 0;
+    }
+    #emoticon_purchase_modal .detail-modal-top div:first-child > img {
+        width: 100%;
+    }
+    #emoticon_purchase_modal .modal-price-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #emoticon_purchase_modal .modal-price-box .modal-price {
+        flex-shrink: 0;
+        text-align: right;
+        width: auto;
+        margin-right: 8px;
+    }
+    #emoticon_purchase_modal .modal-price-box .modal-mileage {
+        flex-shrink: 0;
+        text-align: right;
+        width: auto;
+    }
+    #emoticon_purchase_modal .modal-price-box > h3 {
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+        color: #161616;
+        margin-bottom: 6px;
+        text-align: left;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    #emoticon_purchase_modal .modal-price img {
+        width: 16px !important;
+        height: 16px;
+        margin-right: 3px;
+        position: relative;
+        bottom: 2px;
+    }
+    #emoticon_purchase_modal .modal-price span {
+        font-weight: bold;
+        font-size: 16px;
+        color: #161616;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-mileage img {
+        width: 16px !important;
+        height: 16px;
+        margin-right: 3px;
+        position: relative;
+        bottom: 2px;
+    }
+    #emoticon_purchase_modal .modal-mileage span {
+        font-weight: bold;
+        font-size: 16px;
+        color: #161616;
+        cursor: pointer;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper > h3 {
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        color: #333333;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    #emoticon_purchase_modal .modal-desc-wrapper > h4 {
+        line-height: 14px;
+        font-size: 11px;
+        letter-spacing: 0.01em;
+        color: #333333;
+        font-weight: 300;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #emoticon_purchase_modal .modal-desc {
+        padding: 0 30px 15px 30px;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 19px;
+        color: #333333;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper {
+        grid-template-columns: repeat(auto-fill, 80px);
+        justify-content: space-around;
+        background: #F8F9FA;
+        padding: 20px 15px;
+        display: grid;
+        flex-wrap: wrap;
+        gap: 1em;
+        align-items: center;
+        border-bottom: 1px solid #DEE2E6;
+        overflow: auto;
+        max-height: 220px;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper > div {
+        width: 80px;
+        height: 80px;
+    }
+    #emoticon_purchase_modal .emoticon-list-wrapper > div > img {
+        width: 100%;
+    }
+}

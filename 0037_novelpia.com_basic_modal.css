@@ -1,0 +1,205 @@
+/* ////pc//// */
+@media screen and (min-width: 891px) {
+    .basic-modal-background{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+    }
+
+    .basic-modal-wrapper{
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-width: 500px;
+        padding: 30px;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+    }
+
+    .basic-modal-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .basic-modal-close{
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: url(//images.novelpia.com/img/new/menu/menu_close.png) no-repeat center;
+        background-size: 32px;
+        cursor: pointer;
+    }
+
+    .basic-modal-name{
+        font-size:22px;
+    }
+
+    .basic-modal-big{
+        max-width: 700px !important;
+    }
+
+    .basic-modal-small{
+        max-width: 350px !important;
+    }
+
+    /* ///3일 무료 모달 ///*/
+    .emoji-wrapper{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .emoji-wrapper img{
+        width:90px
+    }
+
+    .basic-modal-name {
+        font-size: 25px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .emojo-text{
+        background-color: #F0F0F0;
+        margin-bottom: 30px;
+    }
+
+    .emojo-text div{
+        font-size: 29px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .emoji-back{
+        background-color: #6b4ec2;
+        width: 100%;
+        height: 90px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        z-index: -1;
+        border-radius: 50% 50% 0 0;
+    }
+
+    #emoji_tutorial .basic-modal-wrapper{
+        padding: 17px 14px;
+    }
+
+    #emoji_tutorial .basic-modal-top {
+        margin-bottom: 10px;
+    }
+}
+
+/* ////mobile//// */
+@media screen and (max-width: 891px) {
+    .basic-modal-background{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+    }
+
+    .basic-modal-wrapper{
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        padding: 20px;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+    }
+
+    .basic-modal-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .basic-modal-close{
+        display: block;
+        width: 26px;
+        height: 26px;
+        background: url(//images.novelpia.com/img/new/menu/menu_close.png) no-repeat center;
+        background-size: 26px;
+    }
+
+    .basic-modal-name{
+        font-size:16px;
+    }
+
+    .basic-modal-small{
+        max-width: 350px;
+    }
+
+    .basic-modal-mb-bottom{
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        transform: translateY(0%);
+        width: 100%;
+    }
+
+    /* ///3일 무료 모달 ///*/
+    .emoji-wrapper{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .emoji-wrapper img{
+        width:90px;
+        min-width: 0;
+    }
+
+    #emoji_tutorial .basic-modal-name {
+        font-size: 20px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .emojo-text{
+        background-color: #F0F0F0;
+        margin-bottom: 20px;
+    }
+
+    .emojo-text div{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 500;
+        padding: 3px 0;
+    }
+
+    .emoji-back{
+        background-color: #6b4ec2;
+        width: 100%;
+        height: 26%;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        z-index: -1;
+        border-radius: 50% 50% 0 0;
+    }
+
+    #emoji_tutorial .basic-modal-wrapper{
+        padding: 17px 14px 24px 14px;
+    }
+
+    #emoji_tutorial .basic-modal-top {
+        margin-bottom: 10px;
+    }
+}

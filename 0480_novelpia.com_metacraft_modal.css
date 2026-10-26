@@ -1,0 +1,950 @@
+/* 고정값 모달 */
+.detail-modal-background{
+	z-index: 9990;
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	display: none; 
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.detail-modal-wrapper{
+	border-radius: 20px;
+	/*background-color: #fff;*/
+	margin: 0 auto;
+	width: 490px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.detail-modal-top{
+	padding: 20px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*background-color: #F7F8FB;*/
+	border-radius: 30px 30px 0px 0px;
+	height: 50px;
+}
+
+.detail-modal-top div:first-child{
+	text-align: center;
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: -0.05em;
+	color: #666666;
+	width: 100%;
+}
+
+.detail-modal-top .detail-modal-close{
+	position: absolute;
+	right: 10px;
+	top: 60px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.modal-content-wrapper{
+	display: flex;
+	/*padding: 20px 30px 10px 30px;*/
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.modal-content-wrapper .option { 
+	position: absolute; color: #fff; font-size: 15px; right: 5px; bottom: -35px; text-shadow: 0px 0px 5px #000; cursor: pointer;
+}
+
+.modal-button-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;		
+}
+
+.modal-button-wrapper button {
+	width: 50%;
+	border: 0px;
+	font-size: 36px;
+	cursor: pointer;
+	height: 58px;
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.08em;
+	color: #ffffff;
+	background-color: #000000;
+	border-radius: 0px 0px 0px 20px;
+}
+
+.modal-button-wrapper button.detail-modal-button{
+	color: #FFF;
+	background-color: #2C99AD;
+	/*border-radius: 0px 0px 20px 0px;*/
+	border-radius: 0px 0px 0px 0px;
+	width: 100%;
+	height: 80px;
+	font-size: 24px;
+}
+.modal-button-wrapper button.detail-modal-button-emoji{
+	width: 100%;
+	color: #FFF;
+	background-color: #7A3CFF;
+	border-radius: 0px 0px 20px 20px;
+}
+.modal-button-wrapper button.detail-modal-button > span {
+	margin-right: 10px;
+}
+.modal-button-wrapper button.detail-modal-button img {
+	width: 14px;
+	margin-bottom: 5px;
+}
+
+.modal-thumb-wrapper{
+	width: 96px;
+	height: 96px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 6px #DDDDDD;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-thumb-wrapper img {
+	width: 47px;
+	height: 51px;
+}
+
+.modal-desc-wrapper{
+	/*width: 180px;*/
+}
+
+.modal-desc-wrapper .modal-price-box span.coin_txt,
+.modal-desc-wrapper .modal-price-box span.clover_txt,
+.modal-desc-wrapper .modal-price-box span.mileage_txt {
+	font-family: 'Roboto';
+	letter-spacing: -0.015em;
+}
+
+.modal-price-box > h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: -0.05em;
+	color: #000000;
+}
+
+.modal-price-box > h3 img {
+	width: 18px;
+	position: relative;
+	bottom: 3px;
+	left: 5px;
+}
+
+.modal-price-box > div {
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.modal-price-box > div img {
+	width: 12px;
+	margin-bottom: 3px;
+}
+
+.modal-price-box > div:last-child {
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #7F7F7F;
+}
+
+.modal-agree {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.modal-agree input {
+	display: none;
+}
+
+.modal-agree input:checked+label ul li > span:first-child {
+	background-color: #7A3CFF;
+}
+
+.modal-agree label {
+	font-family: Noto Sans KR;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 48px;
+	letter-spacing: -0.05em;
+	color: #666666;
+}
+
+.modal-agree label ul { 
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal-agree label ul li > span:first-child {
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0, 0, 0, 0.25); /* #7A3CFF */
+	border-radius: 20px;
+	color: #fff;
+	font-size: 34px;
+	line-height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.modal-agree label ul li > span:first-child img {
+	width: 16px;
+	height: 16px;
+}
+
+.modal-complete { 
+	display: none; 
+}
+.modal-complete > div:first-child {
+	padding: 50px;
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+.modal-complete > div img {
+	margin-bottom: 10px;
+}
+.modal-complete .modal-button-wrapper button:first-child {
+	width: 30%;
+	border-radius: 0px 0px 0px 20px;
+}
+.modal-complete .modal-button-wrapper button:last-child {
+	width: 70%;
+	color: #FFF;
+	background-color: #7A3CFF;
+	border-radius: 0px 0px 20px 0px;
+}
+.modal-complete .modal-button-wrapper button:last-child img {
+	width: 14px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.modal-complete .modal-amimate {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.modal-complete .modal-amimate > div {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 66px;
+	height: 66px;
+}
+
+.modal-complete .modal-amimate > div svg {
+	position: absolute;
+	display: block;
+}
+
+.pop_ad {
+	position: relative;
+	width: 400px;
+	/*cursor: pointer;*/
+}
+.pop_ad > img { 
+	width: 100%;
+}
+.pop_ad .modal_close_btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor:pointer;
+	background: #000;
+	width: 50px;
+	height: 50px;
+	cursor:pointer;
+}
+.modal-content-wrapper .timesale {
+	font-size: 60px; 
+	font-family: 'Noto Sans KR';
+}
+.modal-content-wrapper .timesale .t1 {
+	position: absolute;
+	right: 243px;
+	bottom: 25px;
+}
+.modal-content-wrapper .timesale .t2 {
+	position: absolute;
+	right: 202px;
+	bottom: 25px;
+}
+.modal-content-wrapper .timesale .t3 {
+	position: absolute;
+	right: 148px;
+	bottom: 25px;
+}
+.modal-content-wrapper .timesale .t4 {
+	position: absolute;
+	right: 108px;
+	bottom: 25px;
+}
+.modal-content-wrapper .timesale .t5 {
+	position: absolute;
+	right: 53px;
+	bottom: 25px;
+}
+.modal-content-wrapper .timesale .t6 {
+	position: absolute;
+	right: 13px;
+	bottom: 25px;
+}
+
+#floating_free_ticket {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    z-index: 10;
+    width: 400px;
+    height: 60px;
+    gap: 10px;
+    grid-template-columns: 112px 1fr 32px;
+    grid-template-rows: 60px;
+    transform: translateX(-50%);
+    background: #7632FF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px #0000008F;
+    display: grid;
+    padding: 0 10px;
+}
+#floating_free_ticket.hide {
+	display: none;
+}
+#floating_free_ticket .free-ticket-section {
+	display: flex;
+}
+#floating_free_ticket .free-ticket-section.free_ticket_image {
+	cursor: pointer;
+	align-items: flex-end;
+}
+#floating_free_ticket .free-ticket-section.free_ticket_text {
+	cursor: pointer;
+	align-items: center;
+	color: #fff;
+}
+#floating_free_ticket .free-ticket-section.free_ticket_btn {
+	align-items: center;
+}
+#floating_free_ticket .free-ticket-section .free-ticket-image {
+	width: 112px;
+}
+#floating_free_ticket .free-ticket-section .free-ticket-text {
+	font-size: 13px;
+}
+#floating_free_ticket .free-ticket-section .free-ticket-text > span {
+	color: #FFDE00;
+}
+#floating_free_ticket .free-ticket-section .free-ticket-btn {
+    cursor: pointer;
+    background: #4F1BB7 url(//images.novelpia.com/img/new/banner/close_x_wt.png) center no-repeat;
+    background-size: 12px 12px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+}
+
+#event-alarm-floating {
+	cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9;
+    width: 65px;
+    height: 65px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0px 2px 6px #0000008F;
+}
+#event-alarm-floating.hide {
+	display: none;
+}
+#event-alarm-floating .free-ticket-image {
+	transform: translate(48%, 45%);
+	width: 34px;
+}
+
+#event-alarm-floating.dark-service {
+	background: #7632FF;
+}
+
+#basic-floating {
+	cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+   /* width: 65px;
+    height: 65px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0px 2px 6px #0000008F;*/
+}
+#basic-floating.hide {
+	display: none;
+}
+#basic-floating .free-ticket-image {
+	/*transform: translate(48%, 45%);
+	width: 34px;*/
+	max-width: 200px;
+}
+#close-box{
+	width: 28px;
+	background: #000;
+	position: fixed;
+	right: 55px;
+	border-radius: 50%;
+}
+#basic-floating.dark-service {
+	background: #7632FF;
+}
+/***국뽕 플로팅 배너 **/
+.mmcb-floating-msg{position:relative;}
+.mmcb-floating-msg .mmcb-close{position:absolute !important;top: 24px; right: 25px !important; background:#999 !important; }
+.mmcb-floating-img img{width: 230px;}
+.mmcb-floating-good{position:absolute;right: 175px;top: -10px;  }
+.mmcb-floating-good img{width: 75px;}
+
+@media (max-width: 891px) {
+	/* 고정값 모달 */
+	.detail-modal-wrapper{
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		top: auto;
+		z-index: 99;
+		width: 100%;
+		transform: none;
+		min-width: 280px;
+		border-radius: 0px;
+		/*background-color: #000;*/
+		/*background: rgb(215,129,50);*/
+		/*background: linear-gradient(135deg, rgba(215,129,50,1) 0%, rgba(198,82,71,1) 100%);*/
+	}
+
+	.detail-modal-top {
+		height: 50px;
+	}
+
+	.detail-modal-wrapper .detail-modal-top div:first-child {
+		font-size: 17px;
+		line-height: 25px;
+	}
+
+	.modal-content-wrapper {
+		/*padding: 20px 30px 10px 30px;*/
+	}
+
+	.modal-content-wrapper .option { 
+		right: 15px;
+		top: 10px;
+		height:40px;
+		line-height:40px;
+	}
+
+	.modal-content-wrapper .modal-thumb-wrapper {
+		width: 96px;
+		height: 96px;
+	}
+
+	.modal-content-wrapper .modal-thumb-wrapper img {
+		width: 47px;
+		height: 51px;
+	}
+
+	.modal-desc-wrapper {
+		width: auto;
+	}
+
+	.modal-desc-wrapper .modal-price-box h3 {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.modal-desc-wrapper .modal-price-box h3 img {
+		width: 18px;
+		vertical-align: text-bottom;
+	}
+
+	.modal-desc-wrapper .modal-price-box div {
+		font-size: 13px;
+		line-height: 19px;
+	}
+
+	.modal-desc-wrapper .modal-price-box div img {
+		width: 12px;
+		margin-bottom: 1px;
+	}
+	.modal-desc-wrapper .modal-price-box div img:last-child {
+		width: 12px;
+		margin-bottom: 3px;
+	}
+	.modal-desc-wrapper .modal-price-box span.coin_txt,
+	.modal-desc-wrapper .modal-price-box span.clover_txt,
+	.modal-desc-wrapper .modal-price-box span.mileage_txt {
+		font-family: 'Roboto';
+		letter-spacing: -0.015em;
+	}
+
+	.modal-agree label ul li > span:first-child {
+		width: 20px;
+		height: 20px;
+	}
+
+	.modal-agree label ul li > span:first-child img {
+		width: 16px;
+		height: 16px;
+	}
+
+	.modal-agree label {
+		font-size: 17px;
+		line-height: 48px;
+	}
+
+	.modal-button-wrapper button {
+		width: 50%;
+		height: 58px;
+		font-size: 18px;
+		line-height: 26px;
+		border-radius: 0px;
+	}
+
+	.modal-button-wrapper button.detail-modal-button {
+		border-radius: 0px;
+		height: 58px;
+		font-size: 18px;
+	}
+
+	.modal-button-wrapper button.detail-modal-button img {
+		width: 14px;
+	}
+
+	.modal-complete .modal-button-wrapper button:first-child {
+		border-radius: 0px;
+	}
+
+	.modal-complete .modal-button-wrapper button:last-child {
+		border-radius: 0px;
+	}
+
+	.pop_ad {
+		position: relative;
+		/*width: 320px;*/
+	}
+	.pop_ad > img {
+		width: 100%;
+	}
+
+	.pop_ad .modal_close_btn{
+		position: absolute;
+		right: 0;
+		top: 0;
+		cursor:pointer;
+		background: #000;
+		width: 40px;
+		height: 40px;
+		cursor:pointer;
+	}
+	.modal-content-wrapper .timesale {
+		font-size: 47px; 
+		font-family: 'Noto Sans KR';
+	}
+	.modal-content-wrapper .timesale .t1 {
+		position: absolute;
+		right: 195px;
+		bottom: 16px;
+	}
+	.modal-content-wrapper .timesale .t2 {
+		position: absolute;
+		right: 162px;
+		bottom: 16px;
+	}
+	.modal-content-wrapper .timesale .t3 {
+		position: absolute;
+		right: 117px;
+		bottom: 16px;
+	}
+	.modal-content-wrapper .timesale .t4 {
+		position: absolute;
+		right: 84px;
+		bottom: 16px;
+	}
+	.modal-content-wrapper .timesale .t5 {
+		position: absolute;
+		right: 40px;
+		bottom: 16px;
+	}
+	.modal-content-wrapper .timesale .t6 {
+		position: absolute;
+		right: 7px;
+		bottom: 16px;
+	}
+
+	#floating_free_ticket {
+		position: fixed;
+		bottom: 30px;
+		left: 50%;
+		z-index: 10;
+		max-width: 280px;
+		height: 48px;
+		gap: 0px;
+		grid-template-columns: 66px 1fr 26px;
+		grid-template-rows: 48px;
+		transform: translateX(-50%);
+		background: #7632FF;
+		border-radius: 30px;
+		box-shadow: 2px 2px 6px #0000008F;
+		display: grid;
+		padding: 0 10px;
+	}
+	#floating_free_ticket .free-ticket-section {
+		display: flex;
+	}
+	#floating_free_ticket .free-ticket-section.free_ticket_image {
+		cursor: pointer;
+		align-items: flex-end;
+	}
+	#floating_free_ticket .free-ticket-section.free_ticket_text {
+		cursor: pointer;
+		align-items: center;
+		color: #fff;
+	}
+	#floating_free_ticket .free-ticket-section.free_ticket_btn {
+		align-items: center;
+	}
+	#floating_free_ticket .free-ticket-section .free-ticket-image {
+		width: 66px;
+	}
+	#floating_free_ticket .free-ticket-section .free-ticket-text {
+		font-size: 10px;
+	}
+	#floating_free_ticket .free-ticket-section .free-ticket-text > span {
+		color: #FFDE00;
+	}
+	#floating_free_ticket .free-ticket-section .free-ticket-btn {
+		cursor: pointer;
+		background: #4F1BB7 url(//images.novelpia.com/img/new/banner/close_x_wt.png) center no-repeat;
+		background-size: 12px 12px;
+		display: inline-block;
+		width: 26px;
+		height: 26px;
+		border-radius: 30px;
+	}
+	
+	#event-alarm-floating {
+		position: fixed;
+		bottom: 21px;
+		right: 20px;
+		z-index: 9;
+		width: 50px;
+		height: 50px;
+		background: white;
+		border-radius: 30px;
+		box-shadow: 0px 2px 6px #0000008F;
+	}
+	#event-alarm-floating.hide {
+		display: none;
+	}
+	#event-alarm-floating .free-ticket-image {
+		transform: translate(48%, 45%);
+		width: 26px;
+	}
+
+	#event-alarm-floating.dark-service {
+		background: #7632FF;
+	}
+
+	#basic-floating {
+		position: fixed;
+		bottom: 18px;
+		right: 5px;
+		z-index: 10;
+		/*width: 50px;
+		height: 50px;
+		background: white;
+		border-radius: 30px;
+		box-shadow: 0px 2px 6px #0000008F;*/
+	}
+	#basic-floating.hide {
+		display: none;
+	}
+	#basic-floating .free-ticket-image {
+		/*transform: translate(48%, 45%);
+		width: 26px;*/
+		max-width: 180px;
+	}
+	#close-box{
+		width: 28px;
+		background: #000;
+		position: fixed;
+		right: 18px;
+		border-radius: 50%;
+	}
+
+	#basic-floating.dark-service {
+		background: #7632FF;
+	}
+
+	#contest_modal .detail-modal-wrapper {
+		width: 100%;
+		bottom: 0%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
+
+	#contest_modal .detail-modal-button {
+		font-size: 18px;
+	}
+
+	#contest_modal .detail-modal-72close {
+		font-size: 13px;
+	}
+
+/***국뽕 플로팅 배너 **/
+.mmcb-floating-msg{position:relative;}
+.mmcb-floating-msg .mmcb-close{position:absolute !important; top:21px;}
+.mmcb-floating-img img{width:210px;}
+.mmcb-floating-good {
+    right: 160px;}
+#close-box {
+        width: 28px;	
+	}
+
+@media (max-width: 891px )  and (min-width: 613px) {
+	#contest_modal .modal-button-wrapper{
+		margin : auto;
+		width : 490px;
+	}
+}
+
+@media  (min-width: 891px) {
+	#contest_modal .modal-button-wrapper button.detail-modal-button {
+		font-size: 22px;
+	}
+}
+
+
+
+
+/* 2022우주최강 사전이벤트 */
+.modal-content-wrapper-spacebest, .modal-content-wrapper-info{
+    margin: 0 auto;
+    max-width: 540px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+}
+
+.spacebest-ad, .info-pop{
+    width: 100%;
+}
+
+.spacebest-ad > div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.support-info-btn-wrapper{
+    display: flex;
+    cursor: pointer;
+}
+
+.support-info-btn-wrapper div:first-child{
+    background-color: #000;
+    width: 70%;
+    padding: clamp(7px,4vw,15px) 10px;
+    cursor: pointer;
+    font-size: clamp(12px,4vw,16px);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.support-info-btn-wrapper div:last-child{
+    width: 30%;
+    background: #4A4A4A;
+    padding: clamp(7px,4vw,15px) 10px;
+    cursor: pointer;
+    font-size: clamp(12px,4vw,16px);
+    text-align: center;
+    color: #FFF;
+}
+
+#sponsorship_modal .option{
+    text-align: right;
+    color: #FFF;
+    margin-top: 10px;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper {
+	max-width: 350px;
+	border: none;
+	overflow: visible;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-top {
+	margin: 0;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .free-ticket-background {
+	background:url('//images.novelpia.com/img/new/banner/layer_popup_230404_pc.png') no-repeat;
+	background-size: contain;
+	padding-top: 15px;
+	height: 179px
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .free-ticket-background .free-ticket-title {
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 24px;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .free-ticket-background .free-ticket-title .free-ticket-title-purple {
+	color: #7632FF;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .free-ticket-background .free-ticket-sub-title {
+	text-align: center;
+	font-weight: bold;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .btn-alarm-free-ticket {
+	width:100%;
+	background:#7632FF;
+	color:#fff;
+	height: 50px;
+	cursor: pointer;
+}
+#alarm_free_ticket_modal .basic-modal-wrapper .basic-modal-contents .option {
+	position: absolute;
+    color: #fff;
+    font-size: 15px;
+    right: 5px;
+    bottom: -35px;
+    text-shadow: 0px 0px 5px #000;
+    cursor: pointer;
+}
+
+
+/*대나무숲관리자 추천탭 플로팅*/
+.bamboo-floating-msg{
+	width:100%;
+	margin-bottom:15px;
+	position:relative;
+	padding:15px 20px;
+	background:#fff;
+	box-shadow:0 0 20px rgba(0,0,0,0.25);
+	border-radius:20px;
+	font-size:16px;
+}
+
+.bamboo-floating-msg strong{
+	font-weight:600;
+}
+
+.bamboo-floating-msg strong span.green-dot{
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background:#34FF6E;
+	display:inline-block;
+	margin:0 5px 3px 0;
+}
+
+.bamboo-floating-msg #close-box{
+	position:absolute;
+	top:50%;
+	right:15px;
+	transform: translateY(-50%);
+}
+
+.bamboo-floating-img{
+	width:80px;
+	height:80px;
+	background:#fff;
+	box-shadow:0 0 20px rgba(0,0,0,0.25);
+	border-radius:30px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bamboo-floating-img img{
+	width:60px;
+}
+
+
+@media screen and (max-width: 891px) {
+	.bamboo-floating-msg{
+		font-size:12px;
+		box-shadow:0 0 10px rgba(0,0,0,0.25);
+		border-radius:15px;
+		padding:10px 15px;
+	}
+	.bamboo-floating-msg strong span.green-dot{
+		width:6px;
+		height:6px;
+		border-radius:50%;
+		background:#34FF6E;
+		display:inline-block;
+		margin:0 5px 1px 0;
+	}
+
+	.bamboo-floating-msg #close-box{
+		width:20px;
+		height:20px;
+	}
+
+	.bamboo-floating-img{
+		width:60px;
+		height:60px;
+		background:#fff;
+		box-shadow:0 0 10px rgba(0,0,0,0.25);
+		border-radius:20px;
+	}
+
+	.bamboo-floating-img img{
+		width:40px;
+	}
+}

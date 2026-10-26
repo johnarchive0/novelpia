@@ -1,0 +1,553 @@
+/* ////pc//// */
+@media screen and (min-width: 892px) {
+    .user-modal-wrapper{
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+        max-width: 380px;
+		max-height: 95%;
+		overflow-y: auto;
+		border:1px solid #000;
+    }
+}
+/* ////mobail//// */
+@media screen and (max-width: 891px) {
+    .user-modal-wrapper{
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+        max-width: 380px;
+        overflow-y: auto;
+        height: 95%;
+		border:1px solid #000;
+    }
+    .basic-modal-background{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: none;
+        padding: 0;
+    }
+}
+
+
+#user_donation .modal-header{
+    padding: 0px;
+    display: block;
+}
+.modal-item{
+    width:100%;
+    max-width: 400px;
+    top: 0;
+    left: 0;
+    /*position: fixed;*/
+}
+.donation-containers{
+    padding: 0px 20px;
+}
+.container-main-text{
+    font-size: clamp(12px, 2vw, 15px);
+    font-weight: bold;
+    margin: 15px 0 10px 0;
+}
+/*///////////헤더///////////////*/
+.donation-modal-header-container{
+    background-color: #F8F8FE;
+    padding-top: 20px;
+}
+.donation-modal-user-items{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.donation-modal-user-text-box > div:first-child{
+    font-size: clamp(13px,2vw,16px);
+    font-weight: bold;
+    color: #000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.donation-modal-user-text-info{
+    font-size: clamp(10px,2vw,13px);
+    color:#666666;
+    margin: 3px 0;
+}
+.donation-modal-user-img > img{
+    width: 100%;
+    max-width: 44px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.donation-modal-user-coin{
+    background-color: #E0E0F3;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 120px;
+    font-size: 12px;
+    color:#000000;
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 9px;
+}
+.donation-modal-user-coin span{
+    color:#7632FF;
+}
+.donation-modal-user-text-box{
+    flex: 1;
+    min-width: 0;
+}
+
+/*////////////휘장////////////*/
+.donation-modal-benefit-box{
+    background-color: #F8F8FE;
+    border: 1px solid #DCDCED;
+    padding: 15px;
+
+}
+.insignia-imges{
+    display: flex;
+    justify-content: space-between;
+}
+.insignia-imges > img{
+    width: 100%;
+    max-width: 25px;
+}
+.insignia-percent{
+    width: 95%;
+    border-radius: 15px;
+    background-color: #DDDDDD;
+    position: relative;
+    margin : 10px auto 0 auto;
+}
+.dot-box{
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    position: relative;
+}
+.dot-box > div{
+    width: 7px;
+    height: 7px;
+    border-radius: 20px;
+    background-color: #b4b4b4;
+}
+.donation-mdoal-benefit-text{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.donation-modal-benefit-info-text{
+    position: relative;
+    border-radius: 20px;
+    background-color: #E7DCEC;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 3px 0;
+	font-size:12px;
+}
+.donation-modal-benefit-info-text-arrow{
+    content: "";
+    position: absolute;
+    bottom: 22px;
+    left: calc(41% - 5px);
+    border-bottom: 10px solid #E7DCEC;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    background: #E7DCEC 0% 0% no-repeat padding-box;
+}
+.donation-modal-benefit-info-text span{
+    color: #7632FF;
+}
+
+.dot-box > div.dot-gauge{
+    background-color: #7632FF;
+    width: 41%;
+    height: 7px;
+    border: 20px;
+    position: absolute;
+}
+
+.dot-gauge img{
+    position: absolute;
+    right: -6px;
+    width: 14px;
+    top: -3px;
+    height: 14px;
+}
+
+.donation-close{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+/*////////////////////////////후원코인////////////////////////////////*/
+.donation-modal-input-coin-box{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    text-align: right;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.add-coin-btn-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.add-coin-btn-box > div{
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    padding: 5px 0;
+    flex-grow: 1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*///////////////////////보낼 메세지///////////////////////////////////*/
+.donation-send-msgbox{
+    width: 100%;
+    height: 50px;
+	font-size:12px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+}
+#coinBox{
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: right;
+    border: none;
+    width: 100%;
+}
+
+/*//////////////////////주의사항///////////////////*/
+.donation-notice-box{
+    background-color: #FAFAFA;
+    color: #999999;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/*///////버튼박수////////*/
+.donation-modal-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.donation-cache-box{
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    color: #fff;
+}
+.donation-give-box{
+    background-color: #7632FF;
+    border: 1px solid #7632FF;
+    color: #fff;
+}
+.donation-close-box{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #000;
+}
+.donation-btns{
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/*////////////// 후원 휘장 설명 박스 ///////////////////*/
+.benefit-info{
+    background-color: #FFF;
+    border: 1px solid #000;
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    display: none;
+}
+
+.benefit-info-top{
+    padding: 15px;
+}
+
+.benefit-info-top > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.benefit-info-top > div span{
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 1px 5px 5px 6px;
+    border-radius: 50%;
+}
+
+.benefit-info-top p{
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.benefit-info-top p.info-text{
+    color: #EA6863;
+    margin-top: 8px;
+}
+
+.benefit-info-bottom{
+    background-color: #FAFAFA;
+    padding: 15px;
+}
+
+.benefit-info-bottom h6{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.benefit-info-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    line-height: 20px;
+    color: #666;
+}
+
+.benefit-info-bottom div img{
+    width: 12px;
+    height: 12px;
+}
+
+
+/*////////////// 후원 완료 ///////////////////*/
+.donation-complete-modal-background{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 9999;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;
+}
+.donation-complete-modal-container{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10001;
+    padding: 20px;
+    max-width: 500px;
+    display: none;
+}
+.donation-complete-modal-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.donation-complete-modal-img-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+.donation-complete-modal-wirter-msg{
+    border: 1px solid #D6CEE7;
+    background-color: #F8F8FE;
+    color: #000;
+    padding: 20px 15px;
+    font-size: 14px;
+    margin: 20px 0 10px;
+    display: none;
+}
+.donation-complete-btn-item{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.donation-complete-btn{
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.donation-complete-btn.donation-complete-btn-donation{
+    background-color: #7632FF;
+}
+
+/*///////////// 휘장획득 모달 //////////*/
+.donation-benefit-modal-container{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10001;
+    padding: 20px;
+    max-width: 437px;
+    display: none;
+}
+.donation-benefit-items{
+    text-align: center;
+}
+.benefit-text{
+    font-size: 16px;
+    margin: 15px 0px 30px 0px;
+}
+#donationBenefitBtn{
+    text-align: center;
+}
+
+
+
+
+/*코인충전모달*/
+.coin-modal-header{
+	display:flex;
+	gap:5px;
+	padding:15px;
+    align-items: center;
+    justify-content: flex-start;
+	font-size:16px;
+	font-weight:600;
+}
+
+.modal-back img{
+	width:30px;
+	cursor:pointer;
+}
+
+.coin-item-list-wrapper{
+	padding:0 20px 20px;
+}
+
+.coin-item-box{
+	display:flex;
+	border:2px solid #000;
+	cursor:pointer;
+	height:60px;
+	align-items: center;
+    justify-content: space-between;
+	padding:0 15px;
+	margin-bottom:7px;
+}
+
+.coin-item-box.select{
+	background:#E0E0F3;
+	border:1px solid #9999D8;
+	border-radius:5px;
+}
+
+.coin-item-box.select .coin-price-pay{
+	color:#7632FF;
+    font-weight: bold;
+}
+
+.coin-item-box p{
+	display:flex;
+	align-items: center;
+}
+
+.coin-item-box .coin-img{
+	width:25px;
+	margin-right:5px;
+}
+
+.coin-item-box .coin-price{
+	font-weight:600;
+}
+
+.coin-item-box .coin-total{
+	display:flex;
+	flex-direction:column;
+	gap:7px;
+}
+
+.coin-item-box .coin-total .coin-total-main{
+	display:flex;
+	flex:1;
+	align-items:center;
+}
+
+.coin-item-box .coin-total .coin-total-sub{
+	display:flex;
+}
+
+.coin-item-box .coin-total .coin-total-sub .novelchat_ticket{
+	font-size:12px;
+	font-weight:700;
+	padding:7px;
+	background:rgba(238, 243, 255, 1);
+	border-radius:12.5px;
+}
+
+.coin-item-box .coin-total .coin-total-sub .novelchat_ticket .s_inv{
+	margin-right:3px;
+}
+
+.payment-select-coin{
+	padding:0 20px;
+}
+
+.payment-item-list-wrapper{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:5px 5px;
+	padding:20px 20px;
+	width:100%;
+}
+
+.payment-item-box{
+	border-radius:5px;
+	border:1px solid #ddd;
+	text-align: center;
+	padding:5px;
+    display: flex;
+	gap:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	height:70px;
+	font-size:clamp(12px, 2vw, 14px);
+}
+
+.payment-item-box img{
+	width:100%;
+}

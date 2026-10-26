@@ -1,0 +1,288 @@
+@media screen and (max-width: 891px) {
+	
+	/*간소화 헤더*/
+	header.sub-mobile{
+		position:fixed;
+		top:0;
+		width:100%;
+		height:50px;
+		display:flex;		
+		align-items: center;
+        justify-content: space-between;
+		border-bottom:1px solid #ececec;
+		padding:0 10px;
+		font-size:15px;
+		font-weight:600;
+	}
+   
+	.sub-left-menu{
+		display:flex;
+		align-items: center;
+        gap: 5px;
+	}
+
+	.sub-right-menu{
+		display:flex;
+		align-items: center;
+	}
+
+	.sbm-icon-menu{
+		width: 30px;
+		height: 50px;
+		display: flex;		
+		align-items: center;
+		justify-content:center;
+		position:relative;
+	}
+
+	.sbm-page-name{
+		width:100%;
+		overflow: hidden;
+        white-space: normal;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        word-break: break-word;
+	}
+
+	.sbm-icon-menu img{
+		width:20px;
+		height:20px;		
+	}
+
+	.sub-left-menu .sbm-icon-menu{
+		justify-content: flex-start;
+	}
+
+	.user-profile-menu{
+		height:50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left:5px;
+	}
+
+	.user-profile-menu img{
+		width:100%;
+		width:24px;
+		height:24px;
+		border-radius:50%;
+		border:1px solid #ddd;
+	}
+
+	/*버텀 네비게이션*/
+	div.bt-nv-wrapper{
+		position:fixed;
+		bottom:0;
+		background:#fff;
+		border-radius:20px 20px 0 0;
+		font-family: 'OmniGothic', 'Noto Sans KR', sans-serif;
+		color:#000;
+		font-size:10px;
+		box-shadow: 0px -5px 20px 0px rgba(0, 0, 0, 0.20);
+		width:100%;
+		z-index:1000;
+	}
+
+	.bt-nv{
+		display: flex;
+        align-items: center;
+        justify-content: space-around;        	
+	}
+
+	.bt-nv-menu{
+		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+		flex:1;
+		height: 55px;
+		padding-top:7px;		
+	}
+
+	.bt-nv-menu p{
+		position:relative;
+	}
+
+	.bt-nv-menu .red-dot{
+		position:absolute;
+		top:-2px;
+		right:-3px;
+		width:6px;
+		height:6px;
+		border-radius:50%;
+		background:#F4361E;
+		display:block;
+	}
+
+	.bt-nv-menu.event{
+		transform: translateY(-15px);
+		padding-top:0;
+	}
+
+	.bt-nv-menu.active{
+		font-weight:500;
+	}
+
+	.bt-nv-menu .event-img{
+		width:54px;
+		height:54px;
+		border-radius:50%;
+		box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.26);
+		overflow:hidden;
+	}
+
+	.bt-nv-menu .event-img img{
+		width:100%;
+	}
+
+	/*이어보기*/
+	@keyframes gradientMove {
+		0% {
+			background-position: 0% 50%;
+		}
+		100% {
+			background-position: -100% 50%;
+		}
+	}
+
+	.btn-view-episode {
+		position: fixed;
+		width: auto;
+		max-width: 200px;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		margin: auto;
+		bottom: 80px;
+		left: 50%;
+		transform: translateX(-50%);
+		border-radius: 50px;
+		border: 2px solid transparent;
+		overflow: hidden;
+		background: linear-gradient(270deg, #da00ff, #003eff, #da00ff, #0068ff, #da00ff);
+		background-size: 400% 100%;
+		animation: gradientMove 8s linear infinite;
+		box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 26%);
+		z-index: 12;
+	}
+
+	.bg-black{
+		background: #000;
+		display: flex;
+		gap: 5px;
+		height: 44px;
+		align-items: center;
+	}
+
+
+	.ep-thumb{
+		border-radius:50%;
+		width:34px;
+		min-width:34px;
+		height:34px;
+		overflow:hidden;	
+		margin-left:5px;
+	}
+
+	.ep-thumb img{
+		width:100%;
+		object-fit: contain;
+	}
+
+	.ep-view-txt{
+		display:flex;
+		gap: 5px;
+		color:#fff;
+		font-weight:600;
+		font-size:clamp(12px, 4vw, 14px);
+		margin-right:10px;
+	}
+
+	.ep-number{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 65px;
+	}
+
+	.ep-view{
+		white-space: nowrap;
+	}
+
+}
+
+/* NOVELPIA_APP에서는 화면 너비와 관계없이 모바일 하단 네비게이션을 유지한다. */
+div.mobile_show.app-bottom-nav{
+	display:block;
+}
+
+div.bt-nv-wrapper.app-bottom-nav{
+	position:fixed;
+	bottom:0;
+	background:#fff;
+	border-radius:20px 20px 0 0;
+	font-family: 'OmniGothic', 'Noto Sans KR', sans-serif;
+	color:#000;
+	font-size:10px;
+	box-shadow: 0px -5px 20px 0px rgba(0, 0, 0, 0.20);
+	width:100%;
+	z-index:1000;
+}
+
+.app-bottom-nav .bt-nv{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.app-bottom-nav .bt-nv-menu{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	flex:1;
+	height: 55px;
+	padding-top:7px;
+}
+
+.app-bottom-nav .bt-nv-menu p{
+	position:relative;
+}
+
+.app-bottom-nav .bt-nv-menu .red-dot{
+	position:absolute;
+	top:-2px;
+	right:-3px;
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background:#F4361E;
+	display:block;
+}
+
+.app-bottom-nav .bt-nv-menu.event{
+	transform: translateY(-15px);
+	padding-top:0;
+}
+
+.app-bottom-nav .bt-nv-menu.active{
+	font-weight:500;
+}
+
+.app-bottom-nav .bt-nv-menu .event-img{
+	width:54px;
+	height:54px;
+	border-radius:50%;
+	box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.26);
+	overflow:hidden;
+}
+
+.app-bottom-nav .bt-nv-menu .event-img img{
+	width:100%;
+}

@@ -1,0 +1,46 @@
+@keyframes fadeinout {
+    0% {
+        opacity: 1;
+    } 50% {
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+        /* visibility: hidden; */
+    }
+}
+
+.recommend {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    /* opacity: 0;
+    transition: opacity 1s ease 0s; */
+    background-image: url('//images.novelpia.com/img/new/viewer/viewer_toast_recommend.png');
+    background-repeat: no-repeat;
+    height: 60px;
+    background-position: center;
+    background-size: contain;
+    animation: fadeinout 4s forwards;
+}
+
+.cancel {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    /* opacity: 0;
+    transition: opacity 1s ease 0s; */
+    background-image: url('//images.novelpia.com/img/new/viewer/viewer_toast_recommend_cancel.png');
+    background-repeat: no-repeat;
+    height: 60px;
+    background-position: center;
+    background-size: contain;
+    animation: fadeinout 4s forwards;
+}

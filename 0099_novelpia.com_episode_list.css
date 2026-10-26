@@ -1,0 +1,1255 @@
+body{
+	overflow-x:hidden;
+}
+/* 고정값 모달 */
+.detail-modal-background{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.novel-like-modal-background{
+  	width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9990;
+    left: 0;
+    top: 0;
+	display: none;
+}
+
+/* ################################ */
+/* ////소장하기 관련(APP에서만 노출)//// */
+/* ################################ */
+
+#app_novel_download {
+	padding: 4px 8px;
+	height: 38px;
+	background: #DEF2F3 0% 0% no-repeat padding-box;
+	border-radius: 5px;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+#app_novel_download p {
+	height: 19px;
+	text-align: left;
+	font: normal normal bold 12px/17px Noto Sans KR;
+	letter-spacing: 0px;
+	color: #1F868A;
+	opacity: 1;
+}
+
+.download-selectbox{
+	text-align: center;
+}
+
+/* 체크박스 커스텀 */
+.download-selectbox input[type="checkbox"]{
+	position:absolute;
+	width:1px;
+	height:1px;
+	padding:0;
+	margin:-1px;
+	overflow:hidden;
+	clip:rect(0,0,0,0);
+	border:0;
+}
+
+.download-selectbox input[type="checkbox"] + label{
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	cursor: pointer;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.download-selectbox input[type="checkbox"] + label:before{
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -8px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background: no-repeat center/cover url(//images.novelpia.com/img/new/common/ep_select_check.png);
+	box-sizing: border-box;
+}
+
+.download-selectbox input[type="checkbox"]:checked + label:after{
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -8px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background: no-repeat center/cover url(//images.novelpia.com/img/new/common/ep_select_check_on_pp.png);
+	box-sizing: border-box;
+   }
+
+.download-btn-wrap{
+	padding:10px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	background:#fff;
+	width:100%;
+	z-index:10;
+	box-shadow: 0px -3px 5px #00000008;
+	border-top:1px solid #ededed;
+}
+
+.download-infobox{
+	background:#F4F4FB;
+	text-align:center;
+	font-size:12px;
+	border-radius:5px;
+	color:#000;
+	padding:10px 0;
+	margin-bottom:7px;
+}
+
+.download-infobox span{
+	text-decoration:underline;
+}
+
+.guide-txt{
+	color:#000;
+	font-size:12px;
+	display:flex;
+	align-items: center;
+}
+
+.guide-txt span{
+	color:#999;
+}
+
+.remaining-count-help-icon{
+	width:18px;
+	height:18px;
+	font-size:14px;
+	text-align:center;
+	margin-bottom:2px;
+}
+
+.count-txt{
+	color:#000;
+	font-weight:600;
+	font-size:14px;
+	margin-top:2px;
+}
+
+.count-txt span{
+	color:#7632FF;
+}
+
+.download-btn-area{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left:5px;
+}
+
+button.btn-ep-download{
+	background:#7632FF;
+	color:#fff;
+	border:none;
+	outline:none;
+	height:48px;
+	border-radius:5px;
+	width: 45%;
+	max-width: 200px;
+	min-width: 140px;
+}
+
+button.btn-ep-download:focus{
+	border:none;
+	outline:none;
+}
+
+button.btn-ep-download span{
+	color:#FFDD00;
+	font-weight:600;
+}
+
+.remaining-count-tooltip {
+	width: calc(100% - 20px);
+	border: 1px solid #000;
+	background: #FFF;
+	box-shadow: 1px 2px 4px #00000029;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 4;
+	padding: 15px;
+	font-size: 12px;
+	color:#000;
+	display:none;
+}
+
+.remaining-count-tooltip-close{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+
+
+/* ################################ */
+/*////선작 모달////*/
+/* ################################ */
+.agree-modal-wrapper{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.agree-modal{
+    width: 95%;
+    max-width: 500px;
+    background: #fff;
+    margin: auto;
+    padding: 20px 15px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    position:relative;
+}
+
+.agree-modal-wrapper .close-x {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: url(//images.novelpia.com/img/new/plus_v3/layer_close_x.svg) no-repeat center;
+    background-size: 32px;
+    z-index: 1;
+}
+
+.today-layer-close{   
+    padding: 0px 5px;
+    width:95%;
+    max-width:500px;
+    margin:auto;
+}
+
+.today-layer-close button,
+.today-layer-close button:focus {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: clamp(12px, 2vw, 14px);
+    background: #3F3F3F;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.layer-body-tit {
+    font-size: clamp(15px, 2vw, 18px);
+    line-height: 1.4em;
+    margin:30px auto 10px;
+    font-weight: 500;
+}
+
+.scroll-txt-box {
+    max-height: 370px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: clamp(12px, 2vw, 14px);
+    background: #fff;
+    padding: 30px 30px 40px 30px;
+    line-height: 1.6;
+    text-align: justify;
+    word-break: keep-all;
+    border: 1px solid #BCC9EB;
+    border-radius: 0 0 10px 10px;
+}
+
+.scroll-txt-b{
+    font-weight:600;
+    display:block;
+}
+
+.layer-botton-section {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.layer-botton-section button {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color:#fff;
+}
+
+.btn-go-agree{
+    background:#3271FF;
+}
+
+.btn-close{
+    background:#000;
+}
+
+.layer-body-txt{
+    color:#666;
+    margin-bottom:30px;
+    font-size:clamp(14px, 2vw, 16px);
+}
+
+.txt-color-bl {
+    color: #3271FF;
+    font-weight: 500;
+}
+
+.txt-color-bk {
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+/* ################################ */
+/*////PC버전 이미지 메뉴 텍스트로 변경////*/
+/* ################################ */
+
+.eplist-sub-title{
+	font-size: 24px;
+    font-weight: 600;
+    height: 70px;
+	line-height:70px;
+}
+
+.eplist-sub-more{
+	font-size:15px; color:#666; float:right;
+}
+@media screen and (max-width: 891px) {
+	.eplist-sub-title{
+		font-size:15px;
+		height: 35px;
+		line-height:35px;
+	}
+	.eplist-sub-more{
+		font-size:12px;
+	}
+}
+
+
+
+/* ################################ */
+/*///////회차리스트 내 리뷰 노출/////////*/
+/* ################################ */
+
+.eplist-novel-review{
+	display: none;
+	max-width:1200px;
+	margin:30px auto;
+	position: relative;
+}
+
+.eplist-novel-review .review-box-content {
+	overflow: hidden
+}
+.review-box-wrapper{
+	position:relative;
+	display: flex;
+    align-items: center;
+	box-sizing: border-box !important;
+}
+
+.eplist-novel-review .arrow{
+	width:25px;
+	height:40px;
+	position:absolute;
+	cursor:pointer;
+	z-index:5;
+	top: 120px;
+}
+
+.eplist-novel-review .arrow img{
+	width:20px;
+	height:40px;
+}
+
+.eplist-novel-review .arrow-left{
+	left:-50px;
+}
+
+.eplist-novel-review .arrow-right{
+	right:-50px;
+}
+
+.review-none .review-box{
+	width:100%;
+	max-width:1180px;
+	text-align:center;
+}
+
+.review-none .arrow{
+	display:none;
+}
+
+.review-box.review{
+	display: flex;
+    align-items: center;
+}
+
+.review-box{
+	width:49% !important;
+	max-width:590px;
+	height:100px !important;
+	background:#F8F8F8;
+	border:1px solid #EAECF2;
+	padding:0 30px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.review-title{
+	font-size:16px;
+	line-height: 16px;
+	font-weight:600;
+	color:#000;
+	margin-bottom:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+
+.user-info{
+	display:flex;
+	align-items: center;
+}
+
+.profile-img{
+	margin-right:10px;
+}
+
+.profile-img img{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+.user-name{
+	font-size:14px;
+	color:#999;
+	margin-right:5px;
+}
+.user-name b{
+	margin-right:5px;
+}
+
+
+.user-name img{
+	width:18px;
+	height:18px;
+}
+
+.last-box{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+	text-align:center;
+	color:#999;
+}
+
+.box-inner{
+	width:100%;
+}
+
+.btn-review-write{
+	background:#000;
+	color:#fff;
+	border-radius:30px;
+	height:30px;
+	padding:0 15px;
+	border:none;
+	outline:none;
+	margin:5px auto 0px;
+	cursor:pointer;
+}
+
+.btn-review-write:focus{
+	outline:none;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+	.review-box-wrapper .arrow{
+		display:none;
+	}
+}
+
+@media screen and (max-width: 891px) {
+
+	.eplist-novel-review{
+		margin:0px auto 15px;
+		width: 100%;
+		background:#fff;
+		padding:0px 10px;
+		margin-top:-10px;
+    	overflow: hidden;
+	}
+
+	.eplist-novel-review .eplist-sub-title{
+		padding-left:0px;
+	}
+
+	.review-box-wrapper {
+		position: relative;
+		display: flex;
+		align-items: center;
+		font-size:12px;
+	}
+
+	.review-box-wrapper::-webkit-scrollbar {
+		display: none;
+	}
+	.review-box{
+		width:90% !important;
+		min-width:95%;
+		height:80px !important;
+		background:#f6f6f6;
+		border:none;
+		padding:0 15px;
+	}
+
+	.review-title{
+		width:100%;
+		font-size:13px;
+		line-height: 13px;
+		margin-bottom:8px;
+	}
+
+	.profile-img{
+		margin-right:7px;
+	}
+
+	.profile-img img{
+		width:20px;
+		height:20px;
+	}
+
+	.user-name {
+		font-size: 12px;
+	}
+
+	.user-name img{
+		width:18px;
+		height:18px;
+	}
+
+}
+
+
+/* #################################### */
+/*//////회차리스트 상단(작품정보) 리뉴얼///////*/
+/* #################################### */
+
+/*작품정보*/
+.epnew-wrapper{
+	margin-top:45px;
+	display:flex;
+	align-items: flex-start;
+	gap:50px;
+	font-size:16px;
+	margin-bottom:30px;
+}
+
+.epnew-cover-box .cover_img{
+	width:230px;
+	height:345px;
+	border-radius:10px;
+}
+
+.epnew-novel-info{
+	padding-top:10px;
+	width:100%;
+	position:relative;
+}
+
+.ep-info-line{
+	margin-bottom:7px;
+}
+
+.info-count1{
+	display:flex;
+	align-items: center;
+}
+
+.info-count1 p{
+	margin-right:20px;
+	display: inline-block;
+}
+
+.counter-line{
+	display:flex;
+	margin-bottom:5px;
+}
+
+.btn-pick{
+	border-radius:20px;
+	font-size:14px;
+	height:26px;
+	padding:0 10px;
+	background:#fff;
+	color:#000;
+	border:1px solid #ddd;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+.btn-pick.on{
+	color:#fff;
+	background:#333;
+	border-color:#333;
+}
+
+.icon-btn-area{
+	position:absolute;
+	top:7px;
+	right:0;
+	display: flex;
+    align-items: flex-start;
+	gap:12px;
+	color:#000;
+}
+
+.icon-btn-area a{
+	cursor:pointer;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.icon-btn-area .icon-wrapper{
+	width:44px;
+	height:44px;
+	border-radius:50%;
+	border:1px solid #000;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn-area a.active .icon-wrapper{
+	border-color:#7632FF;
+	background:#F6F2FF;
+}
+
+.icon-btn-area a.active .bottom-txt{
+	color:#7632FF;	
+}
+
+.icon-btn-area img{	
+	width:44px;
+	height:44px;
+}
+.icon-btn-area .btn-share img{
+	width:26px;
+	height:26px;
+}
+
+.bottom-txt{
+	font-size:12px;
+	text-align:center;
+	margin-top:5px;
+}
+
+.epnew-novel-title{
+	font-size:30px;	    
+	font-weight:600;
+	margin-bottom:5px;
+    margin: 0;
+	width: calc(100% - 180px);
+}
+
+.epnew-writer{
+	display:flex;
+	align-items: center;
+}
+
+.in-writer{
+	margin-right:20px;
+}
+
+a.writer-name{
+	color:#2B6FE6 !important;
+	cursor:pointer;
+	font-weight:600;
+}
+
+.in-badge{
+	display:flex;
+	align-items: center;
+	gap:5px;
+}
+
+.in-badge span{
+	height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    text-shadow: none;
+}
+
+.category-title{
+	font-weight:600;
+	color:#000;
+	margin-right:10px;
+}
+.category-title-isbn{
+	margin-left:20px;
+	font-weight:600;
+	color:#000;
+}
+
+.writer-tag{
+	display: flex;
+    align-items: center;
+    gap: 5px;
+	margin-bottom:10px;
+	flex-wrap: wrap;
+}
+
+.epnew-tag{
+	margin-top:20px;
+}
+
+.epnew-tag span.tag{
+	cursor: pointer;
+	background:#f6f6f6;
+	color:#000;
+	font-size:13px;
+	border-radius:3px;
+	padding:4px 7px;
+}
+
+.epnew-tag span.tag.more{
+	opacity:1 !important;
+	cursor:pointer;
+	color:#2B6FE6 !important;
+	font-weight:600;
+    cursor: pointer;
+}
+
+.my-tag span.tag{
+	cursor: pointer;
+	color:#797e9d;
+	background:#eaeff9;
+}
+
+.writer-tag span.tag.more{
+	color:#2B6FE6 !important;
+	font-weight:600;
+    cursor: pointer;
+}
+
+.info-graybox{
+	background:#F6F6F6;
+	border:1px solid #EAECF2;
+	padding:20px 30px;
+	border-radius:5px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.info-count2{
+	margin-bottom:10px;
+	display:flex;
+	align-items: center;
+	gap:20px;
+}
+
+.info-count2 .s-icon{
+	width:18px;
+	height:18px;
+	margin-right:5px;
+	margin-top:-3px;
+}
+
+.synopsis{
+	line-height:28px;
+}
+
+.epnew-pc-btn-area{
+	display:flex;
+	align-items: center;
+	gap:10px;
+}
+
+.epnew-pc-btn-area button{
+	max-width:240px;
+	width:33%;
+	height:60px;
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	border-radius:3px;
+}
+
+.epnew-pc-btn-area button.btn-view-first{
+	background:#333;
+	color:#fff;
+}
+
+.epnew-pc-btn-area button.btn-view-run{
+	background:#7632FF;
+	color:#fff;
+}
+
+.epnew-pc-btn-area button.btn-write{
+	background:#291C58;
+	color:#fff;
+}
+.epnew-pc-btn-area button.btn-chatple-move {
+	max-width: 260px;
+	background: linear-gradient(180deg, #FF974A -33.33%, #F5602D 100%);
+	box-shadow: 0px 0px 5px 0px rgba(163, 43, 0, 0.5);
+	color: #fff;
+	font-weight: 600;
+}
+.epnew-pc-btn-area button.btn-chatple-move span {
+    background: url(//images.novelpia.com/img/new/icon/pling_ico.png) no-repeat left center;
+    background-size: 24px;
+    padding-left: 28px;
+    color: rgba(246, 255, 181, 1);
+}
+
+#sns_share_modal {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+#sns_share_modal .common-layer-wrapper {
+	width: 320px;
+	padding-bottom: 40px;
+}
+#sns_share_modal .sns-list{
+	display: grid;
+	margin: auto;
+	grid-template-columns: repeat(3, 50px);
+	gap: 20px;
+	justify-content: center;
+	align-items: start;
+}
+#sns_share_modal .sns-list img {
+	width:100%;
+}
+
+#sns_share_modal .sns-name{
+	font-size:clamp(12px,2vw,13px);
+	color:#000;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+#sns_share_modal .layer-body-tit.noimg{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sns_share_modal .share-nov-tit{
+	color:#2B6FE6;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	width:130px;
+	
+}
+
+#sns_share_modal .share-nov-tit span{
+	display:block;
+}
+
+#sns_share_modal .parenthesis{
+	color:#2B6FE6;
+	margin:0 3px;
+}
+
+
+
+@media screen and (max-width: 891px) {
+	.epnew-wrapper {
+		margin-top: 20px;
+		margin-bottom:0;
+		display: flex;
+		align-items: flex-start;
+		gap: 15px;
+		font-size: 13px;
+		padding:0 10px 12px;
+		color:#333;
+	}
+	.epnew-cover-box .cover_img{
+		width:110px;
+		height:165px;
+		border-radius:5px;
+	}
+
+	.epnew-novel-info{
+		padding-top:8px;
+	}
+
+	.epnew-novel-title {
+		width:100%;
+		font-size: clamp(16px, 3vw, 18px);
+		margin-bottom: 10px !important;
+		line-height: 20px;
+		font-weight: 600;
+		color:#000;
+		width: calc(100% - 30px);
+	}
+
+	.epnew-writer {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		gap:5px;
+	}
+
+	.in-writer{
+		width: calc(100% - 30px);
+		margin-right:0px;
+	}
+
+	.info-count1 p{
+		margin-right:10px;
+	}
+
+	.ep-info-line{
+		margin-bottom:6px;
+	}
+
+	.category-title{
+		margin-right:5px;
+	}
+	.category-title-isbn{
+		margin-left:5px;
+	}
+
+	.category-title-isbn:before{
+		content: '';
+		width: 1px;
+		height: 10px;
+		background: #cfcfcf;
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.info-count1 {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.in-badge{
+		gap:3px;
+	}
+
+	.in-badge span {
+		height: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 4px;
+		color: #fff;
+		font-weight: 600;
+		font-size: 10px;
+		text-shadow: none;
+		line-height: 18px;
+	}
+
+	.btn-pick {
+		border-radius: 20px;
+		font-size: 11px;
+		height: 22px;
+		line-height: 20px;
+		padding: 0 8px;
+		background: #fff;
+		color: #000;
+		border: 1px solid #ddd;
+		cursor: pointer;
+		margin-left: 5px;
+	}
+
+	.counter-line-a{
+		margin-bottom:4px;
+		display: flex;
+		align-items: center;
+	}
+
+	.counter-line-b{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.counter-line-a p:first-child:after{
+		content: '';
+		width: 1px;
+		height: 10px;
+		background: #cfcfcf;
+		display: inline-block;
+		margin-left:10px;
+	}
+
+	.novel-info-mobile-wrapper{
+		padding:0 10px;
+		font-size:13px;
+		margin-bottom:15px;
+	}
+	.writer-tag{
+		margin-bottom:8px;
+	}
+
+	.epnew-tag span.tag {
+		font-size: 12px;
+		border-radius: 3px;
+		padding: 2px 5px;
+	}
+
+	.epnew-tag{
+		margin-top:0;
+	}
+
+	.info-graybox{		
+		margin:10px 0 0 0;
+		padding:10px;
+		border:0;
+	}
+
+	.synopsis.active .synopsis-story{
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+
+	.synopsis .synopsis-story {
+		line-height: 18px;
+	}
+	.synopsis .more-synopsis{
+		color:#2B6FE6;
+		font-weight:600;
+		margin-left:10px;
+		display: none;
+	}
+	.synopsis.active .more-synopsis{
+		display: inline;
+	}
+
+	.info-count2{
+		gap: 10px;
+	}
+
+	.info-count2 .s-icon {
+		width: 14px;
+		height: 14px;
+		margin-right: 3px;
+		margin-top: -3px;
+	}
+
+	.gray-txt{
+		color:#333;
+	}
+	.epnew-mobile-btn-area {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 18;
+		padding: 10px;
+		background: #fff;
+		box-shadow: 0px -3px 3px #B1B1B129;
+	}
+
+	.epnew-mobile-btn-area .epnew-mobile-btn-inner {
+		display:flex;
+		align-items: center;
+		gap:5px;
+	}
+	.epnew-mobile-btn-area-relative {
+		margin: 10px 0;
+	}
+	.epnew-mobile-btn-area-relative button,
+	.epnew-mobile-btn-area button{
+		width:100%;
+		height:50px;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		border:none;
+		outline:none;
+		cursor:pointer;
+		border-radius:3px;
+	}
+
+	.epnew-mobile-btn-area button.btn-view-first{
+		background:#333;
+		color:#fff;
+	}
+
+	.epnew-mobile-btn-area button.btn-view-run{
+		background:#7632FF;
+		color:#fff;
+	}
+
+	.epnew-mobile-btn-area-relative button.btn-write,
+	.epnew-mobile-btn-area button.btn-write{
+		background:#291C58;
+		color:#fff;
+	}
+
+	.icon-btn-area .icon-wrapper{
+		width:27px;
+		height:27px;
+		border-radius:50%;
+		border:1px solid #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.icon-mobile-btn-area{
+		display: flex;
+		align-items: flex-start;
+		gap:5px;
+		color:#000;
+	}
+
+	.icon-mobile-btn-area a{
+		cursor:pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+
+	.icon-mobile-btn-area .icon-wrapper{
+		width:50px;
+		height:50px;
+		border-radius:3px;
+		border:1px solid #DDDDDD;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.icon-mobile-btn-area a.active .icon-wrapper{
+		border-color:#7632FF;
+		background:#F6F2FF;
+	}
+
+	.bottom-txt{
+		display:none;
+	}
+
+	.icon-mobile-btn-area a.active .bottom-txt{
+		color:#7632FF;
+	}
+
+	.icon-mobile-btn-area img{
+		width:36px;
+		height:36px;
+	}
+
+	.icon-btn-area .btn-share img{
+		width:18px;
+		height:18px;
+	}
+
+	#app_novel_download {
+		padding: 4px 8px;
+		height: 33px;
+		background: #DEF2F3 0% 0% no-repeat padding-box;
+		border-radius: 5px;
+		opacity: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 9px;
+		margin-right: 10px;
+	}
+
+	#app_novel_download p {
+		height: 19px;
+		text-align: left;
+		font: normal normal bold 12px/17px Noto Sans KR;
+		letter-spacing: 0px;
+		color: #1F868A;
+		opacity: 1;
+	}
+
+}
+
+
+@media screen and (max-width: 340px) {
+	.info-count2 .category-title {
+		display: none;
+	}
+}
+
+
+/*회차리스트 리뷰 스크롤 이슈로 해당 해상도에서 버튼 제거*/
+
+@media screen and (max-width: 1340px) {
+	.eplist-novel-review .arrow-left,
+	.eplist-novel-review .arrow-right {
+		display: none;
+	}
+}
+
+

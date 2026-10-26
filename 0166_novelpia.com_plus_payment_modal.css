@@ -1,0 +1,1060 @@
+#plus_payment_modal.viewer {
+    background: transparent;
+}
+
+
+@media screen and (min-width: 892px) {
+    #plus_payment_modal {
+        font-size: 14px;
+    }
+
+    #plus_payment_modal .plus_payment_all_wrapper{
+        margin: 0 auto;
+        width: 340px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 100%;
+        line-height: 21px;
+    }
+    #plus_payment_modal .plus-modal-wrapper-v2{
+        width: 100% !important;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+        transform: none;
+        border: 1px solid #929090;
+        max-height: 748px;
+        border-radius: 8px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+
+    #plus_payment_modal .plus-modal-close-v2{
+        text-align: right;
+        margin: 0;
+        padding: 20px 20px 10px 20px;
+    }
+
+    #plus_payment_modal .plus-modal-close-v2 img{
+        width: 20px;
+        position: relative;
+        z-index: 1;
+        filter: brightness(1) !important;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+
+    #plus_payment_modal .plus-modal-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 {
+        width: 450px;
+        position:absolute;
+        bottom: -40px;
+        right: 0;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 img{
+        width: 20px;
+        margin: -4px 10px 0;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 input + label{
+        cursor: pointer;
+        display: block;
+        text-align: right;
+        line-height: 18px;
+        letter-spacing: -0.45px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #plus_payment_modal .plus-modal-top-v2{
+        text-align: center;
+        margin: -25px 15px 0;
+    }
+
+    #plus_payment_modal .plus-modal-top-v2 img {
+        /*max-width: 378px;*/
+        width: 100%;
+
+    }
+
+    #plus_payment_modal .plus-modal-top-v2 div{
+        margin-top: 10px;
+        color: #1E1E1E;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: -0.45px;
+    }
+
+    #plus_payment_modal .plus-top-text-v2{
+        margin: 0 20px 10px;
+    }
+
+    #plus_payment_modal .plus-top-text-v2 span{
+        font-size: 16px;
+        color: #1E1E1E;
+    }
+
+    #plus_payment_modal .plus-top-text-v2 span:first-child{
+        color: #7632FF;
+        font-size: 16px;
+        background: linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -webkit-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -o-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -moz-linear-gradient(to top, #FFF898 50%, transparent 50%);
+    }
+
+    #plus_payment_modal .plus-top-box-v2 {
+        margin: 0 15px;
+        background-color: #F5F9FF;
+        border: 1px solid #C9D7F6;
+        padding: 15px 20px;
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    #plus_payment_modal .plus-top-box-v2 span {
+        color: #1E1E1E;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 > div {
+        display: flex;
+        font-size: 14px;
+        line-height: 14px;
+        justify-content: space-between;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 span > img{
+        max-width:20px;
+        width: 100%;
+
+    }
+
+    #plus_payment_modal .plus-top-box-v2 > div:last-child span:last-child{
+        color: #3271FF;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 span.sale-txt {
+        background: #F4361E;
+        color: #fff !important;
+        font-size: 10px;
+        padding: 1px 6px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+
+
+    #plus_payment_modal .plus-pay-v2-title {
+        font-size: 16px;
+        color: #1E1E1E;
+        font-weight: 600;
+        margin: 20px 0 10px 20px;
+    }
+
+    #plus_payment_modal .plus-pay-v2{
+        display: grid;
+        margin: 0 15px;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #plus_payment_modal .plus-pay-v2 div{
+        padding: 12px 0;
+        text-align: center;
+        border: 1px solid #DDDDDD;
+        cursor: pointer;
+        width: 100%;
+        line-height: 14px;
+    }
+
+    #plus_payment_modal .plus-pay-v2 div span{
+        display: block;
+        color: #1E1E1E;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #plus_payment_modal .plus-pay-v2 div img{
+        height: 20px;
+    }
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 {
+        margin: 10px 15px;
+        cursor: pointer;
+        color: #000;
+        font-size: 14px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 i {
+        font-size: 16px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 {
+        display: none;
+        background-color: #FBFCFE;
+        border: 1px solid #EAEDF2;
+        margin: 0px 15px 20px;
+        height: 140px;
+        overflow: auto;
+        padding: 10px;
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 p {
+        margin-top: 5px;
+    }
+
+    #plus_payment_modal .plus-check-wrapper-v2{
+        line-height: 14px;
+        margin: 0 15px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"] {
+        display: none;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 label{
+        font-size: 14px;
+        line-height: 14px;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    #plus_payment_modal .basic-pay-wrapper-v2 .plus-pay-folding-v2 label{
+        margin-top: 10px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"] + label p {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin: -4px 7px 0 0;
+        vertical-align: middle;
+        background: #fff;
+        border: 1px solid #999999;
+        cursor: pointer;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"]:checked + label p {
+        background: url(//images.novelpia.com/old/img/new/plus/v2/icon_check.png) no-repeat center #000;
+        border-color: #999999;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 span:nth-child(even) {
+        /*text-decoration: underline;*/
+    }
+    #plus_payment_modal .plus-pay-folding-v2 span:nth-child(odd) {
+        color: #000;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar, .plus-modal-wrapper-v2::-webkit-scrollbar{
+        background-color: transparent;
+        width: 5px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-track, .plus-modal-wrapper-v2::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-thumb, .plus-modal-wrapper-v2::-webkit-scrollbar-thumb{
+        background-color: #E2E7F1;
+    }
+}
+@media screen and (max-width: 891px) {
+    #plus_payment_modal .plus_payment_all_wrapper{
+        margin: 0 auto;
+        width: 340px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 100%;
+        line-height: 21px;
+    }
+
+    #plus_payment_modal .plus-modal-wrapper-v2{
+        width: 100% !important;
+        position: relative;
+        top: 0;
+        transform: none;
+        border: 1px solid #929090;
+        overflow-y: auto;
+        min-height: 400px;
+        height:70%;
+        max-height: 520px;
+        border-radius: 8px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+
+    #plus_payment_modal .plus-modal-close-v2{
+        text-align: right;
+        margin: 0;
+        padding: 20px 20px 5px 20px;
+    }
+
+    #plus_payment_modal .plus-modal-close-v2 img{
+        width: 14px;
+        position: relative;
+        z-index: 1;
+        filter: brightness(1) !important;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 {
+        width: 90%;
+        position:absolute;
+        bottom: -26px;
+        right: 0;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 img{
+        width: 14px;
+        margin: -4px 5px 0;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 input + label{
+        cursor: pointer;
+        display: block;
+        line-height: 14px;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: -0.45px;
+        text-align: right;
+    }
+
+    #plus_payment_modal .plus-modal-15day-close-v2 input[type="checkbox"]{
+        display: none;
+    }
+
+    #plus_payment_modal .plus-modal-top-v2{
+        text-align: center;
+        margin: -25px 15px 0;
+    }
+
+    #plus_payment_modal .plus-modal-top-v2 img{
+        /*max-width: 276px;*/
+        width: 100%;
+
+    }
+
+    #plus_payment_modal .plus-modal-top-v2 div{
+        margin: 10px 0 0 0;
+        color: #1E1E1E;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: -0.45px;
+    }
+
+    #plus_payment_modal .plus-top-text-v2{
+        margin: 0 20px 10px 20px;
+    }
+
+    #plus_payment_modal .plus-top-text-v2 span{
+        font-size: 13px;
+        color: #1E1E1E;
+    }
+
+    #plus_payment_modal .plus-top-text-v2 span:first-child{
+        color: #7632FF;
+        font-size: 13px;
+        background: linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -webkit-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -o-linear-gradient(to top, #FFF898 50%, transparent 50%);
+        background: -moz-linear-gradient(to top, #FFF898 50%, transparent 50%);
+    }
+
+    #plus_payment_modal .plus-top-box-v2 {
+        margin: 0 15px;
+        background-color: #F5F9FF;
+        border: 1px solid #C9D7F6;
+        padding: 15px 20px;
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 span {
+        color: #1E1E1E;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 > div {
+        display: flex;
+        font-size: 12px;
+        line-height: 14px;
+        justify-content: space-between;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 span > img{
+        max-width:20px;
+        width: 100%;
+    }
+
+    #plus_payment_modal .plus-top-box-v2 > div:last-child span:last-child{
+        color: #3271FF;
+    }
+    
+    #plus_payment_modal .plus-top-box-v2 span.sale-txt {
+        background: #F4361E;
+        color: #fff !important;
+        font-size: 10px;
+        padding: 1px 6px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+
+    #plus_payment_modal .plus-pay-v2-title{
+        font-size: 15px;
+        color: #1E1E1E;
+        font-weight: 600;
+        margin: 20px 0 10px 20px;
+    }
+
+    #plus_payment_modal .plus-pay-v2{
+        display: grid;
+        margin: 0 15px;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*#plus_payment_modal .basic-pay-wrapper-v2 .plus-pay-v2{
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        display: grid;
+    }*/
+
+    #plus_payment_modal .plus-pay-v2 div{
+        padding: 12px 0;
+        text-align: center;
+        border: 1px solid #DDDDDD;
+        cursor: pointer;
+        width: 100%;
+        line-height: 14px;
+    }
+
+    #plus_payment_modal .plus-pay-v2 div span{
+        display: block;
+        color: #1E1E1E;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #plus_payment_modal .plus-pay-v2 div img{
+        height: 16px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 {
+        margin: 12px 15px;
+        cursor: pointer;
+        color: #000;
+        font-size: 14px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-title-v2 i {
+        font-size: 16px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 {
+        display: none;
+        background-color: #FBFCFE;
+        border: 1px solid #EAEDF2;
+        margin: 0px 15px 20px;
+        height: 140px;
+        overflow: auto;
+        padding: 10px;
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2 p {
+        margin-top: 5px;
+    }
+
+    #plus_payment_modal .plus-check-wrapper-v2{
+        margin-left: 15px;
+        line-height: 14px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"] {
+        display: none;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 label{
+        font-size: 14px;
+        line-height: 14px;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    #plus_payment_modal .basic-pay-wrapper-v2 .plus-pay-folding-v2 label{
+        margin-top: 10px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"] + label p {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin: -4px 7px 0 0;
+        vertical-align: middle;
+        background: #fff;
+        border: 1px solid #999999;
+        cursor: pointer;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 input[type="checkbox"]:checked + label p {
+        background: url(//images.novelpia.com/old/img/new/plus/v2/icon_check.png) no-repeat center #000;
+
+        border-color: #999999
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 span:nth-child(even) {
+        /*text-decoration: underline;*/
+    }
+    #plus_payment_modal .plus-pay-folding-v2 span:nth-child(odd) {
+        color: #000;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar, .plus-modal-wrapper-v2::-webkit-scrollbar{
+        background-color: transparent;
+        width: 5px;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-track, .plus-modal-wrapper-v2::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+
+    #plus_payment_modal .plus-pay-folding-v2 .plus-pay-folding-info-v2::-webkit-scrollbar-thumb, .plus-modal-wrapper-v2::-webkit-scrollbar-thumb{
+        background-color: #E2E7F1;
+    }
+}
+
+
+#plus_payment_modal.model-2 .plus_payment_all_wrapper,
+#plus_payment_modal.model-3 .plus_payment_all_wrapper,
+#plus_payment_modal.model-4 .plus_payment_all_wrapper,
+#plus_payment_modal.model-5 .plus_payment_all_wrapper,
+#plus_payment_modal.model-6 .plus_payment_all_wrapper,
+#plus_payment_modal.model-7 .plus_payment_all_wrapper,
+#plus_payment_modal.model-8 .plus_payment_all_wrapper,
+#plus_payment_modal.model-9 .plus_payment_all_wrapper {
+    width: 375px;
+}
+#plus_payment_modal.model-2 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-3 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-4 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-5 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-6 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-7 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-8 .plus-modal-wrapper-v2,
+#plus_payment_modal.model-9 .plus-modal-wrapper-v2 {
+    border-radius: 0px;
+}
+
+/* 2번째 모달 */
+#plus_payment_modal.model-2 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-2 .plus-modal-wrapper-v2 {
+    border-radius: 0;
+    background: #F6F7F9;
+}
+#plus_payment_modal.model-2 .plus-pay-v2 {
+    padding: 5px 0;
+    background: #fff;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(odd) {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    gap: 0;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(odd) .plus-top-box-v2-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(odd) span {
+    font-size: 12px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(odd) .plus-top-box-v2-title > img {
+    width: 16px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(even) {
+    margin-top: 5px;
+    background: #FEFCF2 ;
+    border: 1px solid #F1E8AE;
+    border-radius: 10px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2:nth-child(even) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-2 .plus-top-box-v2 > div:last-child span:last-child {
+    color: #7632FF;
+}
+
+/* 3번째 모달 */
+#plus_payment_modal.model-3 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #9DB4E5;
+    border-radius: 7px 7px 0px 0px;
+    padding: 15px;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) > div:first-child span:last-child {
+    color: #3271FF;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 0px 0px 7px 7px;
+    padding: 15px;
+    border-top: none;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(even) {
+    margin-top: 5px;
+    background: #FFF3F3 ;
+    border: 1px solid #FFB1B1;
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(even) p > img {
+    width: 37px;
+    max-width: none;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(even) p {
+    font-size: 12px;
+    color: #000;
+}
+#plus_payment_modal.model-3 .plus-top-box-v2:nth-child(even) p > span {
+    color: #EA6863;
+}
+
+/* 4번째 모달 */
+#plus_payment_modal {
+    filter: invert(0);
+}
+#plus_payment_modal.model-4 .plus-modal-wrapper-v2 {
+    background: #E1EEFF;
+
+}
+
+#plus_payment_modal.model-4 .plus-modal-wrapper-v2 .plus_payment_content_wrapper {
+    background: #fff;
+    margin: 0 20px;
+    padding: 20px 0;border: 1px solid #DDDDDD;
+}
+#plus_payment_modal.model-4 .plus-top-box-v2 {
+}
+#plus_payment_modal.model-4 .plus-top-box-v2 > div:last-child span {
+    color: #3271FF;
+}
+
+
+/* 5번째 모달 */
+#plus_payment_modal.model-5 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #9DB4E5;
+    border-radius: 7px 7px 0px 0px;
+    padding: 15px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div:first-child .plus-box-price-compare span:first-child {
+    color: #9DADC9;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div:first-child .plus-box-price-compare span:last-child {
+    color: #3271FF;
+    font-size: 15px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 0px 0px 7px 7px;
+    padding: 15px;
+    border-top: none;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(even) {
+    margin-top: 5px;
+    background: #F1EBF9 ;
+    border: 1px solid #D0C6DB;
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: flex-start;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(even) p > img {
+    width: 37px;
+    max-width: none;
+}
+#plus_payment_modal.model-5 .plus-top-box-v2:nth-child(even) p {
+    font-size: 12px;
+    color: #000;
+}
+
+/* 6번째 모달 */
+#plus_payment_modal.model-6 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    border-bottom: 0;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) > div:first-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #C9D7F6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #3271FF;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(even) {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: flex-start;
+}
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(even) p {
+    font-size: 12px;
+    color: #000;
+}
+
+#plus_payment_modal.model-6 .plus-top-box-v2:nth-child(even) > div:last-child span:last-child {
+    color: #EA6863;
+}
+
+/* 7번째 모달 */
+#plus_payment_modal.model-7 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    border-bottom: 0;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) > div:first-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #C9D7F6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #3271FF;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(even) {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: flex-start;
+}
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(even) p {
+    font-size: 12px;
+    color: #000;
+}
+
+#plus_payment_modal.model-7 .plus-top-box-v2:nth-child(even) > div:last-child span:last-child {
+    color: #EA6863;
+}
+
+
+
+/* 8번째 모달 */
+#plus_payment_modal.model-8 .plus-modal-top-v2 {
+    margin-top: -10px;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #9DB4E5;
+    border-radius: 7px 7px 0px 0px;
+    padding: 15px;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) > div:first-child span:last-child {
+    color: #3271FF;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 0px 0px 7px 7px;
+    padding: 15px;
+    border-top: 0;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-8 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+/* 9번째 모달 */
+#plus_payment_modal.model-9 .plus-modal-top-v2 {
+    margin: 0;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) {
+    flex-direction: column;
+    border: none;
+    gap: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0px 15px;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) > div:first-child {
+    font-size: 16px;
+    flex-direction: row;
+    background: #EFF5FF;
+    border: 1px solid #9DB4E5;
+    border-radius: 7px 7px 0px 0px;
+    padding: 15px;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) > div:first-child span:last-child {
+    color: #3271FF;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) > div:last-child {
+    border: 1px solid #C9D7F6;
+    background: #FFF;
+    border-radius: 0px 0px 7px 7px;
+    padding: 15px;
+    border-top: 0;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) > div:last-child span:last-child {
+    color: #000;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) > div {
+    width: 100%;
+    flex-direction: column;
+    line-height: 21px;
+    font-size: 12px;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(odd) span > img {
+    width: 20px;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(even) {
+    margin-top: 10px;
+    background: #FFF3F3 ;
+    border: 1px solid #FFB1B1;
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(even) p > img {
+    width: 37px;
+    max-width: none;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(even) p {
+    font-size: 12px;
+    color: #000;
+}
+#plus_payment_modal.model-9 .plus-top-box-v2:nth-child(even) p > span {
+    color: #EA6863;
+}
+
+
+
+/*100원 모달 이탈자*/
+.exit-100-txt{
+	text-align:center;
+	font-size:18px;
+	line-height:1.5;
+	margin-bottom:20px;
+	padding-bottom:10px;
+}
+
+.txt-100-line2{
+	font-weight:600;
+	display:inline-block;
+	position:relative;
+	z-index:2;
+}
+
+.txt-100-line2:before{
+	content: '';
+    background: #fbff00;
+    height: 8px;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+	opacity:0.5;
+	z-index:-1;
+}
+
+.txt-100-line2 span{
+	color:#3271FF;
+}
+
+.exit-100-button{
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+	margin-top:20px;
+	padding:0 15px;
+}
+
+.exit-100-button button:focus{
+	outline:none;
+}
+
+.btn-100-go{
+	outline:none;
+	border:none;
+	height:55px;
+	background:#3271FF;
+	color:#fff;
+	font-weight:600;
+	border-radius:5px;
+	cursor:pointer;
+	font-size:16px;
+}
+
+.btn-no-back{
+	font-size:14px;
+	color:#999;
+	text-decoration:underline;
+	background:none;
+	border:none;
+	cursor:pointer;
+}
+
+
+@media screen and (max-width: 891px) {
+	.exit-100event{
+		max-height:540px !important;
+		padding-bottom:20px !important;
+	}
+}
